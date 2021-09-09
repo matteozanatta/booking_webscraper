@@ -79,4 +79,4 @@ main_df = main_df.reset_index(drop=True)
 #Export the data found to a csv file.
 main_df.to_csv('data.csv')
 
-print('Hotel trovati:',main_df.shape[0])
+print('Hotels found:',main_df.shape[0])
