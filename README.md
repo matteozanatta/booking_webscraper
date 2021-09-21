@@ -4,6 +4,8 @@ You can set the check-in date, as well as the check-out date, the place, and how
 
 As of now (22 Sept. 2021) you can choose between 5 Italian cities from which to retrieve data (check the cities_id.txt file) but soon there'll be more cities.
 
+Here you can play with it: https://bookingwebscraper.herokuapp.com.
+
 # Roadmap
 10 Sept. 2021 Added multithreading capabilities to speed up the algorithm.
 17 Sept. 2021 Developed a dashboard with HTML, Plotly and Dash both for webscraping and visualizing data.  
