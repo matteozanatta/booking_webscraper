@@ -7,7 +7,7 @@ As of now (22 Sept. 2021) you can choose between 5 Italian cities from which to 
 Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization).
 
 # Python Libraries used
-Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithm to find out all the html elements in the booking.com webpages that we needed.
+Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithms to find out all the html elements in the booking.com webpages that we needed.
 
 We used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
