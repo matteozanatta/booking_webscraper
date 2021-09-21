@@ -1,6 +1,6 @@
 # booking_webscraper
 This algorithm's purpose is to get data from hotels and apartments listed on booking.com and store them in a csv database to conduct both data exploration and analysis.
-You can set the check-in date, as well as the check-out date, the place, and how many people you want to find data of.
+You can set the check-in date, as well as the check-out date, the place, and how many adults you want to find data for.
 
 As of now (22 Sept. 2021) you can choose between 5 Italian cities from which to retrieve data (check the cities_id.txt file) but soon there'll be more cities.
 
