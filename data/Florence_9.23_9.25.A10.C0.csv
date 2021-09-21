@@ -1,0 +1,189 @@
+hotel_name,score,n_reviews,total_price,category,city_center_dist,neighborhood,free_cancellation,price_per_night
+Emerald Fields Hostel,7.8,176,515,Other,0.8,Centro storico di Firenze,False,257.5
+Affitta camere Mimi family,7.3,43,530,Other,0.8,Centro storico di Firenze,False,265.0
+Hotel San Lorenzo,7.7,675,525,Hotel,0.6,San Lorenzo,False,262.5
+Hotel Arno Bellariva,7.8,829,672,Hotel,1.8,Lungarno del Tempio,False,336.0
+Foresteria Valdese di Firenze,8.4,656,636,Hotel,0.9,San Frediano,True,318.0
+Hotel Bologna,8.6,973,722,Hotel,1.7,Lungarno del Tempio,True,361.0
+Palazzo Virginio,8.7,204,740,Hotel,1.2,Santa Croce,False,370.0
+Hotel Ginori Al Duomo,8.6,976,1543,Hotel,0.5,San Lorenzo,True,771.5
+Italiana Hotels Florence,7.7,2518,732,Hotel,3.9,Not specified,True,366.0
+Hotel Meridiana,7.7,620,613,Hotel,1.8,Campo di Marte,False,306.5
+Hotel Villa Liberty,7.7,1609,954,Hotel,1.9,Piazzale Michelangelo,True,477.0
+Hotel Mirage,7.3,1345,653,Apartment,4.7,Novoli - San Donato,True,326.5
+ApartHotel Quadra Key,8.6,2315,607,Apartment,3.8,Novoli - San Donato,True,303.5
+Residence Porta Al Prato,8.5,1153,764,Hotel,1.5,Porta al Prato,True,382.0
+Hotel Le Due Fontane,7.9,887,882,Hotel,0.7,San Marco - Santissima Annunziata,False,441.0
+Hotel d'Azeglio Firenze,7.6,798,654,Hotel,1.3,San Marco - Santissima Annunziata,False,327.0
+Rivoli Boutique Hotel,8.6,1603,2056,Hotel,0.6,Santa Maria Novella,True,1028.0
+Hotel Ester,8.8,299,802,Hotel,0.6,San Lorenzo,True,401.0
+Hotel Albani Firenze,8.6,993,1195,Hotel,0.7,Centro storico di Firenze,True,597.5
+Hotel Residence La Contessina,8.8,398,1222,Hotel,0.7,Centro storico di Firenze,True,611.0
+Bed and Breakfast Locanda di Mosconi,9.3,497,1719,Hotel,0.7,Centro storico di Firenze,True,859.5
+Grand Hotel Baglioni,8.7,1700,2863,Hotel,0.4,Santa Maria Novella,True,1431.5
+Park Palace Hotel,8.6,650,1289,Hotel,1.8,Piazzale Michelangelo,True,644.5
+Residence Leopoldo,9.3,193,940,Hotel,2.3,Rifredi,False,470.0
+Palazzo Gamba Apartments al Duomo,9.4,652,1632,Apartment,0.3,Duomo,True,816.0
+Hotel Pendini,9.2,921,1388,Apartment,0.1,Duomo,True,694.0
+Palazzo Martellini Residenza d'epoca,9.6,248,1775,Apartment,0.6,San Frediano,False,887.5
+Palazzo Branchi - Luxury Suites,8.7,76,1116,Apartment,1.1,San Marco - Santissima Annunziata,False,558.0
+Fattoria Il Milione Agriturismo,7.9,1050,966,Hotel,5.4,Not specified,False,483.0
+Be-ONE Art and Luxury Home,9.1,198,2141,Hotel,0.1,Duomo,False,1070.5
+Hotel Delle Nazioni,8.1,3617,897,Hotel,0.9,Santa Maria Novella,True,448.5
+Corona D'Italia,8.7,553,838,Apartment,0.7,San Lorenzo,True,419.0
+Hotel Silla,8.7,469,1102,Hotel,0.9,Centro storico di Firenze,False,551.0
+Florence Art Apartments,9.5,151,1460,Hotel,0.5,San Marco - Santissima Annunziata,False,730.0
+Firenze Camping In Town,8.6,13639,578,Hotel,5.0,Not specified,False,289.0
+Souvenir Maya,8.0,396,572,Hotel,0.9,San Lorenzo,True,286.0
+Albergo Firenze,8.4,1515,981,Hotel,0.2,Uffizi,True,490.5
+Hotel SGiorgio & Olimpic,7.9,1245,832,Hotel,0.4,San Lorenzo,False,416.0
+Nilhotel,8.4,1179,1002,Apartment,3.7,Novoli - San Donato,True,501.0
+Acacia Firenze Apartments Artemisia-Angelica,9.2,30,1473,Apartment,0.5,San Lorenzo,True,736.5
+UNAHOTELS Vittoria Firenze,8.2,1178,1198,Other,1.6,Not specified,False,599.0
+Hotel Caravaggio,8.5,504,1174,Other,0.8,San Lorenzo,True,587.0
+Hotel California,7.5,576,944,Hotel,0.5,San Marco - Santissima Annunziata,True,472.0
+Hotel Villa Liana,8.6,800,1042,Hotel,1.3,San Marco - Santissima Annunziata,False,521.0
+Youth Firenze 2000,7.0,825,523,Hotel,1.7,Not specified,True,261.5
+Palazzo Montebello,8.7,431,2476,Hotel,1.1,Centro storico di Firenze,True,1238.0
+Hotel Bonifacio,8.6,636,1993,Hotel,1.2,Centro storico di Firenze,True,996.5
+Hotel Glance In Florence,9.2,1005,2893,Hotel,0.7,San Lorenzo,True,1446.5
+Hotel La Fortezza,8.7,729,1012,Hotel,1.4,Fortezza da Basso,True,506.0
+Hotel Ferrucci,7.4,1178,736,Hotel,1.8,Piazzale Michelangelo,False,368.0
+Hotel Pierre,8.7,479,2386,Hotel,0.1,Uffizi,True,1193.0
+Hotel Centro,8.9,947,973,Hotel,0.6,San Lorenzo,True,486.5
+Hotel Rex,7.0,518,780,Hotel,0.4,San Lorenzo,True,390.0
+Hotel Delle Camelie,8.8,694,910,Apartment,1.0,Centro storico di Firenze,False,455.0
+Cellai Hotel Florence,8.3,288,1518,Apartment,0.9,Centro storico di Firenze,False,759.0
+Starhotels Tuscany,8.8,1401,1136,Hotel,3.3,Novoli - San Donato,True,568.0
+Donati Luxury Tower Suites,8.9,21,2274,Apartment,0.2,Duomo,True,1137.0
+Hotel Rosary Garden,9.0,144,1184,Apartment,3.3,Not specified,True,592.0
+Hotel Cerretani Firenze - MGallery Collection,9.1,775,2278,Apartment,0.3,San Lorenzo,True,1139.0
+Hotel Lungarno Vespucci 50,9.0,879,1915,Hotel,1.2,Centro storico di Firenze,False,957.5
+Girasole House,7.3,81,756,Hotel,3.5,Rifredi,False,378.0
+Golden Tower Hotel & Spa,9.1,364,3500,Hotel,0.2,Tornabuoni,False,1750.0
+Hotel Relais Il Cestello,8.6,486,1245,Hotel,0.9,San Frediano,False,622.5
+Hotel Firenze Number Nine,9.4,540,3315,Hotel,0.4,San Lorenzo,False,1657.5
+Panzani 14 TouristHouse,7.4,279,1448,Hotel,0.3,San Lorenzo,False,724.0
+Soggiorno Michelangelo,8.5,86,867,Apartment,1.7,Campo di Marte,False,433.5
+Four Seasons Hotel Firenze,9.4,269,11671,Hotel,1.2,San Marco - Santissima Annunziata,True,5835.5
+Camplus Guest Firenze,0.0,0,601,Hotel,1.6,Fortezza da Basso,True,300.5
+Hotel Panorama,7.6,363,983,Hotel,1.0,San Marco - Santissima Annunziata,False,491.5
+Dimora Palanca,0.0,0,4960,Hotel,1.2,Santa Maria Novella,True,2480.0
+Dedo Boutique Hotel,8.6,1675,1418,Hotel,0.9,Santa Maria Novella,True,709.0
+B&B La Cittadella,8.7,480,740,Bed&Breakfast,1.3,Fortezza da Basso,True,370.0
+The Frame Hotel,9.4,849,2273,Hotel,0.3,San Lorenzo,True,1136.5
+Hilton Florence Metropole,8.2,1029,1944,Hotel,5.2,Not specified,False,972.0
+LHP Hotel River & SPA,8.2,444,1569,Hotel,1.2,Santa Croce,False,784.5
+Emerald Palace Hostel,8.3,1173,539,Hotel,0.5,San Lorenzo,True,269.5
+Brunelleschi Hotel,9.4,255,4707,Hotel,0.2,Duomo,True,2353.5
+Wow Florence,8.0,3696,524,Apartment,1.2,San Marco - Santissima Annunziata,True,262.0
+Plus Florence,8.3,11159,540,Apartment,1.1,Centro storico di Firenze,False,270.0
+Hostel 7 Santi,7.8,4080,384,Hotel,2.3,Campo di Marte,True,192.0
+Ostello Bello Firenze,9.2,74,758,Hotel,0.7,Centro storico di Firenze,True,379.0
+Hotel Bigallo,8.7,574,1170,Hotel,0.2,Duomo,False,585.0
+Hotel La Noce,5.9,43,651,Hotel,0.5,San Lorenzo,False,325.5
+Hotel De Lanzi,8.3,997,1170,Hotel,0.2,Duomo,False,585.0
+Hotel Lungarno - Lungarno Collection,9.4,325,12178,Hotel,0.5,San Frediano,True,6089.0
+Soggiorni D'Autore,0.0,0,1365,Hotel,0.5,San Frediano,True,682.5
+Marignolle Relais & Charme - Residenza d'Epoca,8.9,155,2227,Hotel,4.3,Not specified,False,1113.5
+Alfieri Signature Suites - Alfieri Collezione,8.9,932,2438,Hotel,0.4,Tornabuoni,True,1219.0
+25hours Hotel Piazza San Paolino,0.0,0,2788,Hotel,0.5,Santa Maria Novella,True,1394.0
+Palazzo Alfieri Residenza D'Epoca - Alfieri Collezione,8.9,1722,2436,Hotel,0.4,Tornabuoni,True,1218.0
+Hotel Botticelli,8.3,810,1485,Hotel,0.6,San Lorenzo,True,742.5
+Palazzo Belfiore,9.5,70,1317,Apartment,0.6,San Frediano,True,658.5
+B&B Hotel Firenze City Center,8.0,1324,888,Bed&Breakfast,1.4,Lungarno del Tempio,True,444.0
+Hotel Martelli,7.8,1048,1221,Hotel,0.3,Santa Maria Novella,True,610.5
+Hotel Londra - Firenze,8.0,2088,1150,Hotel,1.0,Santa Maria Novella,True,575.0
+AC Hotel by Marriott Firenze,8.5,388,1633,Hotel,1.6,Porta al Prato,True,816.5
+TSH Florence Lavagnini,8.9,3848,1326,Hotel,1.2,Fortezza da Basso,True,663.0
+Hotel Vasari,8.4,840,1089,Hotel,0.8,Centro storico di Firenze,True,544.5
+Eurostars Florence Boutique,8.8,892,1238,Hotel,1.2,Santa Croce,True,619.0
+Le Camere Dei Conti,9.0,238,1412,Hotel,0.7,Centro storico di Firenze,True,706.0
+Hotel Golf,8.0,1126,980,Hotel,1.2,Santa Maria Novella,False,490.0
+Hotel Paris,8.3,3262,1440,Hotel,0.3,Tornabuoni,True,720.0
+NH Collection Palazzo Gaddi,9.1,492,2614,Hotel,0.4,San Lorenzo,True,1307.0
+Hotel Victoria,7.6,1537,800,Hotel,0.7,San Lorenzo,True,400.0
+Hotel Grifone Firenze,7.9,1604,1128,Hotel,2.5,Lungarno del Tempio,False,564.0
+Starhotels Michelangelo Florence,8.6,1032,1446,Hotel,1.4,Centro storico di Firenze,True,723.0
+Mh Florence Hotel & Spa,8.6,1218,1291,Apartment,1.1,Santa Maria Novella,True,645.5
+Hotel Rapallo,9.2,545,1538,Apartment,1.1,Centro storico di Firenze,True,769.0
+Auto Park Hotel con Ristorante interno e PARCHEGGIO INTERNO GRATUITO!!!,7.2,1290,640,Hotel,4.0,Novoli - San Donato,True,320.0
+Hotel Corolle,6.7,705,535,Hotel,3.9,Rifredi,True,267.5
+Hotel Raffaello,8.0,329,748,Hotel,3.1,Rifredi,True,374.0
+Max Apartments,6.8,693,418,Hotel,0.8,San Lorenzo,False,209.0
+Mercure Firenze Centro,8.3,206,1773,Hotel,0.7,Centro storico di Firenze,False,886.5
+The St Regis Florence,9.4,109,8580,Hotel,0.7,Santa Maria Novella,False,4290.0
+Hilton Garden Inn Florence Novoli,8.5,659,1288,Hotel,3.2,Novoli - San Donato,True,644.0
+Hotel Spadai,9.5,1276,1904,Hotel,0.4,Duomo,True,952.0
+Hotel Panama,8.0,441,1067,Hotel,1.5,Fortezza da Basso,True,533.5
+Appuntamento Al David 2017,0.0,0,773,Hotel,0.4,Centro storico di Firenze,False,386.5
+Sina Villa Medici. Autograph Collection,8.1,91,3382,Hotel,1.1,Centro storico di Firenze,False,1691.0
+Hotel De La Pace,8.2,386,1125,Hotel,1.3,San Marco - Santissima Annunziata,False,562.5
+Hotel Donatello,8.0,386,990,Hotel,1.0,Centro storico di Firenze,False,495.0
+Hotel Roma,8.7,1132,1441,Hotel,0.4,Santa Maria Novella,False,720.5
+B&B Hotel Delle Tele,7.9,768,1014,Bed&Breakfast,0.3,Santa Maria Novella,False,507.0
+Plaza Hotel Lucchesi,9.0,1347,2068,Hotel,0.9,Santa Croce,True,1034.0
+Room Mate Isabella,9.1,626,2502,Hotel,0.2,Tornabuoni,True,1251.0
+Forte16 View & SPA,9.1,1662,1239,Hotel,1.4,Lungarno del Tempio,True,619.5
+Hotel Kraft,8.9,1394,1503,Hotel,1.1,Centro storico di Firenze,False,751.5
+Together Florence Inn,8.0,1415,967,Hotel,4.7,Not specified,True,483.5
+Hotel Alessandra,9.1,334,938,Hotel,0.3,Uffizi,True,469.0
+Palazzo Lorenzo Hotel Boutique & Spa,9.2,221,2155,Hotel,1.5,Fortezza da Basso,False,1077.5
+Hotel Hermitage,8.8,422,1661,Hotel,0.3,Uffizi,True,830.5
+Hotel Firenze Capitale,9.1,179,1559,Hotel,1.4,San Marco - Santissima Annunziata,True,779.5
+Hotel Regency - Small Luxury Hotels of the World,8.8,238,3311,Hotel,1.2,San Marco - Santissima Annunziata,False,1655.5
+FH55 Hotel Calzaiuoli,8.9,1515,2208,Apartment,0.1,Uffizi,True,1104.0
+Hotel degli Orafi,9.2,729,2196,Apartment,0.4,Uffizi,False,1098.0
+Ville Sull'Arno,9.0,854,3312,Hotel,2.5,Lungarno del Tempio,True,1656.0
+Hotel Fedora,8.0,643,855,Hotel,1.1,Centro storico di Firenze,True,427.5
+Residenza Delle Arti,9.3,270,3131,Hotel,0.2,Uffizi,True,1565.5
+Hotel Bernini Palace,9.3,428,4260,Hotel,0.3,Uffizi,False,2130.0
+Il Terrazzino sulla Cattedrale,9.1,450,1102,Hotel,0.3,Duomo,False,551.0
+Helvetia&Bristol Firenze – Starhotels Collezione,9.3,410,8090,Hotel,0.2,Tornabuoni,False,4045.0
+Promenade,7.9,91,886,Hotel,0.5,Centro storico di Firenze,True,443.0
+Grand Hotel Minerva,9.2,1009,4284,Hotel,0.5,Santa Maria Novella,True,2142.0
+Locanda dei Poeti Rooms & Apartments,8.9,108,1081,Hotel,0.8,Centro storico di Firenze,False,540.5
+Apartments Florence - Duomo,7.3,28,2102,Apartment,0.3,Duomo,True,1051.0
+Villa La Stella,8.4,514,810,Apartment,3.5,Campo di Marte,False,405.0
+Hotel Aurum Firenze,7.4,45,1016,Hotel,0.6,San Lorenzo,True,508.0
+NH Collection Firenze Porta Rossa,9.1,1210,3439,Hotel,0.2,Tornabuoni,True,1719.5
+Hotel Goldoni,8.7,375,1050,Hotel,0.6,Santa Maria Novella,False,525.0
+Baglioni Relais Santa Croce. Florence,9.4,269,6659,Hotel,0.7,Santa Croce,False,3329.5
+Rocco Forte Hotel Savoy,9.3,194,7784,Hotel,0.1,Duomo,False,3892.0
+Palazzo Vecchietti - Residenza D'Epoca,9.9,41,6526,Hotel,0.1,Duomo,False,3263.0
+Hotel Rita Major,8.6,1061,663,Apartment,1.3,San Marco - Santissima Annunziata,False,331.5
+Hotel Regina,6.7,857,601,Apartment,0.5,San Lorenzo,True,300.5
+Cavalieri Palace Luxury Residences,9.7,354,1549,Hotel,0.1,Uffizi,True,774.5
+Hotel Genesio,8.6,46,772,Hotel,0.9,San Lorenzo,True,386.0
+Classic Hotel,8.3,309,1043,Apartment,1.6,Piazzale Michelangelo,True,521.5
+Toscanelli Residenza d'Epoca,9.5,104,1269,Hotel,0.7,San Frediano,False,634.5
+Casa Howard Firenze - Residenza d'Epoca,9.1,708,2357,Hotel,0.6,Santa Maria Novella,True,1178.5
+Il Frantoio delle Grazie,8.8,100,811,Hotel,5.3,Not specified,True,405.5
+Alberghino B&B,8.5,110,880,Bed&Breakfast,1.3,Fortezza da Basso,True,440.0
+Il Gatto Con Gli Stivali,9.0,24,821,Apartment,1.8,Porta al Prato,False,410.5
+Residenza Alessandra,8.9,18,983,Apartment,0.3,Uffizi,False,491.5
+Celeste's House,9.4,326,700,Apartment,1.4,Porta al Prato,False,350.0
+Villa Le Statue,9.4,83,1049,Apartment,5.5,Not specified,False,524.5
+Portrait Firenze - Lungarno Collection,9.6,290,9703,Apartment,0.3,Uffizi,True,4851.5
+ORAFI TOWER,9.1,13,3243,Hotel,0.4,Uffizi,True,1621.5
+BorgoDeGreci Apartments,9.2,153,1380,Hotel,0.5,Uffizi,True,690.0
+Hotel Boccaccio,9.0,701,664,Hotel,0.7,Santa Maria Novella,False,332.0
+Kairos by Florence Art Apartments,9.7,73,1400,Apartment,0.6,Uffizi,False,700.0
+Hotel Medici,7.5,2418,680,Apartment,0.1,Centro storico di Firenze,False,340.0
+Hotel Palazzo Vecchio,8.2,853,888,Apartment,0.8,Centro storico di Firenze,False,444.0
+Hotel Camilla Firenze,8.8,34,862,Apartment,0.5,San Lorenzo,True,431.0
+Hotel Careggi,8.0,755,631,Apartment,2.9,Rifredi,True,315.5
+Golden Dream Guest House,7.2,145,571,Apartment,0.7,San Lorenzo,True,285.5
+Corte Guelfa,9.5,411,1487,Hotel,0.7,San Lorenzo,True,743.5
+numa l Vita Apartments,9.0,244,694,Hotel,1.7,Fortezza da Basso,False,347.0
+Great Apts Few Steps to The Duomo,8.5,119,1167,Apartment,0.3,San Lorenzo,True,583.5
+Black 5 Florence,8.4,278,1007,Apartment,0.6,Uffizi,True,503.5
+Hotel Giglio,8.9,193,850,Apartment,1.2,San Marco - Santissima Annunziata,True,425.0
+Tornaquinci Palace,0.0,0,987,Apartment,0.4,Centro storico di Firenze,True,493.5
+Apartment Promenade,6.8,5,691,Apartment,0.5,Centro storico di Firenze,True,345.5
+Residence La Repubblica,8.7,441,1218,Hotel,0.0,Uffizi,False,609.0
+Adler Cavalieri Hotel,8.5,1178,1437,Hotel,0.8,Santa Maria Novella,False,718.5
+Hotel L'Orologio,9.3,895,2914,Apartment,0.5,Santa Maria Novella,False,1457.0
+Villa Cora,9.4,322,5318,Apartment,1.6,Piazzale Michelangelo,True,2659.0
+The Westin Excelsior. Florence,8.7,160,5860,Hotel,0.7,Santa Maria Novella,False,2930.0
+Loggiato Dei Serviti,8.6,217,1562,Hotel,0.8,San Marco - Santissima Annunziata,False,781.0
