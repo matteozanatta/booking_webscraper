@@ -7,9 +7,9 @@ As of now (22 Sept. 2021) you can choose between 5 Italian cities from which to 
 Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization).
 
 # Python Libraries used
-Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithms to find out all the html elements in the booking.com webpages that we needed.
+Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithms to find out all the html elements in the booking.com webpages that I needed.
 
-We used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
+I used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
 The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gave us the opportunity to significantly enhance the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
@@ -44,6 +44,6 @@ This is what I spent plenty of hours on... but it was funny! Basically, the prob
 10 Sept. 2021 | Added multithreading capabilities to speed up the algorithm.
 
 # Known issues
-Known issues: even though multithreading is implemented the algorithm is not so fast (especially with large cities with >1500 free structures) because it queries booking.com databases every time it needs to load other hotels or apartments. What should we do then? Find a way to tell which is the most efficient number of MAX_THREADS and search cycles to minimize the processing time.
+Known issues: even though multithreading is implemented the algorithm is not so fast (especially with large cities with >1500 free structures) because it queries booking.com databases every time it needs to load other hotels or apartments. What should be done then? Find a way to tell which is the most efficient number of MAX_THREADS and search cycles to minimize the processing time.
 
 Sometimes the algorithm stops working because booking.com detects the html request is fake and return an empty html page. If you want to solve this problem you just have to click on the 'retrieve data' button again to perform a new search.
