@@ -11,7 +11,7 @@ Webscraping was possible thanks to **BeautifulSoup** library, which provided rel
 
 We used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
-The entire webpage (https://bookingwebscraper.herokuapp.com) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gives us the opportunity to significantly raise the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and provided fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
+The entire webpage (https://bookingwebscraper.herokuapp.com) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gives us the opportunity to significantly raise the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
 # Roadmap
 10 Sept. 2021 Added multithreading capabilities to speed up the algorithm.
