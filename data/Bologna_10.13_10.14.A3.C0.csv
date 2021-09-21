@@ -1,0 +1,331 @@
+hotel_name,score,n_reviews,total_price,category,city_center_dist,neighborhood,free_cancellation,price_per_night
+ODA ROOMS BO - FIERA - CENTRO METEO EU - FICO EATALY,0.0,0,188,Hotel,2.9,Bologna Fiere - quartiere,False,188.0
+People Travel Rooms,9.2,12,188,Hotel,1.3,Montagnola,False,188.0
+4 Star Suite SPA,9.5,61,626,Hotel,1.2,Montagnola,False,626.0
+Hostel Il Nosadillo - Bologna,8.0,666,71,Hotel,0.6,Saragozza,False,71.0
+IN FIERA 5 Apartment,9.2,9,281,Apartment,2.1,San Donato,False,281.0
+Carbonara Apartment,9.8,77,205,Apartment,0.3,Piazza Maggiore,False,205.0
+RR 108,9.4,94,266,Apartment,0.6,Piazza Maggiore,False,266.0
+Il Canale Hotel,8.7,1033,120,Hotel,0.5,Piazza Maggiore,False,120.0
+B&B Elegance,7.2,314,80,Bed&Breakfast,1.2,Centro storico di Bologna,False,80.0
+B&B Maglo Centro,8.4,769,109,Bed&Breakfast,1.2,Centro storico di Bologna,False,109.0
+Bed & Breakfast CENTRALE,8.8,150,117,Hotel,1.2,Centro storico di Bologna,False,117.0
+M2BO DOSSETTI 27 - FIERA,9.4,31,132,Apartment,2.3,Bologna Fiere - quartiere,False,132.0
+Hotel Holiday,7.6,2971,100,Hotel,0.5,Piazza Maggiore,True,100.0
+Zanhotel Regina,8.9,3071,115,Hotel,0.7,Montagnola,True,115.0
+Zanhotel Europa,8.3,1688,120,Hotel,1.3,Centro storico di Bologna,True,120.0
+Nuovo Hotel Del Porto,8.2,4383,141,Hotel,0.8,Piazza Maggiore,True,141.0
+Sar May Apartments,9.5,6,204,Apartment,0.4,Piazza Maggiore,False,204.0
+Hotel Bologna Airport,8.3,4124,89,Hotel,7.5,Borgo Panigale,True,89.0
+In Fiera 14 Apartment,8.0,4,300,Apartment,2.1,San Donato,False,300.0
+Grand Central Room,8.7,124,125,Hotel,1.0,Saragozza,True,125.0
+Hotel Centrale,8.7,944,121,Hotel,0.5,Piazza Maggiore,True,121.0
+Hotel University,8.4,1332,110,Hotel,0.6,Piazza Maggiore,True,110.0
+Hotel Accademia,8.2,2129,130,Hotel,0.6,Piazza Maggiore,True,130.0
+Downtown Bologna Apartment,9.4,8,283,Apartment,0.4,Piazza Maggiore,False,283.0
+Hotel Michelino Bologna Fiera,8.6,2280,119,Hotel,3.4,Bologna Fiere - quartiere,True,119.0
+Hotel Atlantic,8.7,1461,127,Hotel,0.8,Centro storico di Bologna,True,127.0
+Albergo Giardinetto ,7.3,1470,95,Hotel,1.4,Savena,False,95.0
+Galleria Del Reno,6.8,207,70,Hotel,0.8,Centro storico di Bologna,False,70.0
+Hotel Marconi Express,8.4,41,112,Hotel,1.3,Centro storico di Bologna,False,112.0
+Astoria Suite Apartments,8.1,771,120,Apartment,1.2,Centro storico di Bologna,True,120.0
+Royal Hotel Carlton,8.5,798,229,Hotel,1.0,Centro storico di Bologna,True,229.0
+Central City Rooms,8.5,286,118,Hotel,1.3,Stazione Ferroviaria di Bologna,True,118.0
+Villa Savioli Room & Breakfast,9.3,559,228,Hotel,1.9,Savena,False,228.0
+Residenza Piazza Santo Stefano,8.3,361,125,Other,0.7,Centro storico di Bologna,False,125.0
+Albachiara Suite Rooms,8.2,185,120,Hotel,0.7,Centro storico di Bologna,False,120.0
+B&B DormiRe Bologna,8.6,433,139,Bed&Breakfast,1.2,Centro storico di Bologna,True,139.0
+Centro Turistico Città di Bologna,7.7,1147,123,Hotel,4.1,Bologna Fiere - quartiere,False,123.0
+Residenza Rialto,8.9,163,114,Hotel,0.7,Piazza Maggiore,False,114.0
+Steam House Room & Breakfast,9.1,433,145,Hotel,0.8,Montagnola,False,145.0
+Allegroitalia Espresso Bologna,7.8,776,259,Hotel,1.2,Montagnola,True,259.0
+B&B ATTICO GALLIERA,9.3,397,133,Bed&Breakfast,0.9,Centro storico di Bologna,False,133.0
+Gregorini Bingham Art Luxury Suites,9.2,469,226,Hotel,0.5,Saragozza,False,226.0
+Agriturismo Ben Ti Voglio,9.2,482,142,Hotel,6.0,Not specified,True,142.0
+Porta Galliera Apartment,9.2,150,116,Apartment,1.2,Centro storico di Bologna,False,116.0
+Acquaderni Rooms,9.0,491,148,Hotel,0.3,Piazza Maggiore,False,148.0
+A Casa di Lu Na,8.8,332,161,Apartment,1.4,Savena,False,161.0
+Boutique Hotel Re Enzo,8.5,20,160,Hotel,1.2,Saragozza,True,160.0
+Agriturismo N'Uova Campagna,8.7,63,105,Hotel,7.4,Not specified,False,105.0
+Casa Isolani - Santo Stefano,9.2,176,199,Hotel,0.4,Piazza Maggiore,True,199.0
+B&B San Vitale,8.3,130,104,Bed&Breakfast,1.1,Savena,False,104.0
+Hotel Corona d'Oro,8.9,1373,350,Hotel,0.3,Piazza Maggiore,True,350.0
+La Suite B&B Apartments,7.7,766,138,Bed&Breakfast,0.6,Montagnola,True,138.0
+Astoria Boutique Apartments,7.4,57,159,Apartment,1.1,Santo Stefano,True,159.0
+4 Star Bologna Train Station,9.2,79,182,Apartment,1.2,Montagnola,False,182.0
+Marconi 30 Apartment,8.4,16,104,Apartment,0.7,Centro storico di Bologna,False,104.0
+Michelino's house,8.8,37,112,Apartment,2.6,San Donato,False,112.0
+Appartamento in centro storico - via Mascarella - Università,9.2,13,137,Apartment,1.1,Montagnola,False,137.0
+In Fiera 8 Apartment,0.0,0,265,Apartment,2.1,San Donato,False,265.0
+L'Antenna,7.8,52,137,Hotel,1.1,Montagnola,False,137.0
+My Home in Bologna - La Grassa,9.7,81,99,Apartment,0.5,Centro storico di Bologna,False,99.0
+Marbia Guest House,8.5,56,143,Hotel,3.5,Not specified,False,143.0
+La Maison di Bologna,7.9,28,99,Hotel,5.1,Bologna Fiere - quartiere,False,99.0
+La Maison della piazzetta,9.5,81,114,Apartment,0.7,Piazza Maggiore,False,114.0
+FLY HOUSE BOLOGNAun appartamento al volo,9.6,9,133,Apartment,4.8,Borgo Panigale,False,133.0
+bilocale Nel Sole,8.5,18,95,Apartment,0.5,Piazza Maggiore,False,95.0
+Guesthero Apartment Bologna - Fiera,0.0,0,165,Apartment,1.9,Bologna Fiere - quartiere,True,165.0
+Bolognahome,7.4,83,129,Apartment,0.4,Piazza Maggiore,False,129.0
+Giudei House Suite Bologna,8.6,16,172,Apartment,0.3,Piazza Maggiore,False,172.0
+DL Country House,8.6,16,340,Apartment,4.3,Not specified,False,340.0
+Appartamento Trento Trieste,9.7,28,114,Apartment,1.7,Savena,False,114.0
+La Finestra su San Luca,9.2,56,120,Apartment,2.9,Saragozza,False,120.0
+Futura. Bologna,8.2,27,138,Apartment,0.2,Saragozza,True,138.0
+Suite Due Torri,0.0,0,260,Apartment,0.2,Piazza Maggiore,True,260.0
+RACHEL'S HOUSE,8.7,7,109,Apartment,2.0,Bologna Fiere - quartiere,False,109.0
+4 Star Bologna Family Apartments,0.0,0,199,Apartment,1.3,Not specified,False,199.0
+Parri 33 Bologna Fiera 4+1 Guest Parking on demand,0.0,0,149,Apartment,2.4,Bologna Fiere - quartiere,False,149.0
+BAROZZI,0.0,0,76,Apartment,1.2,Montagnola,False,76.0
+Casa Pepe,9.5,28,120,Apartment,2.0,Savena,False,120.0
+DolceCasa Via Antonio di Vincenzo nr 3 Bologna,8.9,68,139,Apartment,1.5,Bologna Fiere - quartiere,False,139.0
+B&B Villa Rivabella,8.6,110,133,Bed&Breakfast,1.6,Not specified,False,133.0
+Cavalieris Grand,8.5,288,192,Hotel,0.5,Piazza Maggiore,False,192.0
+Casa Isolani. Piazza Maggiore,9.3,249,347,Hotel,0.1,Piazza Maggiore,True,347.0
+binariouno,9.5,83,208,Hotel,1.3,Centro storico di Bologna,True,208.0
+Hotel Roma,8.4,916,253,Hotel,0.1,Piazza Maggiore,True,253.0
+Casa Bertagni,9.6,550,351,Hotel,1.0,Centro storico di Bologna,True,351.0
+4Roomz,8.4,234,255,Hotel,1.3,Centro storico di Bologna,True,255.0
+Hotel Conte Luna,8.0,187,171,Hotel,4.4,Not specified,True,171.0
+Casa Isolani Piazza Maggiore 10,9.3,123,332,Hotel,0.1,Piazza Maggiore,False,332.0
+Skyline 1/7 B&B,9.7,96,291,Bed&Breakfast,1.2,Not specified,False,291.0
+Casa Ardizzoni,8.6,43,232,Hotel,2.5,Bologna Fiere - quartiere,True,232.0
+La Casa Nel Verde 2,8.5,45,161,Hotel,5.4,Bologna Fiere - quartiere,True,161.0
+Palazzo di Alcina - Residenza d'Epoca - Luxury B&B,9.9,92,663,Bed&Breakfast,0.4,Piazza Maggiore,True,663.0
+Locanda Fourghetti,8.7,85,256,Hotel,2.0,Savena,False,256.0
+B&B Galleria Cavour,9.4,64,313,Bed&Breakfast,0.2,Piazza Maggiore,False,313.0
+Holiday Inn Bologna - Fiera. an IHG Hotel,8.2,3755,134,Hotel,5.2,Bologna Fiere - quartiere,False,134.0
+CDH My One Hotel Bologna,8.6,1802,134,Hotel,5.1,Borgo Panigale,False,134.0
+TORTE & LINI,9.4,848,192,Hotel,1.3,Stazione Ferroviaria di Bologna,True,192.0
+B&B San Petronio Vecchio,9.1,102,598,Bed&Breakfast,0.9,Santo Stefano,False,598.0
+UNAHOTELS Bologna Fiera,8.5,1799,200,Hotel,2.4,San Donato,False,200.0
+Bologna Center Town,8.8,276,190,Hotel,0.7,Centro storico di Bologna,False,190.0
+Amendola Central Station,8.8,335,175,Hotel,1.3,Centro storico di Bologna,False,175.0
+SUITE LAME 37 Rental Rooms,8.3,379,183,Hotel,0.7,Centro storico di Bologna,False,183.0
+Amendola16,9.2,385,176,Hotel,1.3,Centro storico di Bologna,False,176.0
+Palazzo Liberty BnB,8.6,77,168,Hotel,0.8,Montagnola,False,168.0
+Cavaticcio apartment,0.0,0,156,Apartment,1.0,Centro storico di Bologna,False,156.0
+Light and colours,9.3,46,143,Apartment,5.5,Bologna Fiere - quartiere,False,143.0
+Art Hotel Commercianti,9.0,1754,253,Hotel,0.1,Piazza Maggiore,True,253.0
+Hotel Del Borgo,7.9,1241,92,Hotel,6.7,Borgo Panigale,True,92.0
+A Casa Di Luna,8.7,420,85,Hotel,1.5,Savena,False,85.0
+San Carlo Holiday House,9.6,88,229,Other,0.7,Piazza Maggiore,False,229.0
+Appartamento Avesella in centro a Bologna,8.6,186,297,Apartment,0.7,Piazza Maggiore,True,297.0
+Savoia Hotel Country House Bologna,8.6,2396,130,Hotel,3.8,Bologna Fiere - quartiere,True,130.0
+Ramada Encore Bologna-Hotel & Natural Spa,8.4,3125,179,Other,4.8,Bologna Fiere - quartiere,True,179.0
+Santa croce.14 apartments,8.5,441,85,Apartment,1.1,Saragozza,False,85.0
+Ramo Rosso di Paolo Natalini,9.5,514,120,Hotel,2.0,Not specified,False,120.0
+Tourist House Bologna,9.2,138,144,Apartment,0.2,Piazza Maggiore,False,144.0
+SAN FELICE 62,7.7,92,94,Apartment,1.0,Saragozza,False,94.0
+TL appartamenti arance e rose,7.6,118,90,Apartment,3.5,Savena,False,90.0
+Room & Breakfast Nettuno 29,9.4,244,105,Hotel,1.9,San Donato,True,105.0
+Funtanìr,8.9,290,116,Hotel,0.7,Centro storico di Bologna,False,116.0
+B&B Marana 14 Casa di Campagna,9.8,168,106,Bed&Breakfast,14.1,Not specified,False,106.0
+Le Stanze dei Fiori,9.4,41,104,Hotel,1.6,Not specified,True,104.0
+Home sweet home,8.1,31,104,Apartment,1.5,Bologna Fiere - quartiere,True,104.0
+Astoria Deluxe rooms,7.1,57,124,Hotel,1.2,Centro storico di Bologna,True,124.0
+Galliera 34,7.5,22,174,Apartment,0.7,Piazza Maggiore,True,174.0
+Il Delfino a Bologna,8.2,62,95,Hotel,2.8,Savena,False,95.0
+The Butcher-Ducati and Airport BLQ,8.7,62,88,Apartment,6.2,Borgo Panigale,False,88.0
+Hotel Perla,8.4,730,90,Hotel,1.0,Santo Stefano,False,90.0
+Best Western Plus Tower Hotel Bologna,8.7,3650,94,Hotel,3.8,Savena,False,94.0
+Hotel Tuscolano,8.0,1297,89,Hotel,5.2,Bologna Fiere - quartiere,True,89.0
+San Francesco Luxury Suite,8.9,61,236,Apartment,0.7,Saragozza,False,236.0
+Hotel Touring,8.6,1175,213,Hotel,0.5,Santo Stefano,True,213.0
+NH Bologna De La Gare,8.6,4207,162,Hotel,1.1,Centro storico di Bologna,True,162.0
+B&B Angelica,8.9,729,119,Bed&Breakfast,0.8,Montagnola,False,119.0
+Appartamenti Astoria,7.3,682,110,Apartment,1.1,Centro storico di Bologna,True,110.0
+B&B Hope,7.4,244,106,Bed&Breakfast,1.9,Bologna Fiere - quartiere,True,106.0
+Hotel Maggiore,8.7,1417,125,Hotel,3.0,Not specified,True,125.0
+Cosmopolitan Central Rooms,8.7,518,134,Hotel,0.3,Piazza Maggiore,False,134.0
+Boutique Hotel Liberty 1904,8.3,2592,155,Hotel,1.6,Savena,True,155.0
+Casa Munay,8.4,320,85,Hotel,2.0,Savena,False,85.0
+Residenza del Duse,9.2,353,186,Hotel,0.7,Santo Stefano,False,186.0
+Appartamenti Nel Sole,8.6,282,159,Apartment,0.6,Montagnola,True,159.0
+Hotel Internazionale,8.3,1314,184,Hotel,0.8,Centro storico di Bologna,True,184.0
+Pisano Guest House,9.1,84,92,Apartment,2.7,Savena,False,92.0
+Hotel Fattori,7.7,116,95,Hotel,5.4,Not specified,False,95.0
+B&B Bentivogli,8.2,457,114,Bed&Breakfast,1.4,Savena,True,114.0
+Bed & Breakfast Cesarina,8.6,228,93,Hotel,4.0,Not specified,True,93.0
+Albergo delle Drapperie,8.6,1228,194,Hotel,0.2,Piazza Maggiore,True,194.0
+Bibliò Rooms Guesthouse,9.5,428,136,Hotel,0.5,Piazza Maggiore,False,136.0
+Elizabeth Lifestyle Hotel,8.6,272,190,Hotel,2.5,Bologna Fiere - quartiere,True,190.0
+Albergo Rossini 1936 - Small & Charming,8.8,170,188,Hotel,0.7,Piazza Maggiore,True,188.0
+"PHI HOTEL BOLOGNA ""Al Cappello Rosso""",9.0,1189,310,Hotel,0.1,Saragozza,False,310.0
+Bed And Breakfast Arcobaleno,8.9,218,133,Hotel,1.8,Bologna Fiere - quartiere,False,133.0
+B&B SOLELUNA,9.1,169,135,Bed&Breakfast,1.8,San Donato,False,135.0
+Il Convento Dei Fiori Di Seta,8.2,1256,216,Hotel,1.0,Santo Stefano,False,216.0
+BB La Villa,8.4,66,183,Hotel,2.3,San Donato,False,183.0
+Bed&Breakfast Dolce Vita,7.8,263,160,Hotel,0.6,Centro storico di Bologna,True,160.0
+Residence Cavazza,8.4,185,193,Hotel,0.8,Santo Stefano,False,193.0
+FIERA 051 AFFITTACAMERE,7.7,206,867,Hotel,2.1,San Donato,False,867.0
+Fiera Boutique,8.5,294,105,Hotel,2.1,San Donato,False,105.0
+Affittacamere Home&Stazione Bologna,8.0,48,90,Hotel,1.5,Bologna Fiere - quartiere,False,90.0
+Rosa House,9.7,26,291,Hotel,1.5,Stazione Ferroviaria di Bologna,False,291.0
+051Suites,9.2,196,255,Hotel,0.4,Piazza Maggiore,False,255.0
+Domus Dotta,8.6,256,158,Hotel,1.3,Montagnola,False,158.0
+Stella del Mar,8.8,93,162,Hotel,2.3,Not specified,False,162.0
+Dream Rooms,9.4,5,200,Hotel,2.2,Bologna Fiere - quartiere,False,200.0
+Casa Albert Stanley,9.4,38,143,Hotel,1.6,Bologna Fiere - quartiere,False,143.0
+B&Bononia View,9.2,19,257,Bed&Breakfast,2.0,Bologna Fiere - quartiere,False,257.0
+Torri & Portici,10.0,5,232,Hotel,1.4,Bologna Fiere - quartiere,True,232.0
+The Student Hotel Bologna,8.9,203,184,Hotel,2.1,Bologna Fiere - quartiere,True,184.0
+Marconi28suites,9.0,105,334,Holiday Home,0.7,Centro storico di Bologna,False,334.0
+LA FENICE AC,8.4,229,121,Holiday Home,1.6,Not specified,False,121.0
+HC3 Hotel,8.2,797,165,Hotel,3.0,Bologna Fiere - quartiere,False,165.0
+YAWHome B&B,8.8,158,542,Bed&Breakfast,0.3,Piazza Maggiore,False,542.0
+The Sydney Hotel,8.0,749,198,Hotel,3.3,Bologna Fiere - quartiere,False,198.0
+SAN FELICE 135 - 3,8.9,34,129,Hotel,1.2,Saragozza,True,129.0
+Dimora Orfeo,9.3,169,112,Apartment,1.0,Santo Stefano,False,112.0
+whouse suite GOLD TOWERS,8.9,64,114,Apartment,0.4,Piazza Maggiore,True,114.0
+Residence Sant'Orsola,9.0,162,151,Apartment,1.5,Savena,True,151.0
+Borgonuovo Apartments,9.7,258,231,Holiday Home,0.6,Piazza Maggiore,False,231.0
+whouse suite apartment mirasole,8.3,84,95,Apartment,0.7,Santo Stefano,False,95.0
+Aparthotel Sant'Orsola,9.0,92,144,Apartment,2.4,Not specified,True,144.0
+Indipendenza Luxury Apartments,9.2,108,129,Apartment,0.5,Piazza Maggiore,False,129.0
+Residenza Pellacani,9.8,187,309,Holiday Home,0.7,Piazza Maggiore,True,309.0
+Guasto Apartment,8.7,71,199,Apartment,0.6,Piazza Maggiore,False,199.0
+Grattacielo BLQ Sanificazione Certificata,9.7,114,114,Apartment,6.0,Borgo Panigale,False,114.0
+ROOM AND BREAKFAST SAN RAFEL,9.6,50,233,Hotel,4.2,Not specified,False,233.0
+Grand Hotel Majestic gia' Baglioni,9.2,492,615,Hotel,0.3,Piazza Maggiore,True,615.0
+Casa Fluò Relais,8.6,99,203,Hotel,5.8,Not specified,True,203.0
+Il Mughetto,9.0,33,129,Apartment,1.8,Savena,True,129.0
+Bologna Holiday Inn,9.0,35,202,Apartment,1.3,Stazione Ferroviaria di Bologna,True,202.0
+Camere Scandellara 24,7.8,5,110,Hotel,2.7,Not specified,False,110.0
+Ottavo Portone,9.6,17,137,Apartment,0.8,Centro storico di Bologna,False,137.0
+A Casa Fachin Room & Breakfast,8.8,41,119,Hotel,0.9,Saragozza,False,119.0
+Residenza Riva Reno - BOLOGNA,9.8,19,153,Apartment,0.8,Centro storico di Bologna,False,153.0
+Le Ninfee,9.0,60,126,Holiday Home,1.0,Santo Stefano,False,126.0
+Z8 Apartments,9.1,124,123,Apartment,1.1,Montagnola,False,123.0
+Ludovico de Varthema. Bologna,7.3,26,120,Apartment,0.7,Saragozza,True,120.0
+whouse suite porta di castello,8.6,115,144,Apartment,0.3,Piazza Maggiore,False,144.0
+whouse luxury universita',8.2,47,154,Apartment,1.2,Not specified,True,154.0
+UNAHOTELS San Vitale Bologna,8.5,2637,134,Hotel,3.9,Not specified,True,134.0
+Savhotel,9.0,2863,134,Hotel,2.3,Bologna Fiere - quartiere,True,134.0
+Hotel Il Guercino,8.4,1032,114,Hotel,1.7,Bologna Fiere - quartiere,True,114.0
+Tempobiancosuites,9.1,581,104,Hotel,1.8,Not specified,False,104.0
+La Corte del Sant'Orsola,8.6,303,80,Hotel,1.1,Savena,False,80.0
+Good Morning Marsala,9.3,624,190,Apartment,0.5,Piazza Maggiore,True,190.0
+Santo Stefano Apartments - BolognaRooms,8.9,458,96,Apartment,1.1,Santo Stefano,True,96.0
+B&B Parigi,9.0,286,107,Bed&Breakfast,0.3,Piazza Maggiore,True,107.0
+Hotel Pedrini,8.1,1752,125,Hotel,1.2,Savena,True,125.0
+Hotel Astoria,7.3,2193,120,Hotel,1.1,Centro storico di Bologna,True,120.0
+Camplus Guest Bononia Casa per Ferie,8.5,2172,117,Hotel,2.2,Not specified,True,117.0
+Best Western City Hotel,8.5,1056,121,Hotel,2.3,Bologna Fiere - quartiere,False,121.0
+Mambo Suites,8.8,508,140,Hotel,1.1,Centro storico di Bologna,False,140.0
+Residenza San Martino,8.9,783,110,Hotel,0.5,Piazza Maggiore,True,110.0
+Bed & breakfast Aurelia,8.5,663,100,Hotel,1.2,Centro storico di Bologna,True,100.0
+Hotel Villa Azzurra,8.3,1286,94,Hotel,3.1,Savena,False,94.0
+B&B Ambra,9.1,1158,129,Bed&Breakfast,0.8,Montagnola,False,129.0
+iH Hotels Bologna Amadeus,7.9,3505,104,Hotel,5.9,Borgo Panigale,True,104.0
+B&B La Piazzetta della Pioggia,7.8,467,114,Bed&Breakfast,0.6,Piazza Maggiore,True,114.0
+Hotel Donatello,7.4,1673,134,Hotel,0.8,Centro storico di Bologna,True,134.0
+Hotel San Felice,7.7,647,105,Hotel,1.1,Centro storico di Bologna,True,105.0
+Hotel Sant'Orsola City House,8.3,333,100,Hotel,1.7,Not specified,True,100.0
+Riva reno 54 rooms,8.3,608,79,Hotel,0.9,Centro storico di Bologna,False,79.0
+MARCONI 2 rooms,8.4,379,133,Hotel,0.6,Centro storico di Bologna,False,133.0
+Mirabilia Golden,7.5,497,114,Hotel,1.7,Not specified,False,114.0
+VILLA MASI Rental Rooms,7.8,323,99,Apartment,2.0,Savena,True,99.0
+B&B PIAZZA DELL'UNITA',9.3,239,114,Bed&Breakfast,1.9,Bologna Fiere - quartiere,False,114.0
+Mysuiteshome Apartments,9.3,495,141,Apartment,1.5,Savena,False,141.0
+Hotel Cavour,8.9,2376,175,Hotel,0.4,Piazza Maggiore,True,175.0
+Hotel Metropolitan,8.6,2008,162,Hotel,0.5,Piazza Maggiore,True,162.0
+Relais Bellaria Hotel & Congressi,8.5,1667,149,Hotel,5.4,Not specified,False,149.0
+Almarossa,9.0,680,158,Apartment,0.9,Montagnola,False,158.0
+Mitodea - Residenza d'Epoca,8.7,318,150,Hotel,0.3,Piazza Maggiore,False,150.0
+Boldrini. Bologna,0.0,0,116,Apartment,1.2,Centro storico di Bologna,True,116.0
+Houses in Dreams,7.2,30,159,Hotel,0.5,Piazza Maggiore,True,159.0
+Arpa Apartments Bologna Center,9.2,334,125,Apartment,0.8,Santo Stefano,False,125.0
+Astor Hotel,7.9,795,119,Hotel,2.2,Bologna Fiere - quartiere,True,119.0
+Marconi Dreams,9.1,76,105,Apartment,0.6,Centro storico di Bologna,False,105.0
+Marsala. Bologna,0.0,0,109,Apartment,0.4,Piazza Maggiore,True,109.0
+Antica Casa Zucchini B&B,9.2,40,189,Bed&Breakfast,0.6,Piazza Maggiore,True,189.0
+Casa Centro Bologna,0.0,0,85,Apartment,1.0,Santo Stefano,False,85.0
+Casabetta,9.7,53,104,Apartment,0.8,Centro storico di Bologna,False,104.0
+Casa Gino,8.8,208,229,Apartment,1.5,Bologna Fiere - quartiere,True,229.0
+Alle Torri,8.2,43,109,Hotel,0.3,Saragozza,True,109.0
+Casa Marsili,9.8,140,127,Apartment,0.7,Santo Stefano,False,127.0
+Sabrina's Home,9.5,10,138,Apartment,0.8,Montagnola,True,138.0
+Casa di Spagna,9.4,30,123,Apartment,0.4,Saragozza,False,123.0
+ANDREA LUXURY APARTMENTS Strada Maggiore Studio 1,9.3,122,143,Apartment,1.0,Santo Stefano,False,143.0
+Casina Nel Borgo,7.3,3,94,Apartment,0.8,Montagnola,False,94.0
+Central City Rooms Executive Suite,8.8,48,120,Apartment,1.2,Montagnola,True,120.0
+Residence Sant'Orsola - Pizzardi Suites Apartments,9.1,53,140,Apartment,1.9,Savena,True,140.0
+Casa Bologna Fiera,9.6,22,133,Apartment,2.3,Bologna Fiere - quartiere,False,133.0
+Hotel Maxim,7.2,2007,100,Hotel,4.3,Bologna Fiere - quartiere,True,100.0
+Tilia,8.5,74,120,Apartment,0.7,Santo Stefano,False,120.0
+Liberty House,9.0,196,215,Hotel,0.4,Santo Stefano,False,215.0
+Cantarana apartment,8.2,147,238,Apartment,0.7,Santo Stefano,False,238.0
+MANDRIA APARTMENTS 1 2,9.6,140,173,Apartment,0.3,Piazza Maggiore,False,173.0
+Saragozza Apartments,8.4,684,124,Apartment,1.3,Saragozza,False,124.0
+Room & Breakfast H & Ercolani,8.9,156,136,Hotel,1.0,Santo Stefano,False,136.0
+A due passi dal Lumière,9.0,105,126,Hotel,0.9,Centro storico di Bologna,False,126.0
+Residence Rizzoli-Suites Apartments,9.2,94,126,Hotel,0.7,Santo Stefano,True,126.0
+Bologna Flats,9.3,69,211,Apartment,0.8,Centro storico di Bologna,False,211.0
+B&B Fiera Maglo',8.3,245,111,Bed&Breakfast,2.1,San Donato,True,111.0
+D'Azeglio & Galluzzi Suites,9.6,59,282,Hotel,0.2,Piazza Maggiore,False,282.0
+La Corte del Pratello,9.3,212,174,Apartment,0.7,Saragozza,False,174.0
+FAMILY,9.5,6,118,Apartment,2.7,Bologna Fiere - quartiere,False,118.0
+Giudei House Bologna,9.6,143,179,Apartment,0.3,Piazza Maggiore,False,179.0
+Bologna Boutique Home,9.7,19,181,Apartment,0.5,Piazza Maggiore,False,181.0
+Saracc'House nasce,0.0,0,921,Other,19.5,Not specified,False,921.0
+Bologna Central Apartments - Indipendenza 36,8.9,5,142,Apartment,0.5,Piazza Maggiore,False,142.0
+HouSmart Castiglione 76,7.4,11,283,Apartment,0.9,Santo Stefano,False,283.0
+La casa di Kro,9.1,34,200,Apartment,0.8,Piazza Maggiore,False,200.0
+La Maison di Via Baracca,9.3,16,147,Apartment,2.6,Not specified,False,147.0
+Emilia Levante 2,7.8,5,103,Apartment,3.1,Savena,True,103.0
+HouSmart Bondi 61,0.0,0,293,Apartment,2.3,Savena,False,293.0
+Altaseta,0.0,0,294,Apartment,0.7,Saragozza,False,294.0
+Casa al Sant'Orsola,8.6,13,108,Apartment,1.6,Not specified,False,108.0
+Apartment with one bedroom in Bologna with WiFi,0.0,0,311,Apartment,1.9,Saragozza,False,311.0
+Interno 7 - R&B da Vale,9.3,333,132,Hotel,1.9,Bologna Fiere - quartiere,False,132.0
+AB Suite Innovative Design B&B,7.9,110,232,Bed&Breakfast,1.4,Bologna Fiere - quartiere,True,232.0
+AC Hotel by Marriott Bologna,8.5,830,220,Hotel,1.8,Bologna Fiere - quartiere,True,220.0
+IL CASTELLO HOSTEL BOUTIQUE,6.9,1207,81,Hotel,0.3,Piazza Maggiore,False,81.0
+Aemilia Hotel Bologna,8.9,3371,228,Hotel,1.3,Not specified,True,228.0
+Meditur Hotel Bologna,8.4,1582,117,Other,10.1,Not specified,True,117.0
+Residenza Rubbiani Fermata Rizzoli,9.2,532,164,Hotel,0.7,Santo Stefano,True,164.0
+Hotel San Giorgio,7.9,921,153,Hotel,0.6,Montagnola,True,153.0
+Albergo Garisenda,8.9,654,118,Hotel,0.2,Piazza Maggiore,True,118.0
+B&B Casa Faccioli,9.4,244,180,Bed&Breakfast,0.2,Piazza Maggiore,False,180.0
+Le camere di Porta San Felice,9.2,469,164,Hotel,1.3,Saragozza,True,164.0
+Carlotta Station Suite,9.0,73,118,Apartment,1.3,Centro storico di Bologna,False,118.0
+Martina. Bologna,8.8,16,120,Apartment,1.3,Stazione Ferroviaria di Bologna,True,120.0
+Sant’Orsola Apartment,8.4,29,145,Apartment,2.1,Savena,False,145.0
+Bologna Dream Apartments,9.6,60,249,Apartment,2.9,Savena,False,249.0
+Casa delle Oche appartamento di charme,0.0,0,190,Apartment,0.5,Piazza Maggiore,False,190.0
+Bologna Stazione Mazzini 3 persons,7.2,5,104,Apartment,3.2,Savena,False,104.0
+San Giorgio Apartment,8.8,9,136,Apartment,0.4,Piazza Maggiore,False,136.0
+Happy Home BO Fiera Self Check-in,9.4,47,178,Apartment,2.0,San Donato,False,178.0
+Incantevole Bilocale,0.0,0,162,Apartment,3.6,Not specified,False,162.0
+San Donato 40,8.3,47,154,Apartment,1.5,Bologna Fiere - quartiere,False,154.0
+Borgo De Chiari,9.7,52,211,Apartment,0.5,Santo Stefano,False,211.0
+Charming Flat Milazzo 32,0.0,0,384,Apartment,1.2,Centro storico di Bologna,False,384.0
+Valdonica. Bologna,0.0,0,124,Apartment,0.4,Piazza Maggiore,True,124.0
+Art Hotel Orologio,8.8,662,295,Apartment,0.1,Saragozza,False,295.0
+Giudei House Minisuite Bologna,8.9,12,141,Apartment,0.4,Piazza Maggiore,False,141.0
+Aduepassidallafiera,8.0,79,146,Apartment,3.1,Bologna Fiere - quartiere,False,146.0
+BED in BO Porta San Donato,9.1,33,144,Apartment,1.2,Centro storico di Bologna,False,144.0
+Bologna House,8.8,21,93,Apartment,1.1,Montagnola,False,93.0
+Appartamento Enjoy,0.0,0,124,Apartment,1.3,Stazione Ferroviaria di Bologna,False,124.0
+Atelier Pallavicini,0.0,0,240,Apartment,0.8,Centro storico di Bologna,True,240.0
+Mascarella. Bologna,7.4,5,143,Apartment,1.1,Montagnola,True,143.0
+MG Home a un passo da tutto,0.0,0,135,Apartment,3.1,Not specified,False,135.0
+Suite Nico Bologna Centro,8.7,12,199,Apartment,1.3,Centro storico di Bologna,False,199.0
+B&B Bologna Station,9.3,447,161,Bed&Breakfast,1.7,Bologna Fiere - quartiere,False,161.0
+Hotel Arcoveggio,8.1,1300,90,Hotel,2.4,Bologna Fiere - quartiere,False,90.0
+Afittacamere Romina,8.7,81,109,Hotel,0.8,Centro storico di Bologna,False,109.0
+Appartamento Gramsci,0.0,0,96,Apartment,1.0,Centro storico di Bologna,True,96.0
+Zanhotel Tre Vecchi,8.0,1917,150,Hotel,0.7,Montagnola,True,150.0
+B & B Da Matilde,8.8,113,95,Hotel,0.8,Montagnola,False,95.0
+Hotel Porta San Mamolo,8.7,543,208,Hotel,0.8,Santo Stefano,True,208.0
+RESIDENZA JP,0.0,0,102,Apartment,3.1,Bologna Fiere - quartiere,False,102.0
+Goito 3,0.0,0,119,Apartment,0.4,Not specified,True,119.0
+Bologna city,0.0,0,134,Apartment,3.2,Not specified,False,134.0
+Il Sitarein,9.7,4,142,Apartment,0.6,Saragozza,False,142.0
+ResArt Iàcomus,8.6,42,152,Hotel,0.7,Centro storico di Bologna,False,152.0
+Serlio 24 2,6.7,15,185,Apartment,1.7,Bologna Fiere - quartiere,False,185.0
+FASHION APARTMENT Bologna,9.9,10,167,Apartment,2.0,San Donato,False,167.0
+Best Western Hotel San Donato,8.2,1951,183,Hotel,0.4,Piazza Maggiore,True,183.0
+CASA VIOLANTE,0.0,0,234,Apartment,2.5,San Donato,True,234.0
+AbitaRoom,9.0,227,131,Hotel,1.6,Bologna Fiere - quartiere,True,131.0
+Villa Aretusi,8.3,527,137,Hotel,4.9,Borgo Panigale,True,137.0

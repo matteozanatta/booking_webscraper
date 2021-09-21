@@ -1,0 +1,594 @@
+hotel_name,score,n_reviews,total_price,category,city_center_dist,neighborhood,free_cancellation,price_per_night
+Residenza d'Epoca San Cassiano,8.7,1550,826,Hotel,0.9,Santa Croce,False,275.3333333333333
+Hotel Gorizia a La Valigia,8.5,2756,596,Hotel,0.3,San Marco,True,198.66666666666666
+Hotel Nani Mocenigo Palace,9.4,973,801,Hotel,1.0,Dorsoduro,False,267.0
+Hotel Marconi,8.2,1257,413,Hotel,0.5,San Polo,False,137.66666666666666
+Hotel Paganelli,8.4,1083,621,Hotel,0.4,Castello,True,207.0
+Venice Times Hotel,9.1,653,561,Hotel,1.6,Cannaregio,False,187.0
+Al Gazzettino,8.3,1116,487,Hotel,0.3,San Marco,False,162.33333333333334
+Hotel Ca' dei Conti,8.0,1348,1107,Hotel,0.3,Castello,True,369.0
+Pesaro Palace,8.6,1386,531,Hotel,0.8,Cannaregio,False,177.0
+Hotel Bucintoro,9.2,925,1064,Hotel,0.9,Castello,True,354.6666666666667
+Hotel Città Di Milano,7.7,1485,334,Hotel,0.2,San Marco,False,111.33333333333333
+Hotel Moresco,9.6,534,711,Hotel,1.4,Dorsoduro,True,237.0
+Antica Locanda al Gambero,8.5,1527,441,Hotel,0.2,San Marco,False,147.0
+Hotel Ca' Alvise,8.3,1091,459,Hotel,0.4,San Marco,False,153.0
+Palazzo San Lorenzo,9.0,831,1765,Hotel,0.5,Castello,False,588.3333333333334
+Palazzo Venart Luxury Hotel,9.4,338,1530,Hotel,1.1,Santa Croce,True,510.0
+Hotel La Fenice et Des Artistes,8.4,739,466,Hotel,0.4,San Marco,True,155.33333333333334
+Hotel Firenze,9.2,839,870,Hotel,0.2,San Marco,False,290.0
+Ai Patrizi di Venezia,9.4,312,519,Apartment,0.3,San Marco,True,173.0
+Hotel Palazzo Stern,9.1,429,1374,Hotel,0.9,Dorsoduro,False,458.0
+Hotel Olimpia Venice. BW Signature Collection,9.2,797,531,Hotel,1.5,Santa Croce,False,177.0
+Hotel San Zulian,7.7,1530,334,Hotel,0.2,San Marco,False,111.33333333333333
+Locanda Silva,8.5,1373,417,Hotel,0.3,Castello,False,139.0
+Hotel Al Ponte Dei Sospiri,8.4,631,722,Hotel,0.2,San Marco,True,240.66666666666666
+Hotel Serenissima,8.9,1234,428,Hotel,0.3,San Marco,False,142.66666666666666
+Antico Panada,7.7,6435,334,Hotel,0.2,San Marco,False,111.33333333333333
+Kosher House Giardino Dei Melograni,9.1,1221,339,Hotel,1.6,Cannaregio,False,113.0
+Hotel Torino,8.0,1386,403,Hotel,0.4,San Marco,False,134.33333333333334
+Eurostars Residenza Cannaregio,8.5,1520,474,Hotel,1.8,Cannaregio,True,158.0
+Hotel Antigo Trovatore,8.7,724,509,Hotel,0.3,Castello,True,169.66666666666666
+Hotel Al Vagon,8.4,1592,256,Hotel,0.7,Cannaregio,False,85.33333333333333
+Al Mascaron Ridente,8.9,1043,378,Hotel,1.4,Cannaregio,False,126.0
+Hotel Antico Doge - a Member of Elizabeth Hotel Group,9.0,549,984,Hotel,0.7,Cannaregio,False,328.0
+Albergo San Marco,8.2,1185,374,Hotel,0.1,San Marco,False,124.66666666666667
+BW Premier Collection CHC Continental,8.3,3027,600,Hotel,1.4,Cannaregio,False,200.0
+Alloggio Rialto View,6.3,140,177,Hotel,0.8,San Polo,False,59.0
+Hotel Scandinavia - Relais,8.7,1216,396,Hotel,0.4,Castello,False,132.0
+Hotel Tre Archi,6.8,2612,287,Hotel,2.0,Cannaregio,False,95.66666666666667
+Hotel San Geremia,8.0,1872,407,Hotel,1.4,Cannaregio,False,135.66666666666666
+Hotel Il Mercante di Venezia,8.1,708,341,Hotel,1.6,Cannaregio,True,113.66666666666667
+Casa Caburlotto,8.6,1231,374,Hotel,1.6,Santa Croce,True,124.66666666666667
+Hotel Bel Sito e Berlino,9.0,1467,461,Hotel,0.4,San Marco,False,153.66666666666666
+Aquavenice,9.0,722,372,Hotel,1.4,Cannaregio,True,124.0
+All’Angelo Art Hotel,8.5,369,573,Hotel,0.2,San Marco,True,191.0
+Bauer Palazzo,8.9,1797,3414,Hotel,0.2,San Marco,True,1138.0
+Hotel Tivoli,8.2,939,392,Hotel,1.0,Dorsoduro,True,130.66666666666666
+Hotel Dell'Opera,8.8,509,467,Hotel,0.3,San Marco,False,155.66666666666666
+Corte Dei Greci,8.2,545,466,Hotel,0.4,Castello,True,155.33333333333334
+Ca' Pagan,8.8,725,606,Hotel,0.8,San Marco,False,202.0
+Zimmer House Venice,7.9,92,350,Hotel,0.7,Castello,False,116.66666666666667
+Alloggi Arlecchino,8.6,239,405,Hotel,1.5,Santa Croce,False,135.0
+Hotel Adua,8.0,1659,272,Hotel,1.5,Cannaregio,True,90.66666666666667
+Locanda Sant'Agostin,9.1,254,471,Hotel,0.9,San Polo,False,157.0
+B&B La Rosa dei Venti,8.7,345,418,Bed&Breakfast,1.0,Castello,False,139.33333333333334
+Hotel Adriatico,8.4,574,381,Hotel,1.5,Cannaregio,True,127.0
+Apartment Minuetto,9.6,9,802,Apartment,0.9,Santa Croce,False,267.3333333333333
+Ca' Bacio della Luna,9.7,34,387,Apartment,0.6,San Marco,False,129.0
+Foresteria Valdese Venezia,7.9,119,293,Hotel,0.5,Castello,True,97.66666666666667
+Locanda Antico Casin,8.6,423,423,Hotel,0.2,San Marco,False,141.0
+BIENNALE APARTMENT NEAR SAN MARCO,7.7,15,333,Apartment,1.3,Castello,True,111.0
+Liassidi Arco,9.0,175,431,Hotel,0.7,Castello,True,143.66666666666666
+Hotel Iris Venice,5.7,229,208,Hotel,0.9,San Polo,True,69.33333333333333
+Ca' Leon D'Oro,8.4,312,836,Hotel,0.4,San Marco,False,278.6666666666667
+Hotel Casa Boccassini,8.5,501,356,Hotel,0.9,Cannaregio,True,118.66666666666667
+Hotel Antico Capon,7.5,398,336,Hotel,1.1,Dorsoduro,True,112.0
+Alloggi Barbaria,8.8,476,277,Hotel,0.8,Castello,True,92.33333333333333
+Residenza Briati,7.3,62,212,Hotel,1.2,Dorsoduro,False,70.66666666666667
+Locanda Barbarigo,8.7,257,495,Apartment,0.5,San Marco,True,165.0
+Hotel At Leonard,8.6,585,334,Hotel,0.8,Cannaregio,False,111.33333333333333
+CASA MARGOT,7.9,9,240,Hotel,0.7,San Marco,False,80.0
+Hotel Rossi,7.9,941,294,Hotel,1.5,Cannaregio,False,98.0
+Casa Burchielle,9.1,288,405,Hotel,1.6,Santa Croce,False,135.0
+Ca' Nigra Lagoon Resort,9.0,400,699,Hotel,1.4,Santa Croce,False,233.0
+B&b Allegri,8.8,132,377,Bed&Breakfast,0.3,San Marco,False,125.66666666666667
+Hilton Molino Stucky Venice,7.8,2609,797,Hotel,1.6,Giudecca,True,265.6666666666667
+Hotel Principe,8.4,2880,625,Hotel,1.5,Cannaregio,False,208.33333333333334
+Hotel al Graspo de Ua,7.0,315,320,Hotel,0.4,San Marco,True,106.66666666666667
+Taverna San Lio,8.6,84,377,Hotel,0.4,Castello,False,125.66666666666667
+Hotel Caprera,8.3,464,339,Hotel,1.5,Cannaregio,False,113.0
+Locanda Antico Fiore,8.5,378,383,Hotel,0.7,San Marco,False,127.66666666666667
+Hotel Bisanzio,8.7,1680,591,Hotel,0.5,Castello,False,197.0
+B & B Nina,9.4,72,298,Hotel,1.0,Cannaregio,False,99.33333333333333
+Ca' Dell' Arte Luxury,9.4,382,401,Apartment,0.5,San Marco,False,133.66666666666666
+Hotel Bridge,8.3,340,400,Hotel,0.3,Castello,True,133.33333333333334
+Hotel San Samuele,8.9,779,438,Hotel,0.7,San Marco,False,146.0
+NH Venezia Rio Novo,9.0,2135,716,Hotel,1.4,Dorsoduro,True,238.66666666666666
+Hotel Saturnia & International,8.9,2946,592,Hotel,0.4,San Marco,False,197.33333333333334
+Ca Dell'Arte,9.1,684,383,Hotel,0.7,San Marco,False,127.66666666666667
+Residenza Laguna,6.7,497,432,Apartment,0.6,San Polo,False,144.0
+Villa Annamaria,6.9,37,164,Hotel,9.7,Not specified,True,54.666666666666664
+Ca' Pisani Hotel,9.1,883,663,Hotel,0.9,Dorsoduro,False,221.0
+Ca' Degli Antichi Giardini Apartments,9.1,331,473,Apartment,1.7,Cannaregio,False,157.66666666666666
+Hotel Malibran,7.9,727,401,Hotel,0.6,Cannaregio,True,133.66666666666666
+Palazzo Odoni,9.0,787,514,Hotel,1.3,Santa Croce,True,171.33333333333334
+Hotel Cà Zusto Venezia,9.1,786,682,Hotel,1.2,Santa Croce,True,227.33333333333334
+Ai Cherubini,9.6,711,566,Hotel,0.6,San Marco,False,188.66666666666666
+Hotel Bella Venezia,8.2,959,472,Hotel,0.3,San Marco,False,157.33333333333334
+Casa Mimma,7.7,61,336,Hotel,1.3,Santa Croce,False,112.0
+Appartamento Alla Fenice,8.9,61,510,Apartment,0.4,San Marco,False,170.0
+City Apartments Rialto Market,8.3,206,643,Apartment,0.7,San Polo,False,214.33333333333334
+Hotel Ca' Nobile Corner,8.8,489,431,Hotel,1.2,Dorsoduro,False,143.66666666666666
+Marty Guest House Venezia,9.2,7,510,Apartment,0.8,San Marco,True,170.0
+Savoia & Jolanda Apartments 2,9.0,47,491,Apartment,1.4,Cannaregio,False,163.66666666666666
+Excess Venice Boutique Hotel & Private Spa,9.4,251,957,Hotel,1.4,Dorsoduro,False,319.0
+Charming Palace Santa Fosca,8.7,49,399,Hotel,1.1,Cannaregio,True,133.0
+San Teodoro Palace - Luxury Apartments,9.0,463,699,Apartment,0.4,San Marco,False,233.0
+Ca' della Scimmia-The Welcomist in Venice,9.4,574,591,Apartment,0.7,San Polo,False,197.0
+Il Veliero Romantico,8.7,254,461,Hotel,1.6,Santa Croce,False,153.66666666666666
+Akos,7.9,299,511,Other,1.4,Not specified,False,170.33333333333334
+Ca' Sagredo Hotel,8.7,203,1240,Hotel,0.8,Cannaregio,True,413.3333333333333
+Suites Torre Dell'Orologio,7.8,70,495,Hotel,0.1,San Marco,False,165.0
+Ca' del Doge San Marco,7.5,34,476,Apartment,0.1,San Marco,True,158.66666666666666
+Residenza Tiziano,7.6,79,463,Apartment,0.9,Cannaregio,True,154.33333333333334
+Margherita House Venice,9.0,140,444,Hotel,1.2,Dorsoduro,True,148.0
+Palazzo del Giglio,8.8,263,927,Hotel,0.5,San Marco,True,309.0
+MN Best Place,10.0,5,1524,Hotel,0.4,Castello,False,508.0
+Italianflat - Venetia Domus,8.1,8,489,Apartment,18.2,Not specified,True,163.0
+City Apartments Biennale,8.1,41,658,Apartment,0.9,Castello,False,219.33333333333334
+Venice Romantic Home,8.7,16,571,Apartment,1.1,San Polo,False,190.33333333333334
+Egò Boutique Hotel The Silk Road,9.7,112,715,Hotel,0.4,San Marco,True,238.33333333333334
+Garden Houses Apartment,9.3,414,467,Apartment,1.5,Santa Croce,False,155.66666666666666
+Residenza Ducato Corte Contarina,9.6,83,649,Apartment,0.2,San Marco,False,216.33333333333334
+Veneziacentopercento Zoto Apartment,0.0,0,382,Apartment,1.5,Castello,False,127.33333333333333
+SAN LUCA 1836,9.1,12,864,Apartment,0.4,San Marco,False,288.0
+Rio Terà Suite,0.0,0,396,Apartment,0.9,Cannaregio,True,132.0
+BIENNALE EASY aircond. 2pax wifi.courtyard,8.6,4,483,Apartment,1.5,Castello,True,161.0
+Palazzo Schiavoni Suite-Apartments,9.2,116,667,Apartment,0.6,Castello,False,222.33333333333334
+Dreaming Venice Apartment,9.7,24,316,Apartment,0.9,Cannaregio,False,105.33333333333333
+Ca' Antica Cristalleria,0.0,0,438,Apartment,2.9,Not specified,True,146.0
+Calle del Forno Apartment,9.0,13,398,Apartment,1.5,Cannaregio,False,132.66666666666666
+DolceVita N 394,8.8,18,436,Apartment,0.9,Castello,False,145.33333333333334
+Cà Mercante di Spezie,9.6,5,340,Apartment,0.8,Castello,True,113.33333333333333
+Veneziacentopercento Campaniel Apartment,8.3,3,394,Apartment,1.6,Castello,False,131.33333333333334
+Baretteri Luxury Apartments,10.0,4,562,Apartment,0.2,San Marco,False,187.33333333333334
+Veneziacentopercento Ruga Apartment,0.0,0,463,Apartment,1.5,Castello,False,154.33333333333334
+Palazzetto Canossa,9.1,42,393,Hotel,1.3,Cannaregio,False,131.0
+Rialto Design Boutique Apartment,8.9,74,511,Apartment,0.9,Cannaregio,False,170.33333333333334
+Ca' Del Teatro Terrace,8.2,4,1520,Apartment,0.7,San Marco,False,506.6666666666667
+Ca della Musica Venezia Santa Croce,9.0,5,540,Apartment,1.4,Santa Croce,True,180.0
+Appartamento Biennale,7.9,12,519,Apartment,1.3,Castello,False,173.0
+Hotel Aquarius Venice-Ascend Hotel Collection,9.2,179,887,Hotel,1.1,Santa Croce,False,295.6666666666667
+Noble house with @original venetian murales,0.0,0,511,Apartment,0.6,San Marco,False,170.33333333333334
+San Salvador - Rialto cozy room,0.0,0,427,Hotel,0.4,San Marco,True,142.33333333333334
+Palazzetto da Schio,9.5,55,714,Apartment,0.7,Dorsoduro,False,238.0
+Ca Spada,0.0,0,357,Hotel,0.9,Castello,True,119.0
+Casa Vacanze Angolo 'Sconto,8.4,5,343,Holiday Home,1.3,Cannaregio,True,114.33333333333333
+Blusuite appartamento,7.0,4,586,Apartment,0.4,Castello,True,195.33333333333334
+Suite Veronica,9.4,19,584,Apartment,0.9,San Polo,True,194.66666666666666
+Ada's House,9.4,22,473,Apartment,2.0,Cannaregio,True,157.66666666666666
+Ca Delizia,9.0,3,603,Apartment,0.7,San Marco,False,201.0
+Le Sorelle,0.0,0,459,Apartment,0.8,Castello,True,153.0
+White House Rialto,8.0,40,622,Apartment,0.4,Castello,True,207.33333333333334
+San Bortolo - Rialto view apartment,0.0,0,720,Apartment,0.4,San Marco,False,240.0
+Apartment in Molino Stucky,9.1,28,463,Apartment,1.7,Giudecca,False,154.33333333333334
+Saint's Mark Apartment Venice,8.5,12,574,Apartment,0.3,San Marco,True,191.33333333333334
+Ca Tana Apartments,9.3,34,416,Apartment,1.0,Castello,True,138.66666666666666
+Venetian Mood,9.1,75,483,Apartment,1.3,Giudecca,False,161.0
+Ca' Turchese,9.1,16,644,Apartment,0.6,San Marco,True,214.66666666666666
+La Cortevecchia Venice,9.1,12,594,Apartment,0.5,San Marco,False,198.0
+Venetian Mood : Earth Sky,8.4,4,636,Holiday Home,1.5,Castello,False,212.0
+Casa Patricia,9.5,43,513,Apartment,0.1,San Marco,True,171.0
+Stella Marina 5,9.7,16,564,Apartment,1.5,Giudecca,True,188.0
+Testa,0.0,0,510,Apartment,0.8,Cannaregio,True,170.0
+Ca San Salvador,8.9,23,723,Apartment,0.3,San Marco,False,241.0
+San Marco Boutique R&R,0.0,0,644,Apartment,0.2,San Marco,True,214.66666666666666
+Casa a San Giovanni Paolo,9.0,18,410,Apartment,0.7,Cannaregio,True,136.66666666666666
+San Severo Glamorous Suite Venice,8.6,24,695,Apartment,0.5,Castello,True,231.66666666666666
+House on the water Murano,7.2,15,274,Apartment,3.0,Not specified,True,91.33333333333333
+Love Island Venice,7.7,83,593,Apartment,0.7,San Marco,False,197.66666666666666
+Ca' Del Monastero 5 Collection Cosy Apartment for 4 Guests,8.8,13,667,Apartment,1.2,Santa Croce,False,222.33333333333334
+Appartamento N5 e Appartamento N6 luminosissimi. ideali per famiglie egruppi di amici,8.4,9,427,Apartment,1.2,Castello,True,142.33333333333334
+Sweet Venice - Exclusive near San Marco - WiFi,9.0,8,447,Apartment,0.6,Castello,True,149.0
+Melusina Homes,8.5,269,359,Apartment,0.7,Castello,True,119.66666666666667
+Ca' Fenice. charming apartment in San Marco. sleep 7,9.0,3,982,Apartment,0.3,San Marco,False,327.3333333333333
+Vit Stay,8.6,154,518,Apartment,0.4,Castello,True,172.66666666666666
+Ca' Bembo Terrace,0.0,0,2034,Apartment,0.8,Cannaregio,False,678.0
+Ai Savi di Venezia,9.3,7,851,Apartment,0.2,San Marco,False,283.6666666666667
+Ca' Romantica Terrace,0.0,0,1774,Apartment,1.0,Dorsoduro,False,591.3333333333334
+Hotel Piccola Fenice,8.3,70,470,Hotel,0.4,San Marco,False,156.66666666666666
+NEW 2021 Grey's House Central,6.9,123,168,Hotel,0.8,Cannaregio,False,56.0
+Ca' Turchette,8.8,11,455,Apartment,1.1,Dorsoduro,False,151.66666666666666
+CA SAN BIAGIO,8.9,7,524,Apartment,1.4,Giudecca,False,174.66666666666666
+la poetessa,9.0,45,386,Apartment,0.6,Cannaregio,True,128.66666666666666
+Casa Alyssa,8.9,51,361,Apartment,1.8,Cannaregio,True,120.33333333333333
+San Polo Feel The Center,9.6,36,496,Apartment,0.8,San Polo,False,165.33333333333334
+giulia house,6.0,3,359,Apartment,1.0,Castello,True,119.66666666666667
+Centrale Mazzoni 15,8.7,14,428,Apartment,1.8,Cannaregio,False,142.66666666666666
+VeNICe Cera Remer Suite,9.2,3,615,Apartment,0.9,Cannaregio,True,205.0
+Doge's Mirror & Stair @Frari,8.5,4,504,Apartment,0.9,San Polo,False,168.0
+GOODNIGHT VENICE APARTMENT,9.0,6,363,Apartment,1.0,Castello,False,121.0
+Ca' Mallo Venice,0.0,0,550,Apartment,1.8,Cannaregio,False,183.33333333333334
+Ca del Mar Venice,9.2,185,746,Apartment,1.0,Cannaregio,False,248.66666666666666
+Al Campanile Madonna dell'Orto,9.4,128,509,Apartment,1.6,Cannaregio,False,169.66666666666666
+House 5286,9.3,43,493,Apartment,0.3,Castello,False,164.33333333333334
+Ca' Alberto Apartments,9.4,44,479,Apartment,0.3,Castello,False,159.66666666666666
+Mandy's Palace Canal View,9.7,23,819,Apartment,0.7,San Marco,False,273.0
+Abitazione Morosini,9.5,16,439,Apartment,1.2,Santa Croce,False,146.33333333333334
+Residenza Grunwald,8.2,9,462,Hotel,0.2,San Marco,True,154.0
+Palazzo Morosini Degli Spezieri,9.7,237,1054,Apartment,0.9,San Polo,False,351.3333333333333
+Cannaregio II Apartments,8.3,25,343,Apartment,1.4,Cannaregio,True,114.33333333333333
+Palazzetto Madonna,8.8,466,765,Hotel,0.9,San Polo,False,255.0
+Ca Maria Adele,9.6,102,1304,Hotel,0.5,Dorsoduro,True,434.6666666666667
+DolceVita N 373,9.1,5,461,Apartment,1.0,Santa Croce,False,153.66666666666666
+Santa Marina 5888 B Rio del piombo,9.2,52,484,Apartment,0.5,Castello,False,161.33333333333334
+L'O Venezia Flat,9.2,5,1793,Apartment,0.8,San Polo,False,597.6666666666666
+Friendly Venice Suites,9.7,394,616,Hotel,0.7,San Marco,False,205.33333333333334
+Stemar Apartment Diva,9.3,54,620,Apartment,0.2,Castello,False,206.66666666666666
+Ca' All'Arco,9.9,36,535,Apartment,1.0,Castello,False,178.33333333333334
+Appartamento Luxury Ai Greci,9.7,40,603,Apartment,0.6,Castello,True,201.0
+Erbaria Boutique Apartment R&R,8.9,73,650,Apartment,0.6,San Polo,False,216.66666666666666
+Avogaria 5 Rooms,8.8,114,754,Hotel,1.4,Dorsoduro,False,251.33333333333334
+Hotel Nazionale,8.0,481,317,Hotel,1.5,Cannaregio,False,105.66666666666667
+B&B San Firmino,9.2,601,507,Bed&Breakfast,0.4,Castello,False,169.0
+Hotel Canada,7.7,740,368,Hotel,0.4,Castello,True,122.66666666666667
+Ca' Riccio,8.3,506,403,Hotel,0.7,Cannaregio,False,134.33333333333334
+Granda Sweet Suites,8.3,620,459,Hotel,0.8,San Marco,False,153.0
+Locanda SS Giovanni e Paolo,8.5,760,266,Hotel,0.6,Castello,False,88.66666666666667
+Guesthouse Ca' San Marcuola 1,8.7,733,522,Hotel,1.2,Cannaregio,True,174.0
+Casa Fenice,8.4,465,493,Hotel,0.4,San Marco,False,164.33333333333334
+Casa Del Melograno,9.3,136,498,Apartment,1.2,Cannaregio,True,166.0
+Cannaregio - Venice Style Apartments,7.7,131,494,Apartment,1.6,Cannaregio,False,164.66666666666666
+Ca' Pozzo Inn,8.8,246,413,Hotel,1.5,Cannaregio,True,137.66666666666666
+Il Pozzo Magico,8.6,96,429,Hotel,1.0,Santa Croce,False,143.0
+Cipriani. A Belmond Hotel. Venice,9.5,191,4276,Hotel,0.7,Giudecca,True,1425.3333333333333
+Muneghe- San Marco luxury apartments,9.3,135,519,Apartment,0.6,San Marco,False,173.0
+Veneziacentopercento Apartments & Rooms,8.2,341,430,Apartment,1.2,Castello,False,143.33333333333334
+Venice Altanina Apartment,8.8,24,590,Apartment,0.9,Castello,True,196.66666666666666
+Veneziacentopercento Picenin Apartment,0.0,0,338,Apartment,1.2,Castello,False,112.66666666666667
+Venezia Boat & Breakfast Caicco Freedom,7.9,486,385,Other,1.4,Giudecca,False,128.33333333333334
+Grimaldi Apartments San Marco & Castello,8.8,308,479,Apartment,0.2,San Marco,False,159.66666666666666
+Hotel Metropole Venezia,8.8,680,1215,Hotel,0.5,Castello,True,405.0
+Al Redentore Di Venezia,9.0,267,551,Apartment,1.2,Giudecca,False,183.66666666666666
+ExclusiVenice Ca Foscari 3881,8.4,9,500,Apartment,1.0,Dorsoduro,False,166.66666666666666
+Palazzo La Scala,7.6,664,316,Hotel,0.3,San Marco,False,105.33333333333333
+San Marco Suite 755,9.2,474,751,Hotel,0.2,San Marco,True,250.33333333333334
+Guizzo apartment Venezia,9.7,4,264,Apartment,1.6,Cannaregio,False,88.0
+Le case di Rachele - Ca' Lorenzo e Ca' Raquel,9.5,8,407,Apartment,0.5,Castello,True,135.66666666666666
+Ca' Micaela,0.0,0,509,Apartment,1.5,Castello,True,169.66666666666666
+City Apartments Salute-Accademia,7.9,33,468,Apartment,0.5,Dorsoduro,False,156.0
+Ca' Nal Apartments,9.3,4,818,Apartment,0.3,San Marco,False,272.6666666666667
+ART PAINTING apartment with canal view,8.4,25,420,Apartment,1.8,Cannaregio,False,140.0
+Ca' Del Monastero 9 Collection Spacious Apartment up to 5 Guests,8.8,26,770,Apartment,1.2,Santa Croce,False,256.6666666666667
+Blue Lagoon,9.2,95,324,Hotel,1.4,Giudecca,False,108.0
+SUNNY CANALVIEW 4pax. wifi. aircond,8.8,52,603,Apartment,1.2,Cannaregio,True,201.0
+BalconyOverGrandCanal,8.7,7,1754,Apartment,0.8,San Polo,True,584.6666666666666
+Locanda Sant'Anna Hotel,7.9,275,316,Hotel,1.5,Castello,True,105.33333333333333
+Privacy in Venice - Your apartment to be let alone,9.5,18,742,Apartment,0.7,Castello,False,247.33333333333334
+Cadoro,6.8,195,267,Hotel,1.1,Cannaregio,True,89.0
+Santa Fosca Design Apartment R&R,9.4,48,595,Apartment,1.2,Cannaregio,False,198.33333333333334
+Campanile alla Canonica,0.0,0,1119,Apartment,0.3,San Marco,False,373.0
+Royal Vacation Venice,5.1,9,240,Hotel,1.3,San Polo,False,80.0
+Villa Ricordi,7.4,26,181,Hotel,9.7,Not specified,True,60.333333333333336
+Deluxe 3 Bedrooom Flat in Rialto,9.5,18,638,Apartment,0.6,San Polo,False,212.66666666666666
+Zaguri B&B,9.2,569,383,Bed&Breakfast,0.5,San Marco,True,127.66666666666667
+San Lorenzo Apartments near St Mark's square,9.0,11,464,Apartment,0.5,Castello,False,154.66666666666666
+Luxury balcony apartment,8.8,9,1070,Apartment,1.5,Cannaregio,False,356.6666666666667
+Lustraferi Apartment,8.1,14,576,Apartment,1.4,Cannaregio,True,192.0
+DolceVita N 453 Canal View,8.7,3,531,Apartment,1.4,Giudecca,True,177.0
+Ca' Delle Acque Deluxe Apartment R&R,9.6,33,995,Apartment,0.3,San Marco,False,331.6666666666667
+Tadomo - Corte del Cafetier,9.7,3,527,Apartment,0.6,Cannaregio,True,175.66666666666666
+Venice Speon Canal Views,6.7,9,621,Apartment,0.2,San Marco,True,207.0
+CA' PERLA,7.0,9,435,Apartment,1.0,Castello,True,145.0
+Ca Dode Grand Canal,10.0,3,490,Apartment,0.9,San Polo,True,163.33333333333334
+Palazzo Boldù - Ca'Arlecchino,9.1,33,412,Apartment,0.5,Castello,True,137.33333333333334
+Palazzo Soranzo Piano Nobile Canal View,0.0,0,2686,Apartment,0.3,Castello,False,895.3333333333334
+BlueYellow home in Cannaregio Air conditioning WiFi,6.0,4,422,Apartment,1.7,Cannaregio,True,140.66666666666666
+Luxury suite 5 min from San Marco,9.4,10,494,Apartment,0.6,Castello,False,164.66666666666666
+Ca' del Parco,8.2,4,514,Apartment,1.9,Castello,True,171.33333333333334
+Ca' Dea Sarta,0.0,0,385,Apartment,1.3,Santa Croce,True,128.33333333333334
+Corte Mosto apartments,0.0,0,484,Apartment,0.8,Giudecca,False,161.33333333333334
+Ca' Martina,9.1,36,474,Apartment,1.8,Cannaregio,True,158.0
+Rialto Canal View Apartment,0.0,0,682,Apartment,0.5,San Marco,True,227.33333333333334
+Appartamento Falier,9.5,12,773,Hotel,1.2,Santa Croce,False,257.6666666666667
+Ca' Nane,8.4,9,436,Apartment,0.8,Cannaregio,True,145.33333333333334
+Domus Quietis,9.1,31,549,Apartment,1.1,Cannaregio,True,183.0
+Charming House DD724,9.2,98,1035,Hotel,0.7,Dorsoduro,True,345.0
+Residenza Favaro,8.4,500,352,Hotel,0.4,San Marco,False,117.33333333333333
+Tintoretto,8.0,349,375,Hotel,1.1,Cannaregio,False,125.0
+Hotel Ariel Silva,7.3,665,198,Hotel,1.4,Cannaregio,False,66.0
+Venezia Residence,7.5,414,339,Apartment,1.3,Santa Croce,True,113.0
+Residence Ca' Foscolo,9.4,300,468,Apartment,0.4,Castello,True,156.0
+Ca' Princess,7.8,579,423,Hotel,0.3,San Marco,False,141.0
+Residence Corte Grimani,9.3,167,717,Apartment,0.2,San Marco,False,239.0
+Residenza La Campana,7.8,669,357,Hotel,0.3,San Marco,False,119.0
+Antica Casa Coppo ,8.1,813,451,Hotel,0.3,San Marco,False,150.33333333333334
+Hotel Arlecchino,8.9,628,419,Hotel,1.5,Santa Croce,False,139.66666666666666
+Hotel Casa Nicolò Priuli,8.2,629,539,Hotel,0.5,Castello,False,179.66666666666666
+Palazzo Guardi,7.5,543,401,Hotel,1.0,Dorsoduro,False,133.66666666666666
+Hotel San Giorgio,7.4,327,383,Hotel,0.5,San Marco,False,127.66666666666667
+Ad Place Venice,8.9,541,783,Hotel,0.4,San Marco,False,261.0
+“LULU’ IN VENICE'' A WARM APARTMENT IN THE LAGOON,6.0,4,422,Apartment,1.7,Cannaregio,True,140.66666666666666
+Venice House,9.2,18,483,Apartment,1.0,San Polo,True,161.0
+Giudecca,8.4,3,561,Apartment,1.1,Giudecca,True,187.0
+Ca' De L'Ogio,9.6,16,483,Apartment,0.8,Castello,True,161.0
+The Arsenal Large,0.0,0,727,Apartment,0.4,Castello,False,242.33333333333334
+Ca Giovanni - charmant and exclusive apartment,9.8,7,465,Apartment,1.5,Santa Croce,True,155.0
+Palazzo Molin Cuoridoro - GUARANA,8.8,5,634,Apartment,0.3,San Marco,False,211.33333333333334
+Terrazza La Fenice,9.7,4,713,Apartment,0.5,San Marco,True,237.66666666666666
+Sant'Aponal Apartment WI FI,9.4,3,630,Apartment,0.7,San Polo,True,210.0
+Rio Ca Foscari,9.7,3,669,Apartment,1.1,Dorsoduro,True,223.0
+GRAND CANAL LOVE NEST#1 Grand Canal piano view!,0.0,0,630,Apartment,0.8,San Polo,True,210.0
+Bellissima casa vicino Biennale grande Terrazza !,0.0,0,480,Apartment,0.7,Castello,True,160.0
+Cà degli Archi,9.1,32,641,Apartment,1.8,Cannaregio,False,213.66666666666666
+Biennale 252,9.6,13,819,Apartment,1.5,Castello,False,273.0
+Palazzo San Severo Suite Apartments,9.7,34,609,Apartment,0.5,Castello,True,203.0
+Canalview,7.2,4,595,Apartment,1.4,Giudecca,True,198.33333333333334
+Sweet Passion,9.5,9,843,Apartment,0.6,San Marco,False,281.0
+GRANDCANAL-RED,0.0,0,858,Apartment,0.8,San Polo,True,286.0
+Ca' Molin Cuoridoro - Massari,8.4,8,702,Apartment,0.3,San Marco,False,234.0
+Hotel ai do Mori,8.5,910,410,Hotel,0.1,San Marco,False,136.66666666666666
+Santa Margherita Guest House,8.7,293,367,Hotel,1.2,Dorsoduro,False,122.33333333333333
+San Marco Terrace,8.6,26,1098,Apartment,0.3,Castello,False,366.0
+City Apartments Cannaregio,7.7,106,495,Apartment,1.2,Cannaregio,False,165.0
+GIOVE APARTMENT,0.0,0,288,Apartment,9.6,Not specified,True,96.0
+Cà Vivaldi. close to San Marco square,6.2,3,405,Apartment,0.5,Castello,False,135.0
+Luxury Venetian flat for 2 near Rialto,9.7,3,510,Apartment,0.7,San Polo,True,170.0
+Dimore del Borgo Antico - Corte da Lezze,0.0,0,479,Apartment,0.8,San Marco,True,159.66666666666666
+Hotel Bartolomeo,9.2,1135,463,Hotel,0.5,San Marco,False,154.33333333333334
+Hotel Messner,6.5,1869,533,Hotel,0.6,Dorsoduro,False,177.66666666666666
+Hotel Airone,6.5,742,292,Hotel,1.5,Santa Croce,False,97.33333333333333
+Charming House Iqs,9.2,16,1095,Apartment,0.3,Castello,False,365.0
+Ai Boteri,6.1,965,218,Hotel,0.8,San Polo,False,72.66666666666667
+Ali,9.3,37,338,Apartment,0.4,Castello,False,112.66666666666667
+B&B Sognare A Venezia,8.5,270,366,Bed&Breakfast,1.5,Cannaregio,False,122.0
+Ca' Gottardi,8.8,491,408,Hotel,1.0,Cannaregio,True,136.0
+DolceVita Apartments N 488,0.0,0,744,Apartment,0.8,Not specified,False,248.0
+Hotel Casanova,8.5,4412,588,Hotel,0.2,San Marco,False,196.0
+Albergo Al Gobbo,8.0,347,249,Hotel,1.5,Cannaregio,False,83.0
+Generator Venice,8.2,3509,152,Other,0.9,Giudecca,False,50.666666666666664
+Hotel Casa Linger,7.5,423,174,Other,0.7,Castello,False,58.0
+GRANDCANAL-GREEN,0.0,0,741,Apartment,0.8,San Polo,True,247.0
+The Lion's House APT4,0.0,0,506,Apartment,0.4,Castello,True,168.66666666666666
+Magno Luxury Apt Canal View,0.0,0,619,Apartment,0.9,Castello,True,206.33333333333334
+Altana studio,8.4,3,710,Apartment,1.1,Dorsoduro,False,236.66666666666666
+Venice Boutique House,0.0,0,663,Apartment,0.5,San Marco,False,221.0
+Residence Tiepolo Prestige,0.0,0,631,Apartment,1.0,Cannaregio,True,210.33333333333334
+DolceVita N 181,7.1,7,663,Apartment,1.0,Santa Croce,False,221.0
+Rialto Apartment,7.6,3,645,Apartment,0.8,San Polo,False,215.0
+Elisabeth Apartment,8.8,32,845,Apartment,1.5,Castello,True,281.6666666666667
+House of Joy,9.7,11,864,Holiday Home,0.8,Dorsoduro,False,288.0
+Ca' Botera,9.4,22,616,Apartment,0.6,Castello,True,205.33333333333334
+Ca' Del Monastero 3 Collection Apartment for 4 Guests with Lift,9.1,21,755,Apartment,1.2,Santa Croce,False,251.66666666666666
+Ca Bello,0.0,0,434,Apartment,9.1,Not specified,True,144.66666666666666
+Ca' Dell'Ulivo Private Garden,0.0,0,1469,Apartment,1.0,Dorsoduro,False,489.6666666666667
+La Grande Bellezza,9.5,17,1351,Apartment,0.8,Dorsoduro,False,450.3333333333333
+residenza 1 Venezia dietro Piazza San Marco,0.0,0,464,Apartment,0.4,Castello,True,154.66666666666666
+Veneziacentopercento Arsenale Apartment,0.0,0,347,Apartment,1.2,Castello,True,115.66666666666667
+Casa Graziosa,0.0,0,725,Apartment,0.7,San Marco,False,241.66666666666666
+Veneziacentopercento Ponte Novo Apartment,0.0,0,369,Apartment,1.3,Castello,False,123.0
+Cà Marin,8.9,7,556,Apartment,1.2,Santa Croce,False,185.33333333333334
+DolceVita Apartments N 465 Biennale,0.0,0,414,Apartment,1.0,Castello,False,138.0
+DolceVita N 387,8.0,8,479,Apartment,0.6,San Marco,False,159.66666666666666
+Relaxing Venetian Flat,8.9,23,580,Apartment,0.6,Castello,True,193.33333333333334
+Cà Bollani,0.0,0,1129,Apartment,0.6,Castello,False,376.3333333333333
+Cà Grandi,9.2,4,534,Apartment,1.0,Castello,True,178.0
+VN686258,0.0,0,174,Hotel,10.1,Not specified,True,58.0
+Appartamento Campo Ruga 314,9.4,32,501,Apartment,1.5,Castello,True,167.0
+Marin Traghetto - Locazione Turistica,0.0,0,414,Hotel,1.4,Santa Croce,False,138.0
+Locappart Redentore,7.5,8,391,Apartment,1.1,Giudecca,False,130.33333333333334
+Delicious Apartament near St Mark Square,9.1,20,334,Apartment,0.3,Castello,False,111.33333333333333
+The Merchant of Venice,0.0,0,332,Apartment,1.4,Cannaregio,True,110.66666666666667
+Ca' Cortigiane Suite,9.2,12,459,Apartment,1.1,Santa Croce,False,153.0
+Lovely Cà Soranzo,0.0,0,450,Apartment,1.3,Cannaregio,False,150.0
+Veneziacentopercento Tana Apartment,0.0,0,347,Apartment,1.2,Castello,False,115.66666666666667
+Corte Coppo Superior Apartment,0.0,0,821,Apartment,0.6,Castello,False,273.6666666666667
+San Zuan - Rialto cozy room,0.0,0,392,Hotel,0.4,San Marco,True,130.66666666666666
+Ca' delle Vele,0.0,0,362,Apartment,0.9,Cannaregio,True,120.66666666666667
+casa alla corte da palanca,0.0,0,394,Apartment,8.1,Not specified,True,131.33333333333334
+Apartment Dorotea Venice view,0.0,0,2076,Holiday Home,1.1,Giudecca,False,692.0
+Ca' Verena,0.0,0,2738,Apartment,0.2,San Marco,False,912.6666666666666
+venezianischer Palazzo mit kostenlosen WLAN,0.0,0,477,Apartment,0.8,Castello,True,159.0
+Ca degli Angeli,0.0,0,710,Apartment,0.6,San Marco,False,236.66666666666666
+CA SAN LORENZO CORTE,0.0,0,493,Apartment,0.5,Castello,True,164.33333333333334
+Furlani house 6,7.5,3,559,Apartment,0.7,Castello,True,186.33333333333334
+La Loggia Grand Canal,0.0,0,1789,Apartment,1.3,Cannaregio,False,596.3333333333334
+Ca' delle Pizzocchere. a perfect spot in San Marco. sleep 8,0.0,0,1004,Apartment,0.6,San Marco,False,334.6666666666667
+Venezia - Ca' San Lorenzo vista spettacolare,0.0,0,542,Apartment,0.7,Castello,True,180.66666666666666
+Ca' Meraviglia Canal View,0.0,0,1019,Apartment,1.1,Dorsoduro,False,339.6666666666667
+Ca' Cerchieri Mezzanine,0.0,0,1531,Apartment,0.9,Dorsoduro,False,510.3333333333333
+Ca' San Lorenzo 2,0.0,0,973,Apartment,0.7,Castello,False,324.3333333333333
+Luxurious Palazzo in Venice in the Rialto area with housekeeper/cook,0.0,0,4092,Apartment,0.8,San Polo,False,1364.0
+Luxury Garden House La Baruffa- Dimora Italia Collection -,0.0,0,1530,Apartment,0.8,Dorsoduro,False,510.0
+Casa Santa Croce,0.0,0,791,Apartment,1.2,Santa Croce,False,263.6666666666667
+Casa San Polo,0.0,0,929,Apartment,0.8,San Polo,False,309.6666666666667
+Appartamento con vista,0.0,0,509,Apartment,1.2,Cannaregio,False,169.66666666666666
+Venetian House With Terrace,0.0,0,1049,Apartment,0.9,San Polo,False,349.6666666666667
+Cà Silvia Saint's Mark Square Apartment,0.0,0,705,Apartment,0.2,San Marco,False,235.0
+Contemporary Apartment In Venice Ff,9.2,7,502,Apartment,0.8,San Marco,True,167.33333333333334
+Ca' Del Monastero 8 Collection Apartment for 3 Guests,9.9,3,647,Apartment,1.2,Santa Croce,False,215.66666666666666
+Charming Apartment in Venice near Towncentre,7.0,3,514,Apartment,1.1,Santa Croce,False,171.33333333333334
+come a casa tua dietro piazza San Marco,0.0,0,559,Holiday Home,0.4,Castello,True,186.33333333333334
+LL4425 Penthouse of 200sqm,0.0,0,942,Apartment,0.3,Castello,False,314.0
+Appartamento Casa 300,8.7,16,374,Apartment,0.6,San Polo,False,124.66666666666667
+Appartamento Sole - Sun Apartment 1397,0.0,0,300,Holiday Home,1.4,Cannaregio,False,100.0
+San Marco Apartments,7.2,169,494,Apartment,0.2,San Marco,False,164.66666666666666
+Ca' San Lorenzo 1,0.0,0,796,Apartment,0.7,Castello,False,265.3333333333333
+Burano - Incantevole su tre piani,9.3,3,358,Holiday Home,8.5,Not specified,True,119.33333333333333
+Ca' Girolamo Apartment,8.5,28,342,Apartment,1.8,Cannaregio,False,114.0
+Residenza Valier - Rialto,8.0,3,534,Apartment,0.6,San Polo,False,178.0
+Redentore 870,0.0,0,420,Holiday Home,1.2,Giudecca,True,140.0
+La Casetta Rosa - Vista sul canale,9.3,6,468,Apartment,2.0,Cannaregio,True,156.0
+Ca Virgilio,9.0,3,584,Apartment,0.8,San Polo,False,194.66666666666666
+Elegant King Venice Flat,8.4,8,607,Apartment,0.2,San Marco,False,202.33333333333334
+Ca Della Calle Luxury- 5min da S Marco e Rialto,8.9,11,579,Apartment,0.6,Castello,False,193.0
+Locazione Turistica San Vio,0.0,0,670,Apartment,0.9,Dorsoduro,False,223.33333333333334
+Tagiapiera Venetian Studio with Private Courtyard Renewed in 2021!,0.0,0,760,Apartment,1.1,Cannaregio,False,253.33333333333334
+Cà Vian,9.5,15,1116,Apartment,0.8,Castello,False,372.0
+DolceVita N 426,9.4,20,713,Apartment,0.1,San Marco,False,237.66666666666666
+Ca' Degli Armeni Canal View,0.0,0,1880,Apartment,1.4,Dorsoduro,False,626.6666666666666
+DolceVita N 374,0.0,0,1122,Apartment,1.0,Santa Croce,False,374.0
+Ca Dolce,0.0,0,659,Apartment,1.0,Cannaregio,False,219.66666666666666
+Ca' degli Artisti - Appartamento Elegante,0.0,0,618,Apartment,1.6,Dorsoduro,False,206.0
+Cà Longo Palace,0.0,0,1510,Apartment,1.4,Cannaregio,False,503.3333333333333
+ARRIVING by TRAINS - quiet 6pax wifi gardenview,0.0,0,743,Apartment,1.3,Santa Croce,True,247.66666666666666
+Ca' del Monastero 2 Collection Apt for 4 Guests with Lift,9.3,11,654,Apartment,1.2,Santa Croce,False,218.0
+Rialto apartment canal view,0.0,0,1324,Apartment,0.9,Santa Croce,False,441.3333333333333
+Venice Rainbow Apartment San Marco,8.0,398,175,Other,0.5,Castello,True,58.333333333333336
+Hotel Palazzo Giovanelli e Gran Canal,8.7,206,1157,Hotel,1.0,Santa Croce,True,385.6666666666667
+Ca' Mariele,8.8,224,408,Apartment,0.6,San Marco,True,136.0
+Corte Emo,9.1,53,380,Apartment,1.4,Cannaregio,False,126.66666666666667
+Suite735,9.6,171,750,Hotel,0.8,Dorsoduro,False,250.0
+Pensione Guerrato,9.0,556,529,Hotel,0.7,San Polo,False,176.33333333333334
+Palazzo Venere Apartments,9.0,38,473,Apartment,1.2,San Polo,False,157.66666666666666
+Cà Doge,8.2,559,413,Hotel,1.7,Santa Croce,False,137.66666666666666
+Venetian Palace R&R,9.1,33,515,Apartment,1.5,Santa Croce,False,171.66666666666666
+Grimaldi Apartments Cannaregio,8.6,587,417,Apartment,0.6,Cannaregio,True,139.0
+Royal GH New Property 2021,7.2,287,193,Hotel,1.9,Cannaregio,False,64.33333333333333
+Residenza Quaggio Ca' Grimani,8.5,495,449,Hotel,0.4,Castello,False,149.66666666666666
+Ca' Dorè,9.0,80,504,Apartment,1.0,Cannaregio,False,168.0
+Antica Raffineria,8.3,505,309,Hotel,1.4,Cannaregio,False,103.0
+BB Venezia,9.0,65,308,Hotel,1.9,Castello,True,102.66666666666667
+Dimora Dogale,8.3,892,449,Hotel,0.4,Castello,False,149.66666666666666
+Hotel Casa Verardo Residenza d'Epoca,8.7,459,555,Hotel,0.3,Castello,False,185.0
+Casa Fiorella. Mestre in zona centralissima,7.0,5,198,Hotel,9.7,Not specified,False,66.0
+H10 Palazzo Canova,9.3,2434,1057,Hotel,0.5,San Polo,True,352.3333333333333
+Sogno di Giulietta e Romeo,8.6,488,576,Hotel,0.8,San Polo,True,192.0
+Ca Arsenale,8.7,55,432,Other,0.9,Castello,True,144.0
+Rigoletto Charm,8.9,465,489,Hotel,1.5,Cannaregio,False,163.0
+B&B Rialto Dream,9.6,271,488,Bed&Breakfast,0.6,San Polo,False,162.66666666666666
+Il Lato Azzurro,8.7,565,253,Hotel,4.4,Not specified,False,84.33333333333333
+AC Hotel Venezia by Marriott,9.0,583,563,Hotel,1.6,Santa Croce,True,187.66666666666666
+CaRos 30mt tram Venezia Wifi ingresso indipendente,8.2,5,207,Apartment,10.0,Not specified,True,69.0
+Residenza Rivo Alto,7.9,717,333,Hotel,0.4,San Marco,False,111.0
+Hotel Pantalon,7.3,109,421,Apartment,1.0,Dorsoduro,False,140.33333333333334
+Doge Morosini Palace,7.5,173,412,Apartment,0.7,Castello,False,137.33333333333334
+Residence Modern Art,0.0,0,505,Apartment,1.3,Santa Croce,True,168.33333333333334
+B&B Beroni a Venezia,9.8,155,619,Bed&Breakfast,0.9,San Polo,True,206.33333333333334
+Hotel Ai Cavalieri di Venezia,9.2,667,986,Hotel,0.5,Castello,False,328.6666666666667
+At Home a Palazzo,8.6,23,545,Hotel,1.0,Cannaregio,False,181.66666666666666
+Casa di San Martino,9.4,90,366,Apartment,1.4,Cannaregio,True,122.0
+CA' DE' KOCAI,9.6,23,453,Apartment,0.3,Castello,True,151.0
+Guggenheim Luxury Suite up to 8 By Bricola Apartments,0.0,0,529,Apartment,0.6,Dorsoduro,False,176.33333333333334
+Casa Piccola,9.1,14,480,Apartment,1.2,Dorsoduro,True,160.0
+Sissi Suite,8.6,20,524,Apartment,0.3,Castello,False,174.66666666666666
+SAINT MARK'S BASILICA @200 meters,9.3,51,578,Other,0.3,Castello,True,192.66666666666666
+Atlantide Hotel,7.4,1525,243,Hotel,1.5,Cannaregio,False,81.0
+Locanda Balbi,7.7,36,348,Hotel,0.3,San Marco,False,116.0
+Albergo Casa Peron,8.1,400,296,Hotel,1.2,Santa Croce,False,98.66666666666667
+Ca' Crea 1,7.8,125,167,Hotel,1.9,Cannaregio,True,55.666666666666664
+CHOWDHURy HOUSE,7.2,11,197,Hotel,9.9,Not specified,True,65.66666666666667
+Junior Suites Venezia,8.9,45,297,Hotel,9.4,Not specified,True,99.0
+Hotel Becher,9.0,594,584,Hotel,0.3,San Marco,False,194.66666666666666
+Venice Dreamland Rialto,8.4,27,330,Apartment,0.7,San Polo,False,110.0
+Ai Sogni,9.1,151,340,Hotel,0.8,San Polo,False,113.33333333333333
+Hotel L'Orologio,9.2,1181,827,Hotel,0.8,San Polo,True,275.6666666666667
+Ca' Salute Apartment,8.6,55,591,Apartment,0.7,Dorsoduro,False,197.0
+Tre Raggi Apartment,9.2,6,409,Other,1.2,Castello,True,136.33333333333334
+Asteria Venetian Suite,9.8,70,339,Apartment,1.6,Cannaregio,False,113.0
+San Giacomo dall'Orio Garden Apartment R&R,0.0,0,528,Apartment,1.2,Santa Croce,False,176.0
+Ca' Lazzarini,8.6,18,334,Apartment,0.9,Santa Croce,False,111.33333333333333
+CASA VESCOVO. free Wi-Fi near San Marco Square,0.0,0,606,Apartment,0.8,Cannaregio,True,202.0
+Hotel Lux,7.5,1041,334,Hotel,0.3,Castello,False,111.33333333333333
+Piccolo Tiepolo,8.0,1517,392,Hotel,0.2,Castello,False,130.66666666666666
+Locanda Cà Del Console,8.8,524,468,Hotel,0.5,Castello,True,156.0
+Royal San Marco,7.8,958,408,Hotel,0.1,San Marco,False,136.0
+Palazzetto Pisani Grand Canal,8.4,1492,1610,Hotel,0.7,San Marco,False,536.6666666666666
+Alberghiera Venezia,9.1,760,347,Apartment,1.8,Cannaregio,False,115.66666666666667
+Hotel Henry,7.8,790,283,Hotel,1.4,Cannaregio,False,94.33333333333333
+Al Bailo Di Venezia,9.0,410,675,Apartment,0.6,Castello,False,225.0
+Residence La Fenice,8.9,559,524,Hotel,0.3,San Marco,True,174.66666666666666
+PALAZZO PIANCA,9.4,54,826,Hotel,0.5,San Marco,False,275.3333333333333
+Locanda Fiorita,8.9,602,627,Hotel,0.6,San Marco,True,209.0
+Aqua Apartments,9.6,371,474,Apartment,0.9,Cannaregio,False,158.0
+Residenza Ducato,9.7,141,823,Apartment,0.3,San Marco,False,274.3333333333333
+Yacht Sarah Venezia,8.1,418,340,Other,1.7,Giudecca,False,113.33333333333333
+Casa Martini,8.3,705,426,Hotel,1.4,Cannaregio,True,142.0
+Cà dell'arte Suite,9.1,986,458,Apartment,0.3,Castello,False,152.66666666666666
+Blu Suite,8.2,48,459,Hotel,0.5,Castello,True,153.0
+Ca' Morosini,8.7,410,551,Hotel,0.6,San Marco,True,183.66666666666666
+Ca' della Corte,9.2,484,464,Hotel,1.3,Dorsoduro,True,154.66666666666666
+Venice Terminal Apartments & Suites,8.1,7,244,Apartment,9.5,Not specified,True,81.33333333333333
+Apartment Rigoletto San Marco Square,0.0,0,504,Apartment,0.2,San Marco,True,168.0
+B&B Ca' Furlan,9.4,319,504,Bed&Breakfast,0.7,Castello,False,168.0
+City Apartments San Marco,8.1,260,529,Apartment,0.2,Centro di Venezia,False,176.33333333333334
+Locanda Cà del Brocchi,8.8,470,542,Hotel,0.7,Dorsoduro,False,180.66666666666666
+Corte Nova,8.8,235,607,Apartment,0.7,Castello,False,202.33333333333334
+Guest House Al Milion,8.1,595,404,Hotel,0.5,Cannaregio,True,134.66666666666666
+Relais Piazza San Marco,8.1,767,473,Hotel,0.1,San Marco,False,157.66666666666666
+Hotel Locanda Canal,7.8,526,462,Hotel,0.3,Castello,True,154.0
+Hotel Concordia,8.6,1317,557,Hotel,0.2,San Marco,True,185.66666666666666
+San Marco Palace,7.8,360,533,Hotel,0.1,San Marco,False,177.66666666666666
+Bellevue & Canaletto Suites,9.1,54,812,Hotel,0.1,San Marco,False,270.6666666666667
+Venezia Canal View,9.1,127,413,Hotel,2.0,Cannaregio,False,137.66666666666666
+Canal Grande,9.2,445,768,Hotel,1.4,Santa Croce,True,256.0
+Hotel Villa Rosa,8.1,1089,347,Hotel,1.6,Cannaregio,True,115.66666666666667
+Hotel Al Codega,9.1,705,609,Hotel,0.3,San Marco,False,203.0
+Polo's Treasures,9.4,600,765,Apartment,0.8,San Polo,True,255.0
+Ca' dei Proverbi Suites,9.4,145,476,Hotel,0.8,Cannaregio,False,158.66666666666666
+Albergo Cavalletto & Doge Orseolo,8.0,1134,480,Hotel,0.1,San Marco,False,160.0
+Hotel Carlton On The Grand Canal,8.1,1580,650,Hotel,1.5,Santa Croce,False,216.66666666666666
+Ca' Fontanea,8.3,808,283,Hotel,2.0,Cannaregio,True,94.33333333333333
+Ca' Del Campo,8.6,1244,492,Hotel,0.3,San Marco,True,164.0
+Ca' San Polo,8.6,524,488,Hotel,0.9,San Polo,True,162.66666666666666
+Hotel Giorgione,8.3,1523,583,Hotel,0.8,Cannaregio,False,194.33333333333334
+Hotel American-Dinesen,9.0,628,659,Hotel,0.8,Dorsoduro,False,219.66666666666666
+Splendid Venice - Starhotels Collezione,8.9,3851,727,Hotel,0.2,San Marco,True,242.33333333333334
+Hotel Agli Alboretti,9.0,561,639,Hotel,0.9,Dorsoduro,False,213.0
+Hotel Bonvecchiati,8.6,2285,512,Hotel,0.3,San Marco,False,170.66666666666666
+Ca' Bragadin e Carabba,8.6,1334,310,Hotel,0.5,Castello,False,103.33333333333333
+Hotel Rialto,8.4,1645,1418,Apartment,0.5,San Marco,False,472.6666666666667
+Corte Canal Venice,6.8,507,229,Hotel,1.3,Santa Croce,False,76.33333333333333
+Charming Venice Apartments ,8.9,2571,408,Apartment,0.4,Castello,True,136.0
+Hotel Guerrini,8.0,1674,450,Hotel,1.5,Cannaregio,True,150.0
+Hotel Indigo Venice - Sant'Elena. an IHG Hotel,9.2,574,628,Hotel,2.1,Castello,False,209.33333333333334
+Locanda Ca' Lucrezia,8.9,610,585,Hotel,1.6,Cannaregio,True,195.0
+Duodo Palace,8.2,1189,667,Hotel,0.4,San Marco,True,222.33333333333334
+Residenza Hotel San Maurizio,8.4,178,333,Hotel,0.5,San Marco,True,111.0
+Hotel Caneva,7.5,1968,303,Hotel,0.3,Castello,False,101.0
+Residenza Corte Molin,9.5,245,515,Hotel,0.7,San Polo,True,171.66666666666666
+Al Canal Regio,7.7,424,462,Hotel,1.0,Cannaregio,False,154.0
+San Marco Terrace Penthouse,0.0,0,3410,Apartment,0.2,San Marco,False,1136.6666666666667
+Savoia & Jolanda,8.7,1566,598,Hotel,0.3,Castello,False,199.33333333333334
+Santa Croce Boutique Hotel,9.6,727,720,Hotel,1.2,Santa Croce,False,240.0
+Venetian Apartments,7.5,143,546,Apartment,0.2,San Marco,False,182.0
+La Musa,8.4,7,464,Apartment,1.4,Cannaregio,False,154.66666666666666
+Ca' Etta,9.1,46,546,Apartment,1.3,San Polo,True,182.0
+Ai Giardini de Casteo,9.5,36,484,Hotel,1.5,Castello,True,161.33333333333334
+Royal Rialto Apartment - Grand Canal View,9.6,13,774,Apartment,0.5,San Polo,True,258.0
+Ca' Bonfadini Historic Experience,9.4,436,899,Hotel,1.7,Cannaregio,False,299.6666666666667
+Palazzina Grassi,8.8,162,1244,Hotel,0.8,San Marco,False,414.6666666666667
+Hotel Carlton Capri,8.5,443,707,Hotel,1.4,Santa Croce,False,235.66666666666666
+Hotel Antiche Figure,9.4,697,710,Hotel,1.5,Santa Croce,True,236.66666666666666
+Hotel Donà Palace,9.0,1670,1037,Hotel,0.2,San Marco,False,345.6666666666667
+Hotel Dei Dragomanni,8.0,338,591,Hotel,0.6,San Marco,False,197.0
+Hotel Montecarlo,8.8,2800,508,Hotel,0.2,San Marco,True,169.33333333333334
+Hotel Santa Marina,8.1,323,549,Hotel,0.5,Castello,False,183.0
+NH Collection Grand Hotel Palazzo Dei Dogi,8.5,356,901,Hotel,1.5,Cannaregio,True,300.3333333333333
+Venice traditional home with terrace,0.0,0,539,Apartment,1.1,Dorsoduro,False,179.66666666666666
+VeNICe Cera Ca' De La Mandola,8.1,27,640,Apartment,0.4,San Marco,True,213.33333333333334
+Casadoro,9.6,6,802,Apartment,1.0,Cannaregio,False,267.3333333333333
+DolceVita N 372,9.3,3,635,Apartment,1.0,Santa Croce,False,211.66666666666666
+GRADENIGO,0.0,0,1213,Apartment,1.3,Santa Croce,False,404.3333333333333
+Easylife - Amazing apartment at Rialto Venezia,0.0,0,478,Apartment,0.4,Castello,False,159.33333333333334
+Apartment N 382,0.0,0,549,Apartment,1.0,Dorsoduro,True,183.0
+Calle dei Botteri,0.0,0,721,Apartment,0.8,San Polo,True,240.33333333333334
+Locazione Turistica Barbaria de le Tole,0.0,0,433,Apartment,0.7,Castello,False,144.33333333333334
+Zanipolo - Marco Canal View,0.0,0,645,Apartment,0.7,Castello,True,215.0
+Maison Venitienne,0.0,0,481,Apartment,0.8,Cannaregio,False,160.33333333333334
+Elegant Apartment in Venice near Ferry Terminal,0.0,0,636,Apartment,1.1,Santa Croce,False,212.0
+Ca' Ermagora,9.0,16,445,Apartment,1.3,Cannaregio,True,148.33333333333334
+Casa Dell'Albero,9.4,4,792,Apartment,0.6,San Marco,False,264.0
+GOT TIME artists' alcove. cool. 2pax,0.0,0,574,Apartment,1.0,Santa Croce,True,191.33333333333334
+Peaceful Apartment in Venice with Garden,0.0,0,506,Apartment,1.7,Cannaregio,True,168.66666666666666
+La casa d'Oriente Terrace,0.0,0,1262,Apartment,0.6,Cannaregio,False,420.6666666666667
+Cà Robberstad,0.0,0,685,Apartment,0.9,Cannaregio,False,228.33333333333334
+Venetian House,0.0,0,664,Apartment,0.7,San Polo,True,221.33333333333334
+La Casetta,0.0,0,533,Apartment,0.6,San Marco,False,177.66666666666666
+Locazione Turistica Isola di San Pietro-2,8.1,9,399,Apartment,1.6,Castello,False,133.0
+La Veneziana Boutique Rooms,10.0,3,426,Hotel,0.4,Castello,True,142.0
+B&b Giudecca Bella,8.6,59,408,Bed&Breakfast,1.4,Giudecca,True,136.0
+Ca’ Zora Apartment - Contemporary & Barock House,8.7,5,406,Apartment,0.6,Castello,False,135.33333333333334
+Bizzarre,0.0,0,418,Apartment,0.7,San Polo,True,139.33333333333334
+San Marco square apartament,8.5,6,614,Apartment,0.1,San Marco,True,204.66666666666666
+ARRIVING by TRAIN#2 - quiet. 4pax. internet,8.4,9,556,Apartment,1.3,Santa Croce,True,185.33333333333334
+Venice Inn,9.1,21,496,Hotel,1.2,Cannaregio,True,165.33333333333334
+CRUISE PORT. LAGOON. UNIVERSITY with canal view,8.5,5,523,Apartment,1.7,Dorsoduro,True,174.33333333333334
+Ca' Federico San Marco Venice Apartment,9.7,7,605,Apartment,0.4,San Marco,True,201.66666666666666
+BAROCCO VENEZIANO 2doubles. location. wifi aircond,8.0,4,630,Apartment,0.8,San Polo,True,210.0
+Ca´dell´Oca e della Graticola,0.0,0,919,Apartment,0.8,San Polo,False,306.3333333333333
+Mansarda Magritte,9.7,3,540,Apartment,0.7,Dorsoduro,True,180.0
+Giardino Segreto,9.3,11,549,Apartment,1.3,Santa Croce,True,183.0
+Ca' Marcella,0.0,0,338,Holiday Home,1.3,Castello,True,112.66666666666667
+Appartamento Superior con vista in Via Garibaldi,7.4,5,365,Apartment,1.4,Not specified,False,121.66666666666667
+Ca' Del Pescaor - Biennale - fully renovated,0.0,0,366,Apartment,1.5,Castello,True,122.0
+Venice to meet you!,9.2,5,463,Apartment,0.2,San Marco,False,154.33333333333334
+Dimora Marina,0.0,0,360,Holiday Home,17.7,Not specified,True,120.0
+Ca della Pietà,9.3,10,467,Apartment,0.5,Castello,True,155.66666666666666
+CA'Perdon,9.0,41,499,Apartment,0.7,San Polo,True,166.33333333333334
+locazione Mery,9.0,21,303,Apartment,1.0,Castello,True,101.0
+Ca Cici Venice Loft Apartment,0.0,0,484,Apartment,1.1,Castello,False,161.33333333333334
+The Other Serenissima (With A/C),9.6,46,405,Apartment,1.4,Castello,True,135.0
+Murano Tranquillo e luminoso con Free Wi-Fi,0.0,0,341,Apartment,3.2,Not specified,True,113.66666666666667
+Corte Di Gabriela,9.4,136,882,Hotel,0.5,San Marco,False,294.0
