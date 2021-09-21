@@ -878,7 +878,17 @@ webscraper = html.Div(
 app.layout = html.Div(
                 [
                     dcc.Location(id='url'),
-                    html.Div(id='page-content')
+                    html.Div('''
+                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK7DB2L8Y1"></script>
+                        <script>
+                          window.dataLayer = window.dataLayer || [];
+                          function gtag(){dataLayer.push(arguments);}
+                          gtag('js', new Date());
+
+                          gtag('config', 'G-VK7DB2L8Y1');
+                        </script>
+                    ''',id='page-content')
                 ],
                 style={
                     'font-family':'system-ui',
