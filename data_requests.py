@@ -2,6 +2,7 @@ import requests
 import random
 from bs4 import BeautifulSoup 
 import json
+import numpy as np
 
 #Random picker of User-Agent for html requests
 def user_agent_random():
@@ -80,3 +81,30 @@ def free_canc_placer(row):
         return True
     else:
         return False
+        
+def log_marks_creator(dataframe, variable, decimal):        
+    marks = {}
+    for i,value in enumerate(np.linspace(0,1,num=6)):
+        quantile_value = dataframe[variable].quantile(value)
+        #Logarithmic calculus
+        if(quantile_value==0):
+            log_value=-1
+        else:
+            log_value=np.log10(quantile_value)
+        #added this check because there's a display bug on the first value if mark key=-1.0
+        if(log_value==-1): 
+            marks[int(log_value)]=round(quantile_value, decimal)
+        else:
+            marks[log_value]=round(quantile_value, decimal)
+    return marks
+    
+def marks_creator(dataframe, variable, decimal):        
+    marks = {}
+    for i,value in enumerate(np.linspace(0,1,num=6)):
+        quantile_value = dataframe[variable].quantile(value)
+        #added this check because there's a display bug on the first and the last value
+        if((i==0) | (i==5)): 
+            marks[int(quantile_value)]=round(quantile_value, decimal)
+        else:
+            marks[quantile_value]=round(quantile_value, decimal)
+    return marks

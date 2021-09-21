@@ -10,6 +10,7 @@ import dash_bootstrap_components as dbc
 import subprocess
 import time
 from datetime import date
+import numpy as np
 
 current_day = int(time.strftime('%d', time.gmtime()))
 current_month = int(time.strftime('%m', time.gmtime()))
@@ -20,6 +21,7 @@ cities_id = data_requests.json_load('./cities_id.txt')
 default_df = pd.read_csv(os.path.join('data',os.listdir('data')[0]))
 
 app = dash.Dash(
+        __name__,
         external_stylesheets=[dbc.themes.LUX],
         meta_tags=[
             {
@@ -48,14 +50,19 @@ histogram_card = dbc.Card(
                         [
                             dcc.Markdown('''
                                 #### Histogram
-                                Choose a variable you want to see the distribution of: 
+                                An histogram let you see the distribution of a numerical variable.
                             ''', className='lead'),
-                            dcc.Dropdown(
-                                id='variable_selection', 
-                                options=[{'label':column, 'value':column} for column in default_df.columns[(default_df.dtypes=='float64') | (default_df.dtypes=='int64')]],
-                                value='score',
-                                placeholder='Select a variable',
-                                clearable=False
+                            html.P(
+                                [
+                                    'Variable:',
+                                    dcc.Dropdown(
+                                    id='variable_selection', 
+                                    options=[{'label':column, 'value':column} for column in default_df.columns[(default_df.dtypes=='float64') | (default_df.dtypes=='int64')]],
+                                    value='score',
+                                    placeholder='Select a variable',
+                                    clearable=False
+                                    ),
+                                ]
                             ),
                             html.Hr(),
                             dcc.Graph('first_graph'),
@@ -71,7 +78,8 @@ barplot_card = dbc.Card(
                         '''),
                         html.P(
                             "A bar chart is awesome when you want to show categorical data in a numerical way."
-                            " In this example, every column is divided by the free_cancellation variable value.",
+                            " In this example, every column is divided by the free_cancellation variable value."
+                            " Values are ordered by ascending order, so columns on the left have more values compared to the right ones.",
                             className='lead'
                         ),
                         dcc.Dropdown(
@@ -81,6 +89,7 @@ barplot_card = dbc.Card(
                                 placeholder='Select a variable',
                                 clearable=False
                             ),
+                        html.Hr(),
                         dcc.Graph('fifth_graph')
                     ]
                 )
@@ -92,7 +101,9 @@ scatter_card = dbc.Card(
                                 "Scatter diagram"
                             ),
                             html.P(
-                                'Correlation between variables',
+                                "A scatter plot is really useful to plot variables against each other and (maybe) find curious relations while visualizing data. "
+                                " With this graph you're also able to differentiate color between data values following a given variable.",
+                                className='lead'
                             ),
                             html.Label(
                                 "X variable:"
@@ -134,7 +145,7 @@ boxplots_card = dbc.Card(
                             ),
                             html.P(
                                 'This useful graph provides valuable information regarding descriptive statistics:'
-                                ' in particular, what the median, minimum, maximum value is and which is the first and third quartile value per each variable analyzed. ',
+                                ' in particular, what the median, minimum, maximum value is and which is the first and third quartile value per each variable analyzed.',
                                 className='lead',
                             ),
                             html.P(
@@ -143,7 +154,7 @@ boxplots_card = dbc.Card(
                                     dcc.Dropdown(
                                         id='variable_selection_box', 
                                         options=[{'label':column, 'value':column} for column in default_df.columns[(default_df.dtypes=='float64') | (default_df.dtypes=='int64')]],
-                                        value='score',
+                                        value='city_center_dist',
                                         placeholder='Select a variable',
                                         clearable=False
                                     )
@@ -161,6 +172,12 @@ heatmap = dbc.Card(
                         html.H4(
                             "Correlation Heatmap"
                         ),
+                        html.P(
+                            'With this correlation heatmap you can visually identify correlation between numerical variables in an easy way. '
+                            "The higher the correlation value between two variables, the more they're related.",
+                            className='lead',
+                        ),
+                        html.Hr(),
                         dcc.Graph('fourth_graph')
                     ]
                 )
@@ -178,6 +195,74 @@ sidebar = html.Div(
             dark=True
         )
 )
+
+general_filter = dbc.Card(
+                    dbc.CardBody(
+                        [
+                            dcc.Markdown('''
+                            #### General filter
+                            Here you can set a main filter that's going to affect all database visualized data.
+                            
+                            Firsty select the variable, then the value you want to filter to correctly visualize the dataset. 
+                            ''', className='lead'),
+                            dcc.Dropdown(
+                                id='filter_dropdown_var',
+                                options=[{'label':column, 'value':column} for column in default_df.columns[1:]],
+                                
+                            ),
+                            html.Div(
+                                id='div_filter_dropdown_values',
+                            ),
+                        ]
+                    ),
+                    id='general_filter_card'
+                )
+               
+info_card = dbc.Card(
+                dbc.CardBody(
+                    [
+                        html.H4(
+                            "Info about the selected database",
+                        ),
+                        dbc.Row(
+                            [
+                                dbc.Col(
+                                    html.P(
+                                        'Number of structures in the database:',
+                                        className='lead'
+                                    ),
+                                    width='auto'
+                                ),
+                                dbc.Col(
+                                    html.P(
+                                        id='number_of_structures',
+                                        className='lead'
+                                    ),
+                                    width='auto'
+                                )
+                            ]
+                        ),
+                        dbc.Row(
+                            [
+                                dbc.Col(
+                                    html.P(
+                                        'After filtering (if you are), the structures you are visualizing are:',
+                                        className='lead'
+                                    ),
+                                    width='auto'
+                                ),
+                                dbc.Col(
+                                    html.P(
+                                        id='number_of_structures2',
+                                        className='lead'
+                                    ),
+                                    width='auto'
+                                )
+                            ]
+                        )
+                    ]
+                )   
+            )   
 ###-----------------------------------------------------------------
 ### Visualization webpage
 ###-----------------------------------------------------------------
@@ -209,17 +294,12 @@ header = dbc.Jumbotron(
                                         "multiple graphs available to analyze data.",
                                         className='lead'
                                     ),
-                                    html.P(
-                                        "Can't you find the dataset you were looking for? "
-                                        "Webscrape and create a new one one the webscraping page!",
-                                        className='lead'
-                                    ),
                                     html.Hr(),
                                     html.H4(
                                         "Variables definition"
                                     ),
                                     html.Label(
-                                        "Since this visualization page reads a csv file to work properly, it's highly raccomend to take a look and understand the variables involved:",
+                                        "Since this visualization page reads a csv file to work properly, it's highly raccomended to understand and take a look at the variables involved:",
                                         className='lead'
                                     ),
                                     html.Ul(
@@ -329,67 +409,79 @@ header = dbc.Jumbotron(
                                                 'color':'white'
                                             }
                                         ),
+                                        html.P(
+                                            "Can't you find the dataset you were looking for? "
+                                            "Webscrape and create a new one one the webscraping page!",
+                                            className='lead',
+                                            style={
+                                                'padding-top':'1em'
+                                            }
+                                        ),
                                         dcc.Interval(
                                             id='interval_update',
                                             interval = 30*1000,
                                             n_intervals=0
                                         ),
-                                        html.Hr(),
                                     ],
                                     width=12
                                 )
                             ]
                         ),
-                        html.H4(
-                            "Info about the selected database"
-                        ),
-                        dbc.Row(
-                            [
-                                dbc.Col(
-                                    html.P(
-                                        'Number of structures in the database:',
-                                        className='lead'
-                                    ),
-                                    width='auto'
-                                ),
-                                dbc.Col(
-                                    html.P(
-                                        id='number_of_structures',
-                                        className='lead'
-                                    ),
-                                    width='auto'
-                                )
-                            ]
-                        )
                     ]
                 )
-            ]
+            ],
+            style={
+                'margin-bottom':0
+            }
         )
                   
 graphs = html.Div(
             [
-                dbc.CardGroup(
+                dbc.CardDeck(
+                    [
+                        general_filter,
+                    ],
+                    style={
+                        'margin':'1.5em 0'
+                    }
+                ),
+                dbc.CardDeck(
+                    [
+                        info_card
+                    ],
+                    style={
+                        'margin':'1.5em 0'
+                    }
+                ),
+                dbc.CardDeck(
                     [
                         histogram_card,
-                        boxplots_card,
-                    ]
+                        heatmap,
+                    ],
+                    style={
+                        'margin':'1.5em 0'
+                    }
                 ),
-                dbc.CardGroup(
+                dbc.CardDeck(
                     [
                         barplot_card,
-                        heatmap
-                    ]
+                        boxplots_card,
+                    ],
+                    style={
+                        'margin':'1.5em 0'
+                    }
                 ),
-                dbc.CardGroup(
+                dbc.CardDeck(
                     [
                         scatter_card
-                    ]    
-                )
+                    ],
+                    style={
+                        'margin':'1.5em 0'
+                    }
+                ),
             ]
         )
 
-        
-        
 visualize_data_layout =  html.Div(
                             [
                                 sidebar,
@@ -483,7 +575,11 @@ webscraper = html.Div(
                                     dbc.Col(
                                         [
                                             html.H5(
-                                                "Booking.com search parameters"
+                                                "Booking.com search parameters",
+                                                style={
+                                                    'background-color':'lightsteelblue',
+                                                    'width':'fit-content'
+                                                }
                                             )
                                         ]
                                     )
@@ -544,7 +640,7 @@ webscraper = html.Div(
                                                 id='adult_number',
                                                 value='2',
                                                 style={
-                                                    'background-color':'#febb02'
+                                                    'background-color':'lightgrey'
                                                 }
                                             ), 
                                         ],
@@ -578,7 +674,7 @@ webscraper = html.Div(
                                                 id='children-number',
                                                 value='0',
                                                 style={
-                                                    'background-color':'#febb02'
+                                                    'background-color':'lightgrey'
                                                 }
                                             ), 
                                         ],
@@ -610,7 +706,7 @@ webscraper = html.Div(
                                                 placeholder='Venice',
                                                 value='Venice',
                                                 style={
-                                                    'background-color':'#febb02'
+                                                    'background-color':'lightgrey'
                                                 }
                                             ), 
                                         ],
@@ -641,7 +737,11 @@ webscraper = html.Div(
                                     dbc.Col(
                                         [
                                             html.H5(
-                                                "Algorithm parameters"
+                                                "Algorithm parameters",
+                                                style={
+                                                    'background-color':'lightsteelblue',
+                                                    'width':'fit-content'
+                                                }
                                             )
                                         ]
                                     )
@@ -670,7 +770,7 @@ webscraper = html.Div(
                                                 id="iterations_number",
                                                 value=3,
                                                 style={
-                                                    'background-color':'#febb02'
+                                                    'background-color':'lightgrey'
                                                 }
                                             ), 
                                         ],
@@ -704,7 +804,7 @@ webscraper = html.Div(
                                                 id="threads_number",
                                                 value=15,
                                                 style={
-                                                    'background-color':'#febb02'
+                                                    'background-color':'lightgrey'
                                                 }
                                             ), 
                                         ],
@@ -796,7 +896,76 @@ app.layout = html.Div(
 )
 def update_file_list(n):
     return [{'label':filename, 'value':os.path.join('data',filename)} for filename in os.listdir('data')]
-
+    
+@app.callback(
+    Output('div_filter_dropdown_values','children'),
+    [
+        Input("file_list", "value"),
+        Input('filter_dropdown_var','value')
+    ]
+)
+def main_filter(db, var):
+    if(var==None):
+        return html.Div(id='filter_range_selector')
+    df = pd.read_csv(db)
+    if(var=='score'):
+        min = df[var].min()
+        max = df[var].max()
+        return dcc.RangeSlider(
+            id='filter_range_selector',
+            min = min,
+            max = max,
+            step = None,
+            value = [df[var].quantile(0.4),df[var].quantile(0.8)],
+            marks = data_requests.marks_creator(df, var, 1),
+            allowCross = False,
+        )
+    elif((var=='total_price') | (var=='price_per_night') | (var=='n_reviews')):
+        if(df[var].min()==0):
+            min = 0.1
+        else:
+            min = df[var].min()
+        max = df[var].max()
+        return dcc.RangeSlider(
+            id='filter_range_selector',
+            min = np.log10(min),
+            max = np.log10(max),
+            step = None,
+            value = [np.log10(df[var].quantile(0.4)),np.log10(df[var].quantile(0.8))],
+            marks = data_requests.log_marks_creator(df, var, 0),
+            allowCross = False,
+        )
+    elif(var=='city_center_dist'):
+        if(df[var].min()==0):
+            min = 0.1
+        else:
+            min = df[var].min()
+        max = df[var].max()
+        return dcc.RangeSlider(
+            id='filter_range_selector',
+            min = np.log10(min),
+            max = np.log10(max),
+            step = None,
+            value = [np.log10(df[var].quantile(0.4)),np.log10(df[var].quantile(0.8))],
+            marks = data_requests.log_marks_creator(df, var, 1),
+            allowCross = False
+        )
+    elif(df[var].dtypes=='object'):
+        return dcc.Dropdown(
+            id='filter_range_selector',
+            options=[{'label':value, 'value':value} for value in df[var].unique()],
+            placeholder='Select a value',
+            multi=True,
+        )
+    elif(df[var].dtypes=='bool'):
+        return dcc.Dropdown(
+            id='filter_range_selector',
+            options=[{'label':str(value), 'value':str(value)} for value in df[var].unique()],
+            placeholder='Select a value',
+        )    
+    else:
+        return dash.no_update
+    
 @app.callback(
     Output('number_of_structures', 'children'),
     [
@@ -867,7 +1036,31 @@ def run_script(click, modal_close, start_date, end_date, ad_n, ch_n, it_n, th_n,
     elif 'close' in changed_id:
         return("", False, "")
     return dash.no_update, dash.no_update, dash.no_update
-        
+    
+@app.callback(
+    Output('number_of_structures2', 'children'),
+    [
+        Input("file_list", "value"),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
+    ]
+)
+def n_structure_now_visualizing(db_name, var, values):
+    df = pd.read_csv(db_name)
+    if(values!=None and values):
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            return df[df[var].between(int(10**values[0]),int(10**values[1]))].shape[0]
+        elif(var=='city_center_dist'):
+            return df[df[var].between(10**values[0],10**values[1])].shape[0]
+        elif(df[var].dtype=='object'):
+            return df[df[var].isin(values)].shape[0]
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            return df[df[var]==is_true].shape[0]
+        else:
+            return df[df[var].between(values[0],values[1])].shape[0]
+    return df.shape[0]
+    
 ###-----------------------------------------------------------------
 ### Callbacks Rendering page
 ###----------------------------------------------------------------- 
@@ -896,12 +1089,32 @@ def render_page_content(pathname):
         Output('first_graph', 'figure'),
     [
         Input('variable_selection', 'value'),
-        Input('file_list', 'value')
+        Input('file_list', 'value'),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
     ]
 )
-def update_graph(column, db_name):
+def update_graph(column, db_name, var, values):
     df = pd.read_csv(db_name)
-    return px.histogram(df, x=column).update_xaxes(categoryorder='total descending')
+    #If values array exists and has values
+    if(values!=None and values):
+        #If number is shown in the filter in a logarithmic scale, we have to use its exponent
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            return px.histogram(df[df[var].between(int(10**values[0]),int(10**values[1]))], x=column)
+        #This variable has a different treatment because it's in a log scale and it's float. Results cannot be filtered by an integer cast
+        elif(var=='city_center_dist'):
+            return px.histogram(df[df[var].between(10**values[0],10**values[1])], x=column)
+        #if categorical data
+        elif(df[var].dtype=='object'):
+            return px.histogram(df[df[var].isin(values)], x=column)
+        #if we are checking the free cancellation variable
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            return px.histogram(df[df[var]==is_true], x=column)
+        #This is valid for the score variable
+        else:
+            return px.histogram(df[df[var].between(values[0],values[1])], x=column)
+    return px.histogram(df, x=column)
     
 @app.callback(
     [    
@@ -914,11 +1127,31 @@ def update_graph(column, db_name):
         Input('variable_selection_corr1', 'value'),
         Input('variable_selection_corr2', 'value'),
         Input('color_variable','value'),
-        Input('file_list', 'value')
+        Input('file_list', 'value'),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
     ]
 )
-def update_graph2_and_values_dropdowns(first_var, second_var, third_var, db_sel):
+def update_graph2_and_values_dropdowns(first_var, second_var, third_var, db_sel, var, values):
     df = pd.read_csv(db_sel)
+    #If values array exists and has values and filter the df according to user input
+    if(values!=None and values):
+        #If number is shown in the filter in a logarithmic scale, we have to use its exponent
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            df = df[df[var].between(int(10**values[0]),int(10**values[1]))]
+        #This variable has a different treatment because it's in a log scale and it's float. Results cannot be filtered by an integer cast
+        elif(var=='city_center_dist'):
+            df = df[df[var].between(10**values[0],10**values[1])]
+        #if categorical data
+        elif(df[var].dtype=='object'):
+            df = df[df[var].isin(values)]
+        #if we are checking the free cancellation variable
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            df = df[df[var]==is_true]
+        #This is valid for the score variable
+        else:
+            df = df[df[var].between(values[0],values[1])]
     if(first_var==None):
         graph = px.scatter(df, y=second_var, color=third_var)
     elif(second_var==None):
@@ -952,33 +1185,94 @@ def disabled_property_dict(prop_to_disable, df_columns):
         Output('third_graph', 'figure'),
     [
         Input('variable_selection_box', 'value'),
-        Input('file_list', 'value')
+        Input('file_list', 'value'),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
     ]
 )
-def update_graph3(var, db_sel):
+def update_graph3(column, db_sel, var, values):
     df = pd.read_csv(db_sel)
-    return px.box(df, x=var)
+    #If values array exists and has values
+    if(values!=None and values):
+        #If number is shown in the filter in a logarithmic scale, we have to use its exponent
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            return px.box(df[df[var].between(int(10**values[0]),int(10**values[1]))], x=column)
+        #This variable has a different treatment because it's in a log scale and it's float. Results cannot be filtered by an integer cast
+        elif(var=='city_center_dist'):
+            return px.box(df[df[var].between(10**values[0],10**values[1])], x=column)
+        #if categorical data
+        elif(df[var].dtype=='object'):
+            return px.box(df[df[var].isin(values)], x=column)
+        #if we are checking the free cancellation variable
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            return px.box(df[df[var]==is_true], x=column)
+        #This is valid for the score variable
+        else:
+            return px.box(df[df[var].between(values[0],values[1])], x=column)
+    return px.box(df, x=column)
 
 @app.callback(
     Output('fourth_graph','figure'),
     [
-        Input('file_list', 'value')
+        Input('file_list', 'value'),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
     ]
 )
-def update_graph4(db):
+def update_graph4(db, var, values):
     df = pd.read_csv(db)
-    return px.imshow(df[df.columns[1:-1]].corr())
+    df = df[df.columns[1:-1]]
+    #If values array exists and has values
+    if(values!=None and values):
+        #If number is shown in the filter in a logarithmic scale, we have to use its exponent
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            return px.imshow(df[df[var].between(int(10**values[0]),int(10**values[1]))].corr())
+        #This variable has a different treatment because it's in a log scale and it's float. Results cannot be filtered by an integer cast
+        elif(var=='city_center_dist'):
+            return px.imshow(df[df[var].between(10**values[0],10**values[1])].corr())
+        #if categorical data
+        elif(df[var].dtype=='object'):
+            return px.imshow(df[df[var].isin(values)].corr())
+        #if we are checking the free cancellation variable
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            return px.imshow(df[df[var]==is_true].corr())
+        #This is valid for the score variable
+        else:
+            return px.imshow(df[df[var].between(values[0],values[1])].corr())
+    return px.imshow(df.corr())
     
 @app.callback(
     Output('fifth_graph','figure'),
     [
         Input('variable_selection_barchart', 'value'),
-        Input('file_list', 'value')
+        Input('file_list', 'value'),
+        State('filter_dropdown_var','value'),
+        Input('filter_range_selector', 'value')
     ]
 )
-def update_graph5(var, db):
+def update_graph5(column, db, var, values):
     df = pd.read_csv(db)
-    return px.bar(df, x=var, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+    #If values array exists and has values
+    if(values!=None and values):
+        #If number is shown in the filter in a logarithmic scale, we have to use its exponent
+        if(((df[var].dtype=='int64') | (df[var].dtype=='float64')) & (var!='score') & (var!='city_center_dist')):
+            return px.bar(df[df[var].between(int(10**values[0]),int(10**values[1]))], x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+        #This variable has a different treatment because it's in a log scale and it's float. Results cannot be filtered by an integer cast
+        elif(var=='city_center_dist'):
+            return px.bar(df[df[var].between(10**values[0],10**values[1])], x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+        #if categorical data
+        elif(df[var].dtype=='object'):
+            return px.bar(df[df[var].isin(values)], x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+        #if we are checking the free cancellation variable
+        elif(df[var].dtype=='bool'):
+            is_true = values=='True'
+            return px.bar(df[df[var]==is_true], x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+        #This is valid for the score variable
+        else:
+            return px.bar(df[df[var].between(values[0],values[1])], x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
+    return px.bar(df, x=column, color='free_cancellation', barmode='group').update_xaxes(categoryorder='total descending')
 
 if(__name__=='__main__'):
     app.run_server(debug=False, threaded=True)

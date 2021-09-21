@@ -83,7 +83,7 @@ def main():
     main_df = main_df.reset_index(drop=True)
     
     #Get rid of some useless symbols
-    main_df = main_df.replace(['\n', '€', 'recensioni','\.'],'', regex=True)
+    main_df = main_df.replace(['\n', 'â‚¬', 'recensioni','\.'],'', regex=True)
     main_df = main_df.replace(',','.', regex=True)
     
     #Convert some columns values to the right data type
