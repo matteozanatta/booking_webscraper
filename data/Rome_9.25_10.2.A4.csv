@@ -1,0 +1,911 @@
+hotel_name,score,n_reviews,total_price,category,city_center_dist,neighborhood,free_cancellation,price_per_night
+Nakissa Inn,8.5,368,1698,Hotel,0.7,Rione Monti,False,242.57142857142858
+Enjoy Roma,7.6,54,737,Hotel,2.5,Vaticano Prati,False,105.28571428571429
+Sonder — Fontana Di Trevi,8.9,147,2552,Hotel,0.7,Trevi,False,364.57142857142856
+San Pietro Vatican Apartments,9.8,120,2235,Apartment,3.3,Vaticano Prati,False,319.2857142857143
+Rome Veniero WelcomeHouse,9.5,54,1187,Holiday Home,2.6,Vaticano Prati,True,169.57142857142858
+Maison delle Naiadi Roma,9.4,16,1084,Hotel,1.2,Stazione Termini,True,154.85714285714286
+RHome Luxury Business Collection,9.3,142,1694,Apartment,1.5,Stazione Termini,False,242.0
+Hotel Everest Inn Rome,8.0,523,1204,Hotel,1.1,Stazione Termini,True,172.0
+Dimora Storica Urbana,8.5,159,1051,Hotel,1.0,Rione Monti,False,150.14285714285714
+Casa Minerva Al Pantheon,9.0,39,1784,Apartment,0.5,Pantheon,False,254.85714285714286
+Hotel Katty,8.1,642,919,Hotel,2.0,Stazione Termini,True,131.28571428571428
+Una Finestra su Monti,9.3,288,1142,Hotel,0.9,Rione Monti,True,163.14285714285714
+Hotel Ariston,8.4,791,1636,Hotel,1.6,Stazione Termini,True,233.71428571428572
+Hotel Marco Polo Rome,7.6,145,1166,Hotel,1.9,Stazione Termini,True,166.57142857142858
+Rome Cavalieri. A Waldorf Astoria Hotel,8.8,836,4883,Hotel,4.0,Trionfale,True,697.5714285714286
+Duca d'Alba Hotel - Chateaux & Hotels Collection,8.5,567,1799,Hotel,0.8,Rione Monti,True,257.0
+Frattina Rooms,8.9,351,2780,Hotel,0.9,Spagna,False,397.14285714285717
+The Guardian,9.0,700,2106,Hotel,2.0,Stazione Termini,True,300.85714285714283
+Residence Garden,7.8,64,1113,Apartment,7.0,Eur,True,159.0
+Hotel Flavio,8.3,294,1197,Hotel,1.9,Stazione Termini,True,171.0
+Hotel Ascot,8.2,514,1014,Hotel,1.7,Stazione Termini,True,144.85714285714286
+Casa per Ferie Ravasco San Pietro,8.5,131,1288,Hotel,2.2,Vaticano Prati,True,184.0
+Baglioni Hotel Regina - The Leading Hotels of the World,9.4,858,9109,Hotel,1.4,Via Veneto,True,1301.2857142857142
+DOMUS PIO XI,8.0,12,938,Hotel,3.6,Aurelio,True,134.0
+Serventi Longhi Rooms,9.2,245,928,Hotel,2.6,San Giovanni,True,132.57142857142858
+Charming Private Flat Navona Square,0.0,0,1827,Apartment,1.1,Piazza Navona,False,261.0
+Rome As You Feel - Gregorio Style Apartment,0.0,0,818,Apartment,3.4,Aurelio,True,116.85714285714286
+Graces,0.0,0,1008,Apartment,4.2,Aurelio,False,144.0
+Vatican Luxury Apartment Cardinale Lualdi,0.0,0,1707,Apartment,2.4,Vaticano Prati,False,243.85714285714286
+JNDHolidays,9.5,17,22803,Apartment,3.4,Aurelio,False,3257.5714285714284
+PIGNETO VILLAGE Roma Guest House Apartment,0.0,0,6741,Apartment,3.6,Prenestino,False,963.0
+Grace's House,0.0,0,976,Apartment,4.2,Aurelio,False,139.42857142857142
+Boutique Domus,8.6,3,1186,Apartment,2.4,Gianicolense,False,169.42857142857142
+Suite 83,8.9,16,16490,Apartment,3.5,Portuense,False,2355.714285714286
+Maisondesfleurs63,0.0,0,1883,Apartment,1.4,Trastevere,False,269.0
+Rome Accommodation Principe Amedeo,8.6,10,1475,Apartment,1.8,Stazione Termini,True,210.71428571428572
+ORCHID APARTMENT,0.0,0,1694,Apartment,0.7,Piazza Navona,False,242.0
+The Pantheon Eyes,0.0,0,1960,Holiday Home,0.6,Pantheon,False,280.0
+Trastevere Family Apartment,0.0,0,6808,Apartment,2.8,Gianicolense,False,972.5714285714286
+ROMANA SUITES,0.0,0,1148,Hotel,1.8,Via Veneto,True,164.0
+VATICAN SAPPHIRE SUITES,0.0,0,2169,Apartment,2.5,Vaticano Prati,False,309.85714285714283
+Santa Maria Maggiore Apartment,8.8,9,1495,Apartment,1.4,Rione Monti,True,213.57142857142858
+Sonder — Via Veneto,0.0,0,1399,Hotel,1.5,Via Veneto,False,199.85714285714286
+Regola Apartment Sleeps 6 Air Con WiFi,0.0,0,16355,Apartment,1.7,Trastevere,False,2336.4285714285716
+Casa di Campo de' Fiori,8.1,49,1954,Apartment,0.9,Piazza Navona,False,279.14285714285717
+Piazza Venezia Luxury Apartment,8.9,44,1162,Apartment,0.5,Pantheon,False,166.0
+Termini Halldis Apartments,7.4,13,1115,Apartment,1.6,Stazione Termini,True,159.28571428571428
+Elle house Roma,0.0,0,1136,Apartment,1.6,Via Veneto,False,162.28571428571428
+New Vaticano Apartment,8.7,17,5723,Apartment,3.2,Vaticano Prati,False,817.5714285714286
+Esquilino Exquisite 2BR Apartment,0.0,0,1618,Apartment,1.6,Stazione Termini,True,231.14285714285714
+Open Space Vatican City,10.0,6,3773,Apartment,3.2,Vaticano Prati,False,539.0
+Egades House,9.3,3,4783,Apartment,4.1,Gianicolense,False,683.2857142857143
+Hotel Dorica,8.4,305,6412,Hotel,1.1,Rione Monti,True,916.0
+Dea Suite Roma,9.2,149,1708,Hotel,4.5,Appio Latino,False,244.0
+The Britannia Hotel,8.5,358,2331,Hotel,1.1,Stazione Termini,True,333.0
+Trevi Palace Luxury Inn,7.9,56,2972,Hotel,0.6,Trevi,True,424.57142857142856
+Casa Linda,7.4,13,747,Apartment,1.8,Stazione Termini,False,106.71428571428571
+Now Apartments,9.4,407,1821,Apartment,1.2,Piazza Navona,False,260.14285714285717
+RHome SUITE,8.5,153,3598,Hotel,1.3,Spagna,False,514.0
+Colosseum Super Family Apartment,8.7,16,1176,Apartment,1.4,Colosseo,True,168.0
+Suite Rondanini,9.4,42,1948,Apartment,0.7,Pantheon,False,278.2857142857143
+Sleep In Rome Ludovisi,8.9,72,7098,Apartment,1.3,Via Veneto,True,1014.0
+Claude's House,8.5,11,1218,Holiday Home,7.3,Ardeatino,True,174.0
+Domus al Palatino,9.3,30,1267,Holiday Home,0.7,Colosseo,False,181.0
+Palm Suites - Small Luxury Hotels of the World,8.9,208,5180,Hotel,0.8,Rione Monti,False,740.0
+Palazzo Scanderbeg,9.4,122,4137,Hotel,0.6,Trevi,True,591.0
+Luxury Flat by Navona Square,7.8,9,3750,Apartment,1.0,Piazza Navona,False,535.7142857142857
+Hotel Manfredi Suite In Rome,8.9,155,3067,Hotel,1.3,Spagna,True,438.14285714285717
+Prince's Suite Luxury Business Collection,9.1,360,4648,Apartment,1.5,Stazione Termini,False,664.0
+The Inn At The Roman Forum,9.3,118,4121,Apartment,0.5,Rione Monti,False,588.7142857142857
+Fiori Flat,0.0,0,1495,Apartment,0.9,Spagna,False,213.57142857142858
+Trevi 86,9.0,71,1510,Apartment,0.6,Trevi,False,215.71428571428572
+CasaCau,9.4,11,3598,Apartment,0.7,Trevi,False,514.0
+San Pietro Shabby Chic Apartment,8.9,267,843,Apartment,2.4,Vaticano Prati,False,120.42857142857143
+Unique luxury apartment and rooms,9.1,71,2303,Apartment,2.0,Villa Borghese/Parioli,False,329.0
+Tenuta Capizucchi,8.5,20,755,Apartment,15.2,Not specified,False,107.85714285714286
+PF Apartment,6.9,9,1146,Apartment,1.0,Piazza Navona,False,163.71428571428572
+Hotel Corot,7.5,285,1029,Hotel,1.9,Stazione Termini,False,147.0
+New Design StPeter,9.2,141,1083,Hotel,2.7,Vaticano Prati,False,154.71428571428572
+Comfort Hotel Bolivar,8.4,1057,1957,Hotel,0.4,Rione Monti,True,279.57142857142856
+Hotel Milani,7.6,720,1034,Hotel,1.9,Stazione Termini,True,147.71428571428572
+B&B Rome Terminal House,6.9,591,693,Bed&Breakfast,2.0,Stazione Termini,True,99.0
+Hotel Fellini,8.8,1360,1537,Hotel,0.8,Trevi,True,219.57142857142858
+Sonder — San Pietro Vaticano,8.6,415,872,Hotel,2.2,Vaticano Prati,False,124.57142857142857
+Boutique Hotel Campo de' Fiori,8.8,326,2531,Apartment,0.8,Piazza Navona,True,361.57142857142856
+Hotel Virginia,7.5,1023,645,Hotel,1.9,Stazione Termini,False,92.14285714285714
+YellowSquare Rome,8.7,2963,1129,Hotel,2.1,Stazione Termini,True,161.28571428571428
+River Chateau Hotel,8.9,440,1631,Hotel,5.0,Tor Di Quinto,True,233.0
+Starhotels Metropole,8.7,1551,2284,Other,1.3,Stazione Termini,True,326.2857142857143
+Residenza Termini,9.3,528,1538,Apartment,2.0,Stazione Termini,True,219.71428571428572
+Hotel Giugiù,8.5,292,784,Hotel,1.3,Stazione Termini,False,112.0
+9Hotel Cesari,8.2,605,1974,Hotel,0.5,Pantheon,True,282.0
+Affittacamere Roma Tiburtina,6.8,149,763,Hotel,4.2,Nomentano,True,109.0
+Sun light Guest House 2,7.8,245,1330,Hotel,2.0,Stazione Termini,True,190.0
+Flower Garden Hotel,8.1,1122,977,Hotel,1.3,Stazione Termini,True,139.57142857142858
+Nazionale Palace Suites,9.0,322,1093,Hotel,1.1,Stazione Termini,False,156.14285714285714
+Beautiful Home,6.8,519,1626,Hotel,1.8,Stazione Termini,False,232.28571428571428
+Hotel Royal Court,8.0,97,1000,Hotel,2.1,Stazione Termini,True,142.85714285714286
+Hotel Londra & Cargill,8.6,712,1728,Hotel,1.9,Via Veneto,True,246.85714285714286
+The Boutique Hotel,9.1,301,1176,Hotel,2.1,Vaticano Prati,True,168.0
+Hotel Anfiteatro Flavio,7.7,648,1147,Hotel,0.6,Rione Monti,True,163.85714285714286
+Hotel Planet,7.0,738,744,Hotel,1.9,Stazione Termini,True,106.28571428571429
+Hotel Contilia,7.6,2629,1015,Hotel,1.5,Stazione Termini,True,145.0
+Mood Suites Tritone,8.6,261,1364,Hotel,0.9,Trevi,True,194.85714285714286
+Urban Garden Hotel,7.7,955,785,Hotel,7.9,Tiburtino,True,112.14285714285714
+Hotel Nautilus,8.2,249,1159,Hotel,2.2,Vaticano Prati,True,165.57142857142858
+Apartment in Rome close to all the sights,0.0,0,728,Apartment,1.6,Not specified,True,104.0
+Accogliente hotel,0.0,0,630,Apartment,2.0,Not specified,True,90.0
+Benvenuto ospite,0.0,0,753,Apartment,1.3,Not specified,True,107.57142857142857
+Cento ospiti,0.0,0,693,Apartment,0.9,Not specified,True,99.0
+Andiamo a fare una visita,0.0,0,753,Apartment,1.5,Not specified,True,107.57142857142857
+una stella italiana a Roma,0.0,0,728,Apartment,1.7,Via Veneto,True,104.0
+Elegante appartamento Piazza Lodovico Cerva,0.0,0,658,Apartment,8.8,Giuliano-Dalmata,True,94.0
+VATICAN HIDEAWAY - DA TENERE NASCOSTO!!,0.0,0,693,Apartment,2.6,Aurelio,True,99.0
+lussuoso appartamento,0.0,0,658,Apartment,8.8,Fonte Ostiense,True,94.0
+Apollo Apartments Colosseo,9.1,166,1362,Apartment,0.6,Rione Monti,False,194.57142857142858
+Maison Re Di Roma,7.0,85,702,Apartment,3.6,San Giovanni,True,100.28571428571429
+Vatican Museums Gate 3Bd Apartment,0.0,0,868,Apartment,2.9,Not specified,True,124.0
+Elegant Apartment close to Colosseum by John,0.0,0,833,Apartment,1.3,Not specified,True,119.0
+Apartment in Rome's center,0.0,0,798,Apartment,1.3,Rione Monti,True,114.0
+Appartamento accogliente. 2 locali. 42 m²,0.0,0,777,Apartment,1.1,Stazione Termini,True,111.0
+Smy Area Roma,8.0,1899,1249,Hotel,5.6,Ostiense,True,178.42857142857142
+New Opening! Design apartment near Pantheon,0.0,0,938,Apartment,0.5,Not specified,True,134.0
+Luxury apartments in the heart of the city,0.0,0,938,Apartment,1.1,Not specified,True,134.0
+Prestigioso appartamento con due stanze separate,0.0,0,973,Apartment,10.4,Magliana Vecchia,True,139.0
+Dome at home - La cupola a casa,0.0,0,936,Apartment,3.0,Vaticano Prati,False,133.71428571428572
+Greta's Home in Rome,9.1,8,2260,Apartment,1.1,Spagna,False,322.85714285714283
+Amazing apartments for tourists,0.0,0,1119,Apartment,1.2,Not specified,True,159.85714285714286
+Fidelio II Holiday Home,0.0,0,1148,Apartment,1.9,Vaticano Prati,True,164.0
+New Vatican's per 6 persone. 2 stanze. 2 bagni,0.0,0,1123,Apartment,2.7,Vaticano Prati,False,160.42857142857142
+Appartamento Piazza Navona,0.0,0,1106,Apartment,1.0,Piazza Navona,False,158.0
+Appartamento confortevole. 1 camera. 34 m²,0.0,0,1190,Apartment,2.6,Vaticano Prati,True,170.0
+Hotel Assisi,8.3,354,1184,Hotel,2.0,Stazione Termini,True,169.14285714285714
+Romebest Suite,10.0,4,581,Hotel,2.1,Stazione Termini,True,83.0
+Ludovisi Luxury Rooms,9.3,15,1498,Hotel,2.0,Via Veneto,True,214.0
+Dreams Of Rome,8.7,16,861,Hotel,3.4,Aurelio,False,123.0
+NEW PARADISE,0.0,0,710,Hotel,2.2,Vaticano Prati,True,101.42857142857143
+Centocelle. New enjoyable Apartment,9.2,4,946,Apartment,6.9,Prenestino,True,135.14285714285714
+Vatican's Apartment,9.7,55,1278,Apartment,2.7,Vaticano Prati,False,182.57142857142858
+Vaticano Halldis Apartments,8.2,49,1236,Apartment,2.9,Vaticano Prati,False,176.57142857142858
+La Casa Simpatia - Accettiamo Bonus Vacanze Roma - Parcheggio gratuito a richiesta,8.1,23,1330,Hotel,1.6,Stazione Termini,True,190.0
+Best Western Hotel Rivoli,8.0,240,1848,Hotel,3.0,Villa Borghese/Parioli,True,264.0
+Aurelia Antica Suites & Apartments,8.5,13,1029,Apartment,4.8,Aurelio,True,147.0
+Magna Domus,0.0,0,1288,Holiday Home,2.3,Stazione Termini,False,184.0
+VolturnoGuestHouse2,2.4,8,403,Hotel,1.7,Stazione Termini,False,57.57142857142857
+Bel soggiorno,7.9,113,1178,Hotel,1.2,Stazione Termini,False,168.28571428571428
+Il Nido di Desy,8.5,26,857,Apartment,7.3,Prenestino,False,122.42857142857143
+Casa Vacanza Home Sweet Home di Fatha,8.3,25,842,Apartment,2.8,Gianicolense,False,120.28571428571429
+Good Life Monti,7.8,254,1645,Hotel,0.7,Rione Monti,False,235.0
+Rocco Forte Hotel De Russie,9.1,162,16526,Hotel,1.6,Spagna,True,2360.8571428571427
+Casa al Pigneto,9.4,7,608,Apartment,4.0,Prenestino,False,86.85714285714286
+Român Holidays,8.4,150,809,Hotel,1.7,Stazione Termini,False,115.57142857142857
+Parioli Cosy House,9.3,14,3988,Apartment,3.1,Villa Borghese/Parioli,False,569.7142857142857
+LHP Suite Roma Piazza del Popolo,8.1,35,1281,Apartment,1.6,Spagna,True,183.0
+Casa per Ferie,8.2,15,1049,Hotel,2.0,Colosseo,False,149.85714285714286
+Hotel Oxford,7.8,283,1657,Hotel,1.9,Via Veneto,True,236.71428571428572
+Il Mio Giardino,0.0,0,2234,Apartment,1.0,Trastevere,False,319.14285714285717
+appartamento Pacelli 14,0.0,0,1265,Apartment,3.4,Aurelio,False,180.71428571428572
+Center Apartment,8.1,6,2178,Apartment,2.5,Stazione Termini,False,311.14285714285717
+Le Meridien Appartament Extra Large,10.0,3,2655,Holiday Home,1.6,Vaticano Prati,False,379.2857142857143
+Suite Manzoni,9.5,33,2093,Apartment,2.1,Stazione Termini,False,299.0
+Vittoria Street Charming,0.0,0,1744,Apartment,1.3,Spagna,False,249.14285714285714
+Laura's Brother - Close to St John's Basilica,0.0,0,1383,Apartment,3.4,San Giovanni,False,197.57142857142858
+NEW! 2-BEDROOM PENTHOUSE NEAR COLISEUM,0.0,0,1627,Apartment,1.4,Stazione Termini,False,232.42857142857142
+Casa Melissa,0.0,0,1794,Apartment,1.3,Trastevere,False,256.2857142857143
+TreasureRome Opera Residence,0.0,0,1668,Apartment,1.2,Stazione Termini,False,238.28571428571428
+3 camere progettate individualmente,0.0,0,448,Apartment,2.2,Nomentano,True,64.0
+Luxury Apartments Fanti 5,0.0,0,2093,Apartment,1.7,Stazione Termini,False,299.0
+Halldis Apartments - Piazza di Spagna,5.6,6,1317,Apartment,1.0,Spagna,True,188.14285714285714
+The Inn Apartments Forum by The Goodnight Company,0.0,0,2254,Apartment,0.4,Rione Monti,False,322.0
+Trastevere - La Scala Bookwedo,0.0,0,1786,Apartment,1.3,Trastevere,False,255.14285714285714
+Casa Colosseo Rome,0.0,0,2226,Apartment,1.2,Colosseo,False,318.0
+NEW! 4-BEDROOM HOUSE WITH TERRACE NEAR COLISEUM,0.0,0,2359,Apartment,1.4,Stazione Termini,False,337.0
+Relais House Ripetta,9.9,3,2015,Holiday Home,1.5,Spagna,False,287.85714285714283
+Houses&Houses VEDO ROMA,0.0,0,2752,Apartment,1.4,Via Veneto,False,393.14285714285717
+Bes Hotel Colosseo Suites,0.0,0,11648,Apartment,1.2,Colosseo,False,1664.0
+Residenza Italia,0.0,0,5784,Apartment,1.0,Rione Monti,False,826.2857142857143
+Luxury apartment in the center of Rome,0.0,0,2964,Apartment,2.1,Stazione Termini,False,423.42857142857144
+Relais House Ripetta 2,0.0,0,2778,Holiday Home,1.5,Spagna,False,396.85714285714283
+Alta Luxury Apartments - Spagna,0.0,0,2831,Apartment,0.9,Spagna,False,404.42857142857144
+Alta Luxury Apartments - Frezza,0.0,0,2831,Apartment,1.3,Spagna,False,404.42857142857144
+Star of Rome,8.4,602,868,Hotel,3.7,Aurelio,True,124.0
+Vacanza a Casa,8.6,78,637,Hotel,10.0,Trionfale,False,91.0
+Quo Vadis Roma 2,8.5,129,897,Hotel,2.6,Vaticano Prati,True,128.14285714285714
+Starhotels Michelangelo Rome,8.9,1403,2461,Hotel,2.3,Vaticano Prati,True,351.57142857142856
+Sonder — San Lorenzo,9.0,93,1212,Hotel,3.0,San Lorenzo,False,173.14285714285714
+Simon's Guest House,9.2,58,728,Hotel,5.0,Appio Latino,False,104.0
+Dimora Frattina,8.8,480,2049,Hotel,0.9,Spagna,True,292.7142857142857
+Hotel Grifo,8.3,995,1378,Hotel,0.7,Rione Monti,True,196.85714285714286
+Bettoja Hotel Mediterraneo,8.7,1488,1496,Hotel,1.5,Stazione Termini,True,213.71428571428572
+Sweet Sleep Vatican,8.6,24,577,Apartment,2.9,Vaticano Prati,False,82.42857142857143
+Mama Shelter Roma,8.8,49,1921,Other,3.4,Vaticano Prati,True,274.42857142857144
+Hearth Hotel,8.7,641,1750,Hotel,2.7,Vaticano Prati,True,250.0
+Hotel Canada,9.0,934,1305,Hotel,2.1,Stazione Termini,False,186.42857142857142
+Hotel Laurentia,8.4,353,1062,Hotel,2.6,San Lorenzo,True,151.71428571428572
+Hotel Del Corso,8.2,757,2249,Hotel,1.3,Spagna,False,321.2857142857143
+Hotel Genova,8.0,969,1805,Hotel,1.4,Stazione Termini,True,257.85714285714283
+Best Western Hotel Piccadilly,8.3,427,1637,Hotel,2.7,San Giovanni,False,233.85714285714286
+Hotel La Pergola,7.8,164,1112,Hotel,6.5,Nomentano,True,158.85714285714286
+Hotel Pantheon,8.5,429,1949,Hotel,0.6,Pantheon,True,278.42857142857144
+Aquarium Termini,7.2,122,588,Hotel,1.7,Stazione Termini,False,84.0
+Hotel Al SanPietrino,8.7,303,1795,Hotel,2.8,Vaticano Prati,False,256.42857142857144
+Residenza Cavallini,8.4,587,3494,Hotel,1.4,Vaticano Prati,False,499.14285714285717
+Hotel Lodi,8.3,349,706,Hotel,3.5,Prenestino,False,100.85714285714286
+Hotel Museum,8.5,437,951,Hotel,2.8,Vaticano Prati,True,135.85714285714286
+Suitedreams,8.8,443,1491,Hotel,1.2,Stazione Termini,True,213.0
+Casa di Alberta,9.4,23,979,Apartment,6.0,Tiburtino,False,139.85714285714286
+Dad’s Atelier,9.1,33,1195,Apartment,4.4,Trionfale,False,170.71428571428572
+Colosseo Rooms Imperial Rome,7.8,26,1323,Hotel,1.2,Rione Monti,True,189.0
+Twin Church - Gruppo Trevi Hotels,0.0,0,1848,Hotel,1.6,Spagna,True,264.0
+Casa Urbana,6.3,3,1118,Apartment,0.9,Rione Monti,True,159.71428571428572
+Il Sole di Piazza di Spagna - Bookwedo,0.0,0,1396,Apartment,1.3,Spagna,True,199.42857142857142
+Lofts In Rome,7.5,7,956,Apartment,0.9,Piazza Navona,False,136.57142857142858
+Relais Dolcevita,8.1,9,1266,Holiday Home,1.6,Via Veneto,True,180.85714285714286
+Giulio Caesar,8.6,8,996,Apartment,1.8,Trastevere,False,142.28571428571428
+VATICANO SUITE - Free parking in garage,10.0,3,1500,Apartment,2.5,Vaticano Prati,False,214.28571428571428
+Opera House,8.9,43,1342,Apartment,1.3,Stazione Termini,False,191.71428571428572
+Esposizione Roof,7.2,4,1289,Apartment,1.2,Stazione Termini,False,184.14285714285714
+stars luxury apartments,9.0,29,2505,Apartment,1.3,Trastevere,False,357.85714285714283
+Luxury Apartments In Rome,10.0,4,931,Apartment,11.9,Not specified,False,133.0
+THE LIGHTHOUSE,0.0,0,2058,Apartment,1.9,Stazione Termini,True,294.0
+Villa Melia 14 & 2,0.0,0,2920,Other,16.1,Not specified,False,417.14285714285717
+B&B IL LUCCHETTO,9.4,5,2093,Bed&Breakfast,4.4,Villa Borghese/Parioli,False,299.0
+Imperial Luxury Penthouse,0.0,0,13005,Apartment,1.2,Spagna,True,1857.857142857143
+Luma Suite Via Veneto 29,10.0,6,2873,Holiday Home,1.6,Via Veneto,False,410.42857142857144
+Hotel Residence Magnolia,5.6,9,847,Hotel,4.0,Trionfale,True,121.0
+Lovely ROOMS VATICAN,0.0,0,896,Hotel,2.5,Vaticano Prati,False,128.0
+La Casa dell'Artista,0.0,0,869,Holiday Home,2.5,San Lorenzo,False,124.14285714285714
+Porta di Roma locazione turistica,0.0,0,798,Apartment,9.9,Nomentano,False,114.0
+Locazione Turistica VATICANUM HILLS,9.4,9,980,Apartment,3.4,Vaticano Prati,False,140.0
+Eur Nir Residence,5.8,6,1311,Apartment,10.6,Torrino,True,187.28571428571428
+Casale Cielo e Terra,0.0,0,698,Apartment,14.3,Not specified,False,99.71428571428571
+Pia Domus,8.7,107,1162,Hotel,2.5,Nomentano,True,166.0
+Hotel Des Artistes,8.4,1255,1850,Hotel,2.1,Stazione Termini,True,264.2857142857143
+Hotel Center 3,6.8,135,886,Hotel,2.5,Stazione Termini,True,126.57142857142857
+Villa Agrippina Gran Meliá – The Leading Hotels of the World,8.6,397,16911,Hotel,1.8,Trastevere,True,2415.8571428571427
+Rome Art Hotel - Gruppo Trevi Hotels,8.0,131,1546,Hotel,0.8,Spagna,False,220.85714285714286
+Crossing Condotti,9.2,87,3398,Apartment,1.1,Spagna,False,485.42857142857144
+Hotel Villa Morgagni,8.2,924,5686,Hotel,2.8,Nomentano,True,812.2857142857143
+Villa Spalletti Trivelli - Small Luxury Hotels of the World,9.6,217,9598,Hotel,0.6,Rione Monti,False,1371.142857142857
+Condotti Ambassador Apartment,0.0,0,2105,Apartment,1.2,Spagna,True,300.7142857142857
+Il cerino,0.0,0,833,Apartment,3.9,Aurelio,False,119.0
+RHome Trevi,9.2,22,1262,Holiday Home,0.9,Spagna,False,180.28571428571428
+Rent in Rome - Giubbonari,7.7,14,3170,Apartment,0.9,Piazza Navona,False,452.85714285714283
+The Inn Apartments Spagna by The Goodnight Company,8.8,15,16427,Apartment,1.1,Spagna,False,2346.714285714286
+Altamira 2000,9.1,23,938,Apartment,10.4,Magliana Vecchia,False,134.0
+Locazione Turistica Aurelia,9.0,3,636,Apartment,5.5,Aurelio,False,90.85714285714286
+Affittacamere San Pietro Resort,7.6,47,1096,Hotel,3.1,Vaticano Prati,False,156.57142857142858
+Apartment Roma *XCI *,8.2,3,609,Apartment,5.2,Gianicolense,False,87.0
+CASA ARIEL,9.2,6,888,Apartment,3.8,Gianicolense,False,126.85714285714286
+St Peter Home - Your home in Rome,9.6,32,681,Apartment,2.4,Vaticano Prati,False,97.28571428571429
+Serena House,6.2,223,613,Hotel,1.9,Stazione Termini,True,87.57142857142857
+Grand Hotel Olympic Aurum Hotels,7.1,38,1533,Hotel,2.1,Vaticano Prati,True,219.0
+Vatican Room and Kitchen,6.7,25,949,Hotel,2.4,Vaticano Prati,False,135.57142857142858
+Amerina's Home,0.0,0,842,Apartment,4.8,Prenestino,True,120.28571428571429
+Residence Balduina,6.8,26,900,Apartment,4.7,Trionfale,False,128.57142857142858
+luxury 3-Bedrooms villa near the sea in Rome,0.0,0,978,Holiday Home,18.5,Not specified,False,139.71428571428572
+INTERNO DIECI,9.5,8,830,Apartment,5.5,Nomentano,False,118.57142857142857
+DREAM APARTMENT WITH POOL AREA GEMELLI-ROME,0.0,0,1134,Apartment,6.4,Trionfale,False,162.0
+Vivi Holiday Apartment,9.2,10,842,Apartment,5.5,Trionfale,False,120.28571428571429
+APPARTAMENTO DA SOGNO ZONA GEMELLI ROMA CON PISCINA,0.0,0,938,Apartment,6.4,Trionfale,False,134.0
+Appartamento Nicolai,9.1,11,754,Apartment,4.1,Trionfale,False,107.71428571428571
+Sonder at S Maria Trastevere,8.0,3,768,Hotel,1.2,Trastevere,False,109.71428571428571
+Guest House Poerio88,9.3,33,793,Hotel,2.5,Gianicolense,False,113.28571428571429
+Dream House,9.7,22,1278,Apartment,3.0,Nomentano,False,182.57142857142858
+RHome Piazza del popolo,8.8,44,1848,Hotel,1.3,Spagna,False,264.0
+iFlat Gemelli Peaceful Apartment,7.9,15,754,Apartment,6.2,Trionfale,False,107.71428571428571
+TAKE ME ROME - Colosseo Terrace Apartment,9.5,6,1886,Apartment,1.2,Colosseo,True,269.42857142857144
+Residenza Appia,8.8,17,841,Apartment,3.4,San Giovanni,False,120.14285714285714
+Malenki,8.8,33,887,Hotel,4.8,Appio Latino,False,126.71428571428571
+Aria Suite,9.2,35,833,Hotel,2.6,Vaticano Prati,False,119.0
+Appartamento Monti,7.5,14,906,Apartment,1.1,Rione Monti,False,129.42857142857142
+San Giovanni Sweet Apartment,8.9,33,1036,Apartment,2.9,San Giovanni,False,148.0
+Vacanze Romane Rooms,8.4,39,6147,Apartment,2.7,San Giovanni,False,878.1428571428571
+Sara's B&B,0.0,0,991,Bed&Breakfast,2.1,Stazione Termini,True,141.57142857142858
+Hotel Philia,5.9,37,950,Hotel,2.1,Stazione Termini,False,135.71428571428572
+Hotel Morgana,8.1,461,1902,Hotel,1.8,Stazione Termini,True,271.7142857142857
+Orazia Hotel,7.8,484,1302,Hotel,1.7,Stazione Termini,True,186.0
+GCF Luxury Suites. guest house,9.4,143,2768,Apartment,1.6,Spagna,False,395.42857142857144
+EBL LUXURY HOME,9.8,8,1618,Hotel,1.2,Spagna,False,231.14285714285714
+Mia residenza al Pantheon,0.0,0,2163,Apartment,0.5,Pantheon,False,309.0
+cas,3.0,6,883,Apartment,1.5,Stazione Termini,False,126.14285714285714
+Celeste Apartment,6.4,6,1450,Apartment,2.5,Vaticano Prati,True,207.14285714285714
+Tizii,0.0,0,1888,Apartment,2.5,San Lorenzo,False,269.7142857142857
+PRETTY HOME. luxury apartment close to Vatican city. in elegant shopping area,9.8,33,4855,Holiday Home,2.0,Vaticano Prati,False,693.5714285714286
+Hotel Valle,6.3,138,1258,Hotel,1.1,Rione Monti,True,179.71428571428572
+Hotel Concorde,7.4,998,839,Hotel,1.5,Stazione Termini,True,119.85714285714286
+Hotel Cinecittà,5.9,237,1015,Hotel,9.5,Appio Latino,True,145.0
+Albergo Marisa,7.6,251,890,Hotel,1.9,Stazione Termini,True,127.14285714285714
+Hostel Beauty,6.3,1037,571,Hotel,1.6,Stazione Termini,True,81.57142857142857
+SaFe Mansion,0.0,0,5488,Apartment,0.9,Piazza Navona,False,784.0
+BEAUTIFUL HOME 2,6.8,186,1704,Hotel,1.7,Stazione Termini,False,243.42857142857142
+Fabio dei Velapazza Guesthouse,9.4,108,1044,Hotel,3.0,Vaticano Prati,False,149.14285714285714
+Bollo Apartments,8.5,803,1683,Hotel,1.0,Piazza Navona,False,240.42857142857142
+Polinari Rooms San Pietro Roma,8.6,77,1158,Hotel,2.4,Vaticano Prati,True,165.42857142857142
+Foresteria di Piazza Cavour - Luxury Suites & Guest House,9.5,24,1248,Hotel,1.6,Vaticano Prati,True,178.28571428571428
+Monteverde bright Apartment with Garage,8.8,13,1030,Apartment,3.7,Gianicolense,True,147.14285714285714
+Varese Guest House,8.0,649,835,Hotel,2.0,Stazione Termini,False,119.28571428571429
+Fragrance Hotel St Peter,8.6,851,2399,Hotel,2.6,Vaticano Prati,True,342.7142857142857
+Roma Tempus,7.8,504,623,Hotel,2.1,Stazione Termini,False,89.0
+Hotel Mozart,8.5,2249,1636,Hotel,1.3,Spagna,True,233.71428571428572
+Relais Hotel Antico Palazzo Rospigliosi,6.9,452,1426,Hotel,1.3,Rione Monti,True,203.71428571428572
+Holiday Rome Termini,5.5,48,494,Hotel,1.7,Stazione Termini,True,70.57142857142857
+Magic Place Guest House,3.9,94,546,Hotel,1.8,Stazione Termini,True,78.0
+Hotel The Brand,8.5,18,1568,Hotel,7.7,Aurelio,True,224.0
+Aldrovandi Residence City Suites,8.3,614,2314,Hotel,2.5,Villa Borghese/Parioli,True,330.57142857142856
+cattaneo accomodation,5.9,39,518,Hotel,1.7,Stazione Termini,True,74.0
+Roma paradise inn,4.4,22,483,Hotel,1.9,Stazione Termini,True,69.0
+Incentrum,9.2,218,1692,Apartment,1.2,Spagna,False,241.71428571428572
+Hotel Priscilla,7.0,109,1428,Hotel,2.0,Via Veneto,True,204.0
+Easydomus Rome,8.2,172,1793,Apartment,1.2,Piazza Navona,False,256.14285714285717
+Candia Green House B&B,8.2,130,1288,Bed&Breakfast,2.7,Vaticano Prati,True,184.0
+Guest House Galaxy,7.0,64,1317,Hotel,2.0,Stazione Termini,True,188.14285714285714
+Hotel Caracciolo,8.1,532,1009,Hotel,2.2,Stazione Termini,True,144.14285714285714
+Caroline Suite,8.1,320,1694,Hotel,1.9,Stazione Termini,True,242.0
+Vatican Art House - CelebrateU,9.2,37,1741,Apartment,2.2,Vaticano Prati,True,248.71428571428572
+Alloggio Carmen Sallés,8.3,32,931,Hotel,2.1,Stazione Termini,True,133.0
+Friendship Palace,5.6,50,586,Hotel,1.9,Stazione Termini,True,83.71428571428571
+Roma Prince Inn B&B,6.0,474,582,Bed&Breakfast,2.0,Stazione Termini,False,83.14285714285714
+Hotel Texas,7.1,219,892,Hotel,1.2,Stazione Termini,False,127.42857142857143
+Roma Guest House,6.4,170,557,Hotel,2.0,Stazione Termini,False,79.57142857142857
+Tune Homes B&B,6.6,380,668,Bed&Breakfast,1.9,Stazione Termini,False,95.42857142857143
+Shine House,9.1,20,1008,Hotel,2.0,Stazione Termini,True,144.0
+Parco delle Perle,7.7,33,582,Holiday Home,10.2,Torrino,False,83.14285714285714
+Termini Guest House 2,6.2,203,642,Hotel,2.0,Stazione Termini,True,91.71428571428571
+Eurorooms,6.3,338,563,Hotel,2.1,Stazione Termini,False,80.42857142857143
+Rome Garden Hotel,8.4,352,1085,Hotel,2.7,Nomentano,True,155.0
+Romanina Apartments,7.9,91,884,Hotel,11.4,Not specified,False,126.28571428571429
+Hotel Silla,8.6,257,1092,Hotel,2.5,Vaticano Prati,True,156.0
+Hotel Moon Light,6.2,147,680,Hotel,2.1,Stazione Termini,False,97.14285714285714
+Trilussa Palace Hotel Congress & Spa,8.5,362,1740,Apartment,2.2,Gianicolense,True,248.57142857142858
+Luna D'Est,7.6,48,826,Hotel,5.2,Nomentano,False,118.0
+Ostiense Halldis Apartments,9.2,4,1343,Apartment,2.2,Aventino,False,191.85714285714286
+Mia Suites,8.4,604,1890,Other,0.9,Spagna,False,270.0
+Alta Luxury Apartments - Oca,0.0,0,3769,Apartment,1.6,Spagna,False,538.4285714285714
+Metropolis - Hotel di Charme,8.1,630,2631,Hotel,2.4,Vaticano Prati,True,375.85714285714283
+Sofitel Roma Villa Borghese,9.1,189,6240,Hotel,1.3,Via Veneto,True,891.4285714285714
+BQ House Milizie Luxury Rooms,9.0,234,1789,Hotel,2.6,Vaticano Prati,False,255.57142857142858
+Hotel The Building,8.1,2816,2087,Hotel,2.2,Stazione Termini,True,298.14285714285717
+Roma Veneto Relais,9.2,1877,15514,Apartment,1.9,Via Veneto,True,2216.285714285714
+Hotel Vilòn - Small Luxury Hotels of the World,9.6,234,25676,Hotel,1.1,Spagna,False,3668.0
+Lovin' Roma Piazza di Spagna,8.7,110,2058,Hotel,1.1,Via Veneto,True,294.0
+Ripetta Rooms,9.0,253,2763,Hotel,1.6,Spagna,True,394.7142857142857
+Mascagni Luxury Rooms & Suites,8.9,274,2130,Hotel,1.3,Stazione Termini,True,304.2857142857143
+Sheraton Parco De' Medici Rome Hotel,7.2,994,1459,Hotel,10.8,Magliana Vecchia,True,208.42857142857142
+Barceló Aran Mantegna,8.1,2167,1571,Hotel,5.0,Ardeatino,True,224.42857142857142
+Ibis Roma Fiera,7.8,1902,776,Hotel,11.0,Magliana Vecchia,True,110.85714285714286
+Roma Camping In Town,8.1,17766,668,Hotel,6.5,Aurelio,True,95.42857142857143
+c-hotels Club House Roma,8.4,1155,1024,Hotel,4.7,Aurelio,True,146.28571428571428
+Exe International Palace,8.2,2861,1604,Apartment,0.9,Rione Monti,False,229.14285714285714
+Hotel San Valentino,8.0,2378,1557,Hotel,2.2,Vaticano Prati,False,222.42857142857142
+Hotel Sisto V,8.4,397,1551,Hotel,5.8,Trionfale,True,221.57142857142858
+Villa Eur Parco Dei Pini,8.1,3745,1561,Hotel,8.2,Eur,True,223.0
+The Hoxton. Rome,9.1,75,2317,Hotel,2.8,Nomentano,False,331.0
+B&B Rome Termini House,7.4,227,804,Bed&Breakfast,2.0,Stazione Termini,True,114.85714285714286
+H10 Roma Città,8.0,1071,1432,Other,3.3,Portuense,True,204.57142857142858
+Hotel Villa San Lorenzo Maria,8.1,1633,1068,Hotel,2.9,San Lorenzo,True,152.57142857142858
+MOVIE MOVIE HOTEL,8.8,324,1336,Hotel,9.4,Appio Latino,False,190.85714285714286
+c-hotels Fiume,8.5,733,1513,Hotel,2.3,Via Veneto,True,216.14285714285714
+Rent Rooms Saint Peter,8.4,99,1827,Apartment,3.0,Vaticano Prati,False,261.0
+DK Suites,0.0,0,9898,Hotel,0.7,Rione Monti,False,1414.0
+Hospitales del Pellegrino - Trastevere,7.9,34,2198,Other,2.7,Portuense,False,314.0
+toli’s,0.0,0,1288,Hotel,8.2,Appio Latino,False,184.0
+BBHOMEROME - Parlamento Pantheon Dream,0.0,0,1151,Apartment,0.9,Spagna,True,164.42857142857142
+Piceni 6 House,8.6,6,981,Apartment,3.0,San Lorenzo,False,140.14285714285714
+La Tana Rosa grazioso bilocale,0.0,0,697,Apartment,4.0,Nomentano,False,99.57142857142857
+0-Bedroom Holiday Home in Roma,0.0,0,1098,Holiday Home,18.6,Not specified,False,156.85714285714286
+Casa Rosalia Ferienwohnung,0.0,0,611,Apartment,3.1,Gianicolense,False,87.28571428571429
+Inviting 2-Bed Apartment in Roma,0.0,0,658,Apartment,8.3,Prenestino,False,94.0
+Locazione Turistica Regina's House - St Peter,0.0,0,1271,Apartment,2.8,Vaticano Prati,False,181.57142857142858
+Hospitality MonteMario,0.0,0,1126,Apartment,7.4,Trionfale,False,160.85714285714286
+Apartment with one bedroom in Roma with WiFi,0.0,0,1417,Apartment,3.6,Prenestino,False,202.42857142857142
+Easy Roi Joshua´s Home,0.0,0,753,Apartment,15.9,Not specified,True,107.57142857142857
+Apartment with 2 bedrooms in Roma with WiFi,0.0,0,1913,Apartment,5.0,Nomentano,False,273.2857142857143
+Appartamento Locazione Turistica,9.1,14,936,Apartment,9.3,Trionfale,False,133.71428571428572
+Apartment Pantheon,0.0,0,1702,Apartment,0.3,Pantheon,False,243.14285714285714
+Fontanella Borghese - 2 minutes walk by Spanish Steps!,0.0,0,1130,Apartment,1.0,Spagna,True,161.42857142857142
+Fleming Luxury Apartment in Rome,0.0,0,1592,Apartment,6.1,Tor Di Quinto,False,227.42857142857142
+Tommy Guest House Roma,0.0,0,783,Apartment,5.1,Tiburtino,False,111.85714285714286
+Vatican Holiday Junior,9.0,10,2076,Hotel,3.2,Vaticano Prati,False,296.57142857142856
+Hotel Colombo 112,7.7,1061,4480,Hotel,3.5,Ostiense,True,640.0
+Navona Piazza del Fico Luxury,0.0,0,1302,Apartment,1.1,Piazza Navona,True,186.0
+Hotel San Remo,6.8,202,1120,Hotel,1.3,Stazione Termini,True,160.0
+Romolo House,9.7,18,911,Holiday Home,3.3,Vaticano Prati,False,130.14285714285714
+Risorgimento view Aparment,0.0,0,1281,Apartment,2.4,Vaticano Prati,True,183.0
+Parione Apartment Sleeps 6 Air Con WiFi,0.0,0,2378,Apartment,1.0,Spagna,False,339.7142857142857
+Relax On - Guesthouse,0.0,0,763,Hotel,1.9,Stazione Termini,False,109.0
+Trastevere Apartment Sleeps 6 Air Con WiFi,0.0,0,2495,Apartment,0.2,Pantheon,False,356.42857142857144
+iFlat Esquilino Lovely Apartment,0.0,0,1325,Apartment,2.0,Stazione Termini,True,189.28571428571428
+Summertime,0.0,0,1498,Apartment,3.3,Vaticano Prati,False,214.0
+Casa Tua a Piazza del Popolo,9.3,27,1169,Apartment,1.6,Spagna,True,167.0
+Dimora Vaticano,8.9,38,1478,Apartment,2.8,Vaticano Prati,True,211.14285714285714
+La Terrazze Fabio,0.0,0,1696,Apartment,5.3,Prenestino,False,242.28571428571428
+Domus Coronari,8.7,8,1645,Apartment,1.0,Piazza Navona,False,235.0
+Rose Tower 62,0.0,0,2067,Holiday Home,16.7,Not specified,False,295.2857142857143
+Casa Ianus,0.0,0,1069,Holiday Home,3.4,Vaticano Prati,False,152.71428571428572
+Apartment Maddalena 2,0.0,0,1958,Apartment,0.7,Pantheon,False,279.7142857142857
+Casa Buffa,0.0,0,2123,Holiday Home,2.9,San Lorenzo,False,303.2857142857143
+Anna Trevi - Luxury Apartment in Rome,0.0,0,2933,Apartment,0.6,Trevi,False,419.0
+Maison et studio l'Orangerie,0.0,0,2508,Apartment,3.7,Villa Borghese/Parioli,False,358.2857142857143
+Vatican Luxury View,0.0,0,2042,Apartment,2.0,Vaticano Prati,False,291.7142857142857
+Gite House,9.0,140,2198,Hotel,1.6,Stazione Termini,True,314.0
+Appia Nuova Roof Apartment,0.0,0,1218,Apartment,4.4,Appio Latino,True,174.0
+Hotel Mercure Roma Corso Trieste,8.2,579,1494,Hotel,3.8,Nomentano,False,213.42857142857142
+Le Meridien Visconti Rome,8.8,241,2500,Hotel,1.6,Vaticano Prati,True,357.14285714285717
+Best Western Premier Hotel Royal Santina,8.6,1450,2274,Hotel,1.8,Stazione Termini,True,324.85714285714283
+Hotel Gravina San Pietro,8.2,1051,1647,Hotel,2.7,Vaticano Prati,True,235.28571428571428
+ARoma Lifestyle Hotel,8.9,2285,2385,Apartment,4.7,Not specified,True,340.7142857142857
+Affittacamere Nansen,6.8,153,1008,Hotel,2.7,Ostiense,True,144.0
+Mercure Roma Piazza Bologna,8.5,304,1691,Hotel,3.5,Nomentano,True,241.57142857142858
+Hotel Villa Pamphili Roma,8.8,86,2251,Hotel,4.4,Not specified,False,321.57142857142856
+Hotel Louisiana,8.1,381,1138,Hotel,1.8,Via Veneto,False,162.57142857142858
+Hotel IMPERATORI,7.6,19,1207,Hotel,10.5,Tiburtino,True,172.42857142857142
+Star Vatican Rooms,7.9,430,1463,Hotel,2.4,Vaticano Prati,True,209.0
+Occidental Aran Park,7.8,635,1098,Hotel,8.6,Giuliano-Dalmata,True,156.85714285714286
+Hotel American Palace Eur,8.6,4582,1404,Apartment,7.8,Eur,True,200.57142857142858
+Hotel Erdarelli,7.8,519,1410,Hotel,0.9,Spagna,True,201.42857142857142
+Relais de l'Opera - Relais de l'Opera Group,8.9,937,2254,Hotel,0.9,Rione Monti,True,322.0
+Doria Palace Boutique Hotel,8.9,219,1973,Hotel,1.4,Stazione Termini,False,281.85714285714283
+Hotel Domus Mea,8.5,2132,1339,Hotel,1.8,Stazione Termini,False,191.28571428571428
+Hotel Elide,7.8,458,1394,Hotel,1.2,Stazione Termini,True,199.14285714285714
+Courtyard by Marriott Rome Central Park,8.5,345,1958,Hotel,5.7,Trionfale,True,279.7142857142857
+Eurostars Roma Aeterna,8.5,1251,1234,Hotel,3.4,Prenestino,True,176.28571428571428
+Hotel Positano,7.3,1784,814,Hotel,2.1,Stazione Termini,True,116.28571428571429
+Hotel Royal Bissolati,8.5,337,2062,Hotel,1.3,Trevi,True,294.57142857142856
+Gravina Suite Frattina,8.0,142,2099,Hotel,0.9,Spagna,True,299.85714285714283
+Twentyone Hotel,8.2,2143,1747,Hotel,1.8,Vaticano Prati,True,249.57142857142858
+Hotel Nord Nuova Roma,8.6,1949,1643,Hotel,1.4,Stazione Termini,False,234.71428571428572
+Hotel St Martin,9.1,147,3043,Hotel,2.2,Stazione Termini,False,434.7142857142857
+Colonna Palace,8.1,471,3433,Hotel,0.6,Pantheon,False,490.42857142857144
+Relais Orso,8.7,903,2364,Hotel,1.1,Piazza Navona,False,337.7142857142857
+The Spanish Suite Piazza di Spagna,7.9,1264,2094,Hotel,1.3,Spagna,False,299.14285714285717
+Hotel Arcangelo,8.2,633,1691,Hotel,1.9,Vaticano Prati,True,241.57142857142858
+DoubleTree By Hilton Rome Monti,9.0,174,4214,Hotel,1.2,Stazione Termini,True,602.0
+Best Western Ars Hotel,8.1,298,1338,Apartment,6.2,Nomentano,True,191.14285714285714
+Atlante Garden Hotel,7.9,2316,1697,Hotel,2.1,Vaticano Prati,False,242.42857142857142
+Rome Times Hotel,8.6,654,2607,Hotel,0.7,Rione Monti,False,372.42857142857144
+Marcella Royal Hotel,8.7,300,2560,Hotel,1.8,Via Veneto,False,365.7142857142857
+Eurogarden Hotel,8.3,344,1428,Hotel,10.6,Not specified,True,204.0
+Hotel Elite,8.2,411,1817,Hotel,1.0,Spagna,True,259.57142857142856
+UNAHOTELS Decò Roma,8.8,1598,2417,Hotel,1.5,Stazione Termini,True,345.2857142857143
+Il Romitello,7.9,396,919,Hotel,6.8,Trionfale,True,131.28571428571428
+Hotel Principe Amedeo,8.2,488,1065,Hotel,1.3,Stazione Termini,True,152.14285714285714
+Hotel San Pietro,7.7,103,1344,Apartment,2.6,Vaticano Prati,True,192.0
+NH Collection Roma Centro,8.1,777,2446,Hotel,1.9,Vaticano Prati,True,349.42857142857144
+iH Hotels Roma Dei Borgia,8.5,412,2391,Hotel,0.8,Rione Monti,True,341.57142857142856
+Hotel Pineta Palace,7.7,1142,1215,Hotel,5.8,Trionfale,True,173.57142857142858
+Hotel Fontana,7.8,339,2133,Hotel,0.5,Trevi,True,304.7142857142857
+LH Hotel Lloyd Rome,8.1,208,935,Hotel,2.5,Nomentano,True,133.57142857142858
+All Time Relais & Sport Hotel,8.0,545,1546,Hotel,10.2,Torrino,True,220.85714285714286
+Hotel La Giocca,8.0,274,1489,Hotel,10.5,Nomentano,True,212.71428571428572
+Hotel Romantica,7.9,657,1268,Hotel,1.5,Stazione Termini,False,181.14285714285714
+Hotel La Lumiere Di Piazza Di Spagna,8.3,305,2368,Hotel,1.0,Spagna,False,338.2857142857143
+Room Mate Filippo,9.6,120,3980,Hotel,1.1,Via Veneto,True,568.5714285714286
+Hotel Villa Grazioli,8.0,262,1969,Hotel,3.2,Nomentano,False,281.2857142857143
+Intown Luxury House,8.8,303,2205,Hotel,1.0,Spagna,False,315.0
+Hotel Bolognese,6.9,405,924,Apartment,2.0,Stazione Termini,False,132.0
+Palazzo Navona Hotel,9.0,524,4332,Hotel,0.7,Pantheon,False,618.8571428571429
+Passeggiate Romane,9.1,121,971,Hotel,2.5,Vaticano Prati,False,138.71428571428572
+Casa Piccole Ancelle di Cristo Re,8.2,578,1057,Apartment,3.9,Aurelio,False,151.0
+Rome Orange Inn,8.0,310,1272,Hotel,1.7,Stazione Termini,True,181.71428571428572
+Golden Tulip Rome Piram,8.1,3108,1932,Hotel,1.4,Stazione Termini,True,276.0
+Hotel Clodio,7.9,355,1754,Hotel,3.4,Vaticano Prati,False,250.57142857142858
+Palm Gallery Hotel,8.6,222,2429,Hotel,3.1,Nomentano,False,347.0
+Roma In Una Stanza Guesthouse,8.9,137,1181,Hotel,3.4,Vaticano Prati,True,168.71428571428572
+NH Collection Roma Giustiniano,8.5,2085,2777,Hotel,1.9,Vaticano Prati,True,396.7142857142857
+Royal Rooms Corso,9.0,50,1576,Hotel,1.4,Spagna,False,225.14285714285714
+Hotel Capo d´África – Colosseo,8.9,783,2343,Hotel,1.5,Colosseo,True,334.7142857142857
+Hotel Colosseum,8.5,725,1865,Apartment,1.1,Rione Monti,True,266.42857142857144
+Rome Marriott Grand Hotel Flora,8.5,102,4802,Hotel,1.5,Via Veneto,True,686.0
+Vatican G&G Suites,9.0,20,1884,Hotel,2.4,Vaticano Prati,True,269.14285714285717
+The St Regis Rome,9.2,160,11185,Hotel,1.4,Stazione Termini,True,1597.857142857143
+B&B Piumith,7.7,394,1058,Bed&Breakfast,1.6,Stazione Termini,False,151.14285714285714
+Hotel Lancelot,9.2,433,2072,Hotel,1.5,Colosseo,True,296.0
+Rome Key Home,8.7,351,1150,Hotel,2.3,Tiburtino,True,164.28571428571428
+Hotel Adriatic,7.9,737,1341,Hotel,1.9,Vaticano Prati,True,191.57142857142858
+Vatican Holiday,8.6,175,1131,Hotel,3.0,Vaticano Prati,True,161.57142857142858
+San Marco Relais,7.8,371,1031,Hotel,2.1,Stazione Termini,True,147.28571428571428
+Villa Luzzatti,7.7,138,588,Other,2.4,Stazione Termini,True,84.0
+San Lorenzo Hostel,7.2,766,532,Other,2.8,San Lorenzo,True,76.0
+ROMA GONDOLA SRLS,6.5,248,494,Other,2.3,Stazione Termini,True,70.57142857142857
+Zidan Guest House,7.0,764,507,Other,1.9,Stazione Termini,True,72.42857142857143
+Legend RG,7.9,909,653,Other,1.8,Stazione Termini,False,93.28571428571429
+Afiya Guest House,5.9,442,816,Apartment,1.9,Stazione Termini,False,116.57142857142857
+Rose Garden Palace Roma,8.9,195,3711,Other,1.6,Via Veneto,False,530.1428571428571
+Augusta Lucilla Palace,8.5,3531,3557,Hotel,1.3,Stazione Termini,False,508.14285714285717
+Hotel Taormina,8.3,260,1034,Hotel,2.1,Stazione Termini,True,147.71428571428572
+Gregorio VII Luxury Suites San Damaso,8.1,114,1916,Hotel,3.1,Aurelio,True,273.7142857142857
+Mascherino Suites,8.8,155,2454,Hotel,2.2,Vaticano Prati,False,350.57142857142856
+Hotel Barocco,9.2,537,5208,Hotel,1.0,Via Veneto,False,744.0
+Rose Suite,9.0,102,1210,Hotel,1.4,Stazione Termini,True,172.85714285714286
+Raeli Hotel Floridia,7.5,186,1921,Hotel,1.8,Stazione Termini,False,274.42857142857144
+The Code Hotel,8.5,1300,2069,Hotel,1.1,Spagna,False,295.57142857142856
+Hotel Villa Linneo,9.2,94,2892,Hotel,2.6,Villa Borghese/Parioli,False,413.14285714285717
+Pigneto Guest House,7.8,14,1107,Hotel,4.8,Prenestino,False,158.14285714285714
+Hotel Aphrodite,8.1,990,1849,Hotel,1.9,Stazione Termini,False,264.14285714285717
+Hotel Foro Romano Imperatori,8.1,186,1784,Hotel,0.6,Rione Monti,True,254.85714285714286
+Aleph Rome Hotel. Curio Collection By Hilton,8.7,193,6091,Hotel,1.2,Via Veneto,True,870.1428571428571
+Hotel Celio,8.5,147,2034,Hotel,1.3,Colosseo,False,290.57142857142856
+SuiteSistina for Lovers,9.0,1499,2344,Apartment,1.1,Spagna,True,334.85714285714283
+Domus Napoleone,8.6,112,1127,Hotel,1.7,Stazione Termini,False,161.0
+My Maison 70,9.1,9,1041,Hotel,2.0,Stazione Termini,True,148.71428571428572
+Escape Luxury Suite,9.4,611,2900,Hotel,1.0,Trevi,False,414.2857142857143
+The Corner Townhouse,8.3,268,2070,Hotel,1.7,Aventino,False,295.7142857142857
+Gregori Guest House,8.5,267,1306,Hotel,3.2,Aurelio,False,186.57142857142858
+Opera House Guest. Roma centro storico,8.0,47,1524,Hotel,1.2,Stazione Termini,False,217.71428571428572
+Hotel Piazza Di Spagna,8.8,394,2645,Hotel,1.2,Spagna,True,377.85714285714283
+Margutta 19 - Small Luxury Hotels of the World,8.9,381,11305,Hotel,1.5,Spagna,True,1615.0
+Flann O'Brien Rooms,7.9,119,1552,Hotel,1.1,Stazione Termini,False,221.71428571428572
+Boncompagni Suite,8.5,230,1144,Hotel,1.8,Via Veneto,True,163.42857142857142
+Hotel Canova,8.3,965,2495,Apartment,1.1,Rione Monti,False,356.42857142857144
+Marta Guest House,8.9,231,1462,Hotel,1.6,Vaticano Prati,True,208.85714285714286
+Hotel Albergo Santa Chiara,9.1,591,2585,Hotel,0.5,Pantheon,True,369.2857142857143
+Luxury Rooms H 2000 Roma,7.6,349,1716,Hotel,1.0,Trevi,True,245.14285714285714
+Maison de Marta,8.4,130,1469,Hotel,1.6,Vaticano Prati,True,209.85714285714286
+Hotel Silva,7.2,281,928,Hotel,3.4,Nomentano,True,132.57142857142858
+Scheppers Hotel&Hostel,6.7,70,742,Hotel,6.8,Aurelio,True,106.0
+Roma Charming Rooms,9.5,152,1315,Hotel,2.5,Vaticano Prati,False,187.85714285714286
+Pinewood Hotel Rome,7.7,1625,1517,Hotel,5.0,Trionfale,True,216.71428571428572
+Hotel Principe Torlonia - a Member of Elizabeth Hotel Group,8.2,237,1919,Hotel,3.9,Nomentano,True,274.14285714285717
+Suite Oriani,9.2,227,1630,Hotel,3.5,Villa Borghese/Parioli,True,232.85714285714286
+Piccolo di Piazza di Spagna Suites,8.5,144,1551,Hotel,1.4,Via Veneto,True,221.57142857142858
+Apollo Boutique Hotel,9.0,42,2023,Hotel,2.2,Vaticano Prati,False,289.0
+Rome Marriott Park Hotel,8.0,658,1906,Hotel,10.9,Magliana Vecchia,True,272.2857142857143
+Suite Valadier,9.0,7,3423,Hotel,1.6,Spagna,False,489.0
+UNAWAY Hotel Empire Roma,8.1,229,2074,Hotel,1.6,Via Veneto,True,296.2857142857143
+Hotel Villa Maria Regina,7.8,1239,1438,Hotel,6.4,Tor Di Quinto,True,205.42857142857142
+Accademia Club & Spa,0.0,0,2680,Hotel,0.7,Trevi,True,382.85714285714283
+Orto Di Roma,7.8,375,1262,Hotel,6.9,Ardeatino,False,180.28571428571428
+Augustana House and Suites,9.7,61,3197,Apartment,1.1,Spagna,False,456.7142857142857
+In Terrazza Da Giusy,9.5,9,1481,Hotel,5.9,Tiburtino,True,211.57142857142858
+Hotel Amalfi,8.8,525,1958,Hotel,1.4,Rione Monti,True,279.7142857142857
+B&B Cappellini snc,6.1,935,654,Bed&Breakfast,1.8,Stazione Termini,False,93.42857142857143
+Grand Hotel Hermitage,5.8,520,1238,Hotel,3.8,Villa Borghese/Parioli,False,176.85714285714286
+Cerquetta home,7.7,4,503,Hotel,15.8,Not specified,False,71.85714285714286
+Hotel Euro Quiris,7.8,296,815,Hotel,2.0,Stazione Termini,True,116.42857142857143
+Hotel Baltico,6.7,879,774,Holiday Home,1.9,Stazione Termini,False,110.57142857142857
+Farnese Suite Dream S&AR,7.4,87,1656,Hotel,0.9,Piazza Navona,False,236.57142857142858
+Hotel Palace Nardo,6.4,70,840,Hotel,9.4,Trionfale,False,120.0
+Acanto Room Suite,8.7,70,1411,Hotel,7.8,Appio Latino,False,201.57142857142858
+Comfort Rooms Villa Gaia Tor Vergata,9.0,12,1253,Hotel,13.6,Not specified,False,179.0
+B&B Cappellini,6.2,449,808,Bed&Breakfast,1.9,Stazione Termini,True,115.42857142857143
+Hotel Geo,7.1,80,990,Hotel,3.8,Prenestino,True,141.42857142857142
+Vatican City Accommodation,8.8,33,999,Hotel,4.3,Aurelio,False,142.71428571428572
+Candia41,7.1,18,1207,Hotel,2.7,Vaticano Prati,True,172.42857142857142
+Hotel Antico Acquedotto,7.4,309,1037,Hotel,4.2,Prenestino,True,148.14285714285714
+Abc,9.5,14,1985,Hotel,2.6,Vaticano Prati,False,283.57142857142856
+Hotel Castle,9.0,230,1338,Hotel,10.7,Not specified,False,191.14285714285714
+Relais Nazionale,0.0,0,10534,Hotel,0.9,Rione Monti,False,1504.857142857143
+Novotel Roma Eur,8.4,1629,1684,Hotel,8.5,Torrino,False,240.57142857142858
+Appia Park Hotel,7.8,608,1469,Hotel,8.5,Appio Latino,False,209.85714285714286
+Family Penthouse Apartment,0.0,0,872,Hotel,1.7,Spagna,True,124.57142857142857
+Mercure Roma Centro Colosseo,8.2,1014,2810,Holiday Home,1.4,Rione Monti,False,401.42857142857144
+Apartment,0.0,0,848,Apartment,4.0,Not specified,True,121.14285714285714
+Elegance,7.7,37,1031,Hotel,1.6,Stazione Termini,False,147.28571428571428
+LUX Suites in Roma,8.9,21,3122,Hotel,1.4,Via Veneto,False,446.0
+Hotel Gioberti,8.4,433,1927,Hotel,1.6,Stazione Termini,True,275.2857142857143
+Diamante,0.0,0,1127,Hotel,6.1,Not specified,True,161.0
+Europe 42,0.0,0,1138,Apartment,5.4,Ostiense,True,162.57142857142858
+Residenza Risorgimento,8.6,69,1109,Hotel,2.3,Vaticano Prati,True,158.42857142857142
+Posto di Famiglia,0.0,0,1267,Hotel,2.3,Stazione Termini,True,181.0
+Rita a Trastevere,8.8,105,1323,Hotel,1.9,Gianicolense,True,189.0
+Profumo Maison d'Hôtes,8.7,353,1939,Hotel,1.4,Rione Monti,True,277.0
+Exe Domus Aurea,8.4,1257,1710,Hotel,1.7,Stazione Termini,False,244.28571428571428
+Hotel Shangri-La Roma,8.6,3232,1935,Hotel,8.6,Eur,True,276.42857142857144
+Hotel Tritone,8.3,415,2263,Hotel,0.7,Trevi,True,323.2857142857143
+Portafortuna Guest House,7.3,53,1190,Hotel,1.5,Stazione Termini,True,170.0
+Orange Hotel,6.8,171,2581,Hotel,2.2,Vaticano Prati,False,368.7142857142857
+Atlante Star Hotel,7.9,1789,4374,Hotel,2.0,Vaticano Prati,True,624.8571428571429
+Dharma Luxury Hotel,8.7,485,2567,Hotel,1.2,Stazione Termini,True,366.7142857142857
+Latte & Biscotti,9.3,91,2156,Apartment,2.6,Vaticano Prati,True,308.0
+Hotel Principe Eugenio,7.9,622,1117,Hotel,2.2,Stazione Termini,True,159.57142857142858
+Hotel Best Roma,8.2,62,1587,Hotel,2.4,Stazione Termini,False,226.71428571428572
+DOMUS NASCIMBENI,8.7,53,1169,Hotel,4.7,Aurelio,True,167.0
+Hotel Appia 442,9.1,149,1241,Hotel,4.1,Appio Latino,True,177.28571428571428
+Hotel Ferraro,7.9,470,1764,Hotel,0.7,Rione Monti,False,252.0
+Hotel Mecenate Palace,8.5,2217,2461,Hotel,1.4,Stazione Termini,False,351.57142857142856
+Nerva Boutique Hotel,9.3,378,3138,Hotel,0.4,Rione Monti,False,448.2857142857143
+Hotel Lunetta,9.2,467,3942,Hotel,0.7,Piazza Navona,False,563.1428571428571
+Hotel Le Petit,7.3,637,1528,Holiday Home,1.2,Stazione Termini,False,218.28571428571428
+Hotel Splendide Royal - Small Luxury Hotels of the World,9.0,342,5564,Hotel,1.4,Via Veneto,False,794.8571428571429
+Rocco Forte Hotel De La Ville,9.3,169,16025,Hotel,1.1,Spagna,False,2289.285714285714
+Sina Bernini Bristol,8.1,359,4746,Hotel,1.1,Trevi,False,678.0
+JK Place Roma - The Leading Hotels of the World,9.6,260,25425,Hotel,1.1,Spagna,False,3632.1428571428573
+Lifestyle Suites Rome,9.3,254,8470,Hotel,0.8,Piazza Navona,True,1210.0
+NH Collection Roma Fori Imperiali,9.0,529,5318,Hotel,0.2,Trevi,True,759.7142857142857
+Casa Di Santa Francesca Romana a Ponte Rotto,8.1,382,2498,Hotel,1.0,Trastevere,True,356.85714285714283
+Hotel dei Borgognoni,9.0,410,3282,Hotel,0.8,Spagna,False,468.85714285714283
+Residenza Paolo VI,8.8,546,3384,Hotel,2.2,Vaticano Prati,False,483.42857142857144
+Gregorio VII Luxury Suites,8.1,126,1847,Hotel,3.6,Aurelio,False,263.85714285714283
+Hotel Robinson,7.7,256,1084,Hotel,1.9,Stazione Termini,False,154.85714285714286
+Raeli Hotel Siracusa,7.5,897,1938,Hotel,1.8,Stazione Termini,False,276.85714285714283
+Sweet Vatican,9.3,48,2184,Hotel,2.5,Vaticano Prati,True,312.0
+Hotel Donatello,7.6,233,1256,Hotel,2.6,Stazione Termini,True,179.42857142857142
+Raeli Hotel Archimede,7.0,305,2014,Apartment,2.0,Stazione Termini,True,287.7142857142857
+Hotel Fenicia,8.0,505,1939,Hotel,1.9,Stazione Termini,False,277.0
+Hotel Villa Duse,8.9,209,2440,Hotel,3.8,Villa Borghese/Parioli,True,348.57142857142856
+Residence Hotel Parioli,9.0,69,2466,Hotel,3.1,Villa Borghese/Parioli,True,352.2857142857143
+Hotel Regina Giovanna,7.7,504,2123,Hotel,1.1,Stazione Termini,True,303.2857142857143
+Hotel Rosetta,8.6,243,1922,Hotel,0.6,Rione Monti,True,274.57142857142856
+VaticanRome,9.3,3,1904,Hotel,1.8,Vaticano Prati,True,272.0
+Gran B&B Roma Vatican,10.0,8,5138,Bed&Breakfast,1.9,Vaticano Prati,False,734.0
+Hotel Romulus,6.1,84,1330,Hotel,8.9,Nomentano,False,190.0
+Relais central Turati,0.0,0,1458,Hotel,1.6,Stazione Termini,False,208.28571428571428
+Amazing View Vatican Rome,10.0,4,2850,Hotel,2.5,Vaticano Prati,False,407.14285714285717
+Guest Planet,6.8,11,1033,Hotel,1.9,Stazione Termini,True,147.57142857142858
+Good Life Via Veneto,8.3,314,2104,Hotel,1.6,Via Veneto,True,300.57142857142856
+Le Rose di Bi,7.5,64,911,Hotel,1.9,Stazione Termini,False,130.14285714285714
+Hotel Tempio Di Pallade,7.5,312,1148,Hotel,2.5,Stazione Termini,True,164.0
+Villa Aurora,5.9,8,1344,Hotel,6.8,Nomentano,False,192.0
+Arpinelli Relais,9.6,223,2105,Hotel,0.6,Trevi,False,300.7142857142857
+Luxury Vatican Rooms,8.9,6,3878,Hotel,3.5,Aurelio,False,554.0
+Hotel Lord Byron - Small Luxury Hotels of the World,8.6,154,3866,Hotel,2.7,Villa Borghese/Parioli,True,552.2857142857143
+CAVOUR SUITES,7.0,4,925,Hotel,1.3,Stazione Termini,False,132.14285714285714
+Room Mate Gran Filippo,0.0,0,3786,Hotel,1.1,Via Veneto,False,540.8571428571429
+Raeli Hotel Lux,6.4,388,2011,Hotel,2.0,Stazione Termini,True,287.2857142857143
+Roma Borgo91,9.5,13,1484,Hotel,2.1,Vaticano Prati,False,212.0
+Hotel Artorius,8.8,231,1715,Hotel,0.7,Rione Monti,False,245.0
+Tito Suite,6.3,3,1409,Hotel,1.9,Stazione Termini,True,201.28571428571428
+Hotel Salis,0.0,0,1148,Hotel,2.1,Via Veneto,True,164.0
+Vivaldi Luxury Rooms,8.9,15,2068,Hotel,1.3,Spagna,False,295.42857142857144
+Le Petit Bijou,8.8,419,7203,Hotel,1.5,Via Veneto,True,1029.0
+little appartaments,0.0,0,3689,Apartment,1.7,Stazione Termini,False,527.0
+Casale Tuscolano,7.4,3,856,Hotel,16.9,Not specified,False,122.28571428571429
+damianoadriano,0.0,0,923,Hotel,4.9,Portuense,False,131.85714285714286
+Shiva B&B,7.9,46,968,Bed&Breakfast,2.5,Stazione Termini,True,138.28571428571428
+Albergo Bixio,4.9,27,938,Hotel,2.2,Stazione Termini,False,134.0
+Dafne Monte Mario & Pet,8.2,44,1169,Apartment,7.4,Trionfale,False,167.0
+B&B St Peter's Suites,9.0,47,1778,Bed&Breakfast,2.7,Vaticano Prati,True,254.0
+Starry Rome Guest House,8.3,112,1106,Hotel,4.1,Nomentano,True,158.0
+Casa Eli Roma B&B,9.8,45,1478,Bed&Breakfast,4.3,Gianicolense,False,211.14285714285714
+B&B Acquedotti Antichi,7.2,3,1488,Bed&Breakfast,8.5,Appio Latino,False,212.57142857142858
+B&B Bel Ami,8.8,163,1295,Bed&Breakfast,2.5,San Giovanni,True,185.0
+Regal House Roma 2,0.0,0,1229,Apartment,4.2,Ardeatino,False,175.57142857142858
+Casa Fanti,0.0,0,798,Hotel,1.8,Stazione Termini,False,114.0
+VILLA WH,0.0,0,1694,Hotel,17.0,Not specified,False,242.0
+San Peter Nice Holiday Rome - Luxury rooms,0.0,0,2898,Hotel,2.4,Vaticano Prati,True,414.0
+CK Rooms,6.5,3,1006,Hotel,2.0,Stazione Termini,False,143.71428571428572
+Hotel Parker,8.1,145,1118,Hotel,2.5,Stazione Termini,False,159.71428571428572
+Relais 4 Fontane,0.0,0,1754,Hotel,1.0,Stazione Termini,False,250.57142857142858
+Urbana 33,8.2,331,2618,Hotel,1.0,Rione Monti,True,374.0
+Affittacamere Centro Cavour,0.0,0,1534,Hotel,1.0,Rione Monti,False,219.14285714285714
+ROSMINI OPERA HOUSE,0.0,0,1762,Hotel,1.3,Stazione Termini,False,251.71428571428572
+Hotel Champagne Palace,5.9,142,2072,Hotel,1.5,Stazione Termini,False,296.0
+JR Suites,0.0,0,1864,Hotel,0.8,Rione Monti,False,266.2857142857143
+Bottega delle Arti,8.5,15,2758,Hotel,1.7,Stazione Termini,False,394.0
+Via Rasella. 57-44 00187 Roma,0.0,0,3789,Hotel,0.8,Trevi,False,541.2857142857143
+Corso 12 Roma,7.2,3,3423,Hotel,1.6,Spagna,False,489.0
+The First Roma Dolce,9.6,182,12754,Hotel,1.3,Spagna,True,1822.0
+Elle Boutique Hotel,0.0,0,2258,Hotel,2.5,Vaticano Prati,False,322.57142857142856
+Casa Fabbrini Fancy Suites,9.1,73,2851,Apartment,1.2,Spagna,False,407.2857142857143
+Pantheon Rooms,6.7,8,2430,Hotel,0.6,Pantheon,True,347.14285714285717
+Villa Matissa Apartments,9.7,30,1876,Hotel,1.8,Trastevere,True,268.0
+The Independent Suites,9.1,147,2961,Hotel,1.7,Stazione Termini,False,423.0
+Hotel Art by the Spanish Steps UNA Esperienze,8.3,134,3213,Apartment,1.3,Spagna,True,459.0
+IG Suites,0.0,0,1864,Hotel,0.7,Rione Monti,True,266.2857142857143
+Babuino 79,9.6,389,3622,Hotel,1.3,Spagna,True,517.4285714285714
+CANELLA HOTEL,8.3,10,1078,Hotel,8.0,Nomentano,False,154.0
+Almes Roma B&B,8.9,41,1029,Bed&Breakfast,3.2,Vaticano Prati,False,147.0
+Green Hotel,7.8,42,1186,Apartment,2.8,Nomentano,True,169.42857142857142
+Agriturismo La Melazza,8.3,10,1568,Hotel,24.6,Not specified,True,224.0
+Hotel Ventura,5.3,18,950,Apartment,2.2,Stazione Termini,False,135.71428571428572
+Tintoretto Inn B&B,8.0,42,1229,Bed&Breakfast,6.4,Ardeatino,False,175.57142857142858
+Raeli Hotel Luce,6.6,421,1806,Hotel,1.9,Stazione Termini,False,258.0
+Urban Holiday,8.3,3,1059,Hotel,2.3,Stazione Termini,False,151.28571428571428
+Hotel Maryelen 2,7.8,13,1218,Hotel,1.6,Stazione Termini,False,174.0
+Soggiorno Angelus,8.6,140,1521,Hotel,0.7,Rione Monti,False,217.28571428571428
+Roma Vespahouse,9.0,42,1428,Hotel,1.7,Stazione Termini,False,204.0
+Ricciardelli Luxury Studios - Piazza di Spagna,0.0,0,3458,Hotel,1.1,Spagna,False,494.0
+Private Modern Studio Paolina City Center,9.6,60,4160,Hotel,1.2,Rione Monti,False,594.2857142857143
+Small Luxury Inn Rome by The Goodnight Company,0.0,0,4748,Holiday Home,1.2,Spagna,True,678.2857142857143
+Hotel Croce Di Malta,8.1,418,1671,Holiday Home,1.0,Spagna,False,238.71428571428572
+Donna Camilla Savelli - VRetreats,8.8,1340,3711,Hotel,1.5,Trastevere,False,530.1428571428571
+RM Guest House,8.0,317,914,Hotel,2.0,Stazione Termini,True,130.57142857142858
+Lifestyle Veneto Suite,9.1,227,5060,Apartment,1.8,Via Veneto,True,722.8571428571429
+Affitacamere Radi,7.6,234,906,Hotel,2.0,Stazione Termini,True,129.42857142857142
+Vacanze Deaf,6.6,23,1220,Hotel,7.7,Aurelio,False,174.28571428571428
+Hotel Indigo Rome - St George. an IHG Hotel,9.0,158,4563,Other,1.4,Piazza Navona,True,651.8571428571429
+Generator Rome,8.3,2092,747,Hotel,1.9,Stazione Termini,False,106.71428571428571
+Rome Experience Hostel,7.1,2287,523,Hotel,2.6,Stazione Termini,False,74.71428571428571
+Alessandro Palace & Bar,7.9,1610,521,Hotel,2.1,Stazione Termini,True,74.42857142857143
+Hotel San Giusto,7.7,772,1792,Other,3.8,Nomentano,True,256.0
+Free Hostels Roma,9.0,1728,1395,Holiday Home,2.2,Stazione Termini,False,199.28571428571428
+Rome City Hostel,7.3,364,482,Holiday Home,3.2,Tiburtino,True,68.85714285714286
+Roma Scout Center,8.8,790,532,Hotel,3.7,Nomentano,True,76.0
+Palladini Hostel Rome,8.0,2159,554,Apartment,1.6,Stazione Termini,False,79.14285714285714
+Hotel Abitart,8.3,446,2382,Hotel,2.6,Aventino,False,340.2857142857143
+Hotel Italia,8.5,1218,2447,Other,1.0,Rione Monti,True,349.57142857142856
+Best Western Cinemusic Hotel,8.5,533,1484,Other,3.4,San Giovanni,False,212.0
+Hotel Principe Di Piemonte,7.7,345,866,Other,2.6,Stazione Termini,False,123.71428571428571
+Bettoja Hotel Massimo d'Azeglio,8.5,1069,1922,Other,1.5,Stazione Termini,True,274.57142857142856
+Hotel Arco Di Travertino,8.6,224,1414,Hotel,5.4,Appio Latino,False,202.0
+Bettoja Hotel Atlantico,8.1,606,1806,Hotel,1.4,Stazione Termini,False,258.0
+Hotel dei Barbieri,8.6,721,3560,Hotel,0.6,Pantheon,False,508.57142857142856
+B&B Oasi,7.8,200,1078,Bed&Breakfast,1.6,Stazione Termini,True,154.0
+Sweet Dreams in St Peter B&B,9.6,77,1276,Bed&Breakfast,2.7,Vaticano Prati,False,182.28571428571428
+Hotel Stadler 2,7.7,353,1077,Hotel,1.8,Stazione Termini,False,153.85714285714286
+Hotel Rimini,7.5,630,1265,Hotel,1.9,Stazione Termini,True,180.71428571428572
+Artemis,8.4,149,1452,Apartment,1.1,Stazione Termini,True,207.42857142857142
+Adelina Guesthouse,9.4,32,1654,Hotel,2.6,Stazione Termini,False,236.28571428571428
+Central Lodge Hotel,8.5,621,1533,Hotel,1.7,Stazione Termini,False,219.0
+Casa per Ferie Rosaz,9.3,63,1213,Hotel,3.6,Gianicolense,True,173.28571428571428
+The Spanish Suite Via di Ripetta,8.0,301,2473,Hotel,1.4,Spagna,False,353.2857142857143
+Hotel Martini,7.9,221,1554,Hotel,1.1,Stazione Termini,False,222.0
+Kolbe Hotel Rome,8.6,250,2751,Hotel,0.7,Colosseo,True,393.0
+Hotel Alexandra,8.3,1480,1621,Hotel,1.1,Via Veneto,True,231.57142857142858
+Hotel Il Papavero,7.4,394,617,Hotel,1.9,Stazione Termini,False,88.14285714285714
+Hotel Mirage,7.3,627,1288,Hotel,1.9,Stazione Termini,True,184.0
+Appartamenti MarcoAurelio49,8.9,1177,1608,Apartment,1.5,Colosseo,True,229.71428571428572
+Hotel Capannelle Roma,7.7,2507,1338,Other,9.1,Appio Latino,True,191.14285714285714
+Hotel Valadier,8.3,972,3690,Hotel,1.5,Spagna,False,527.1428571428571
+Hotel Camelia,8.7,732,1246,Hotel,1.9,Stazione Termini,True,178.0
+Hotel Oceania,8.5,724,1521,Hotel,1.2,Stazione Termini,True,217.28571428571428
+Aurelia Vatican Apartments,8.5,372,951,Hotel,4.2,Trionfale,False,135.85714285714286
+Sunlight Guest house,6.5,92,613,Hotel,1.7,Stazione Termini,False,87.57142857142857
+Cressy,7.7,216,674,Hotel,1.7,Stazione Termini,True,96.28571428571429
+Best Western Hotel Artdeco,8.2,539,1360,Hotel,2.0,Stazione Termini,True,194.28571428571428
+Hotel Domidea,8.3,346,1141,Hotel,9.0,Prenestino,True,163.0
+Locanda Otello,8.0,1203,760,Hotel,1.9,Stazione Termini,True,108.57142857142857
+House Garden,8.8,91,1022,Hotel,2.5,Nomentano,True,146.0
+NH Collection Palazzo Cinquecento,8.6,1557,2577,Hotel,1.7,Stazione Termini,False,368.14285714285717
+ALEX CITY INN III,7.1,118,790,Hotel,2.1,Stazione Termini,True,112.85714285714286
+Hotel Suite Caesar,7.9,973,1540,Hotel,1.9,Stazione Termini,True,220.0
+Alpi Hotel,8.8,1270,1331,Hotel,2.0,Stazione Termini,False,190.14285714285714
+Dormi a Roma,7.6,78,967,Hotel,3.3,Gianicolense,True,138.14285714285714
+The Glam,8.7,1386,2441,Hotel,0.7,Rione Monti,True,348.7142857142857
+Les Fleurs Luxury House,9.0,364,5762,Apartment,1.1,Spagna,True,823.1428571428571
+chèri luxury suite,8.9,266,941,Hotel,2.1,Stazione Termini,True,134.42857142857142
+Monti Palace Hotel,8.8,620,2049,Hotel,0.9,Rione Monti,False,292.7142857142857
+Hotel Milo,7.7,386,763,Hotel,1.5,Stazione Termini,True,109.0
+Bio Hotel Raphael - Relais & Châteaux,8.7,649,5635,Hotel,1.0,Piazza Navona,True,805.0
+Hotel Corona,7.4,309,1295,Hotel,1.2,Stazione Termini,True,185.0
+Hotel Mascagni,8.5,736,1578,Hotel,1.3,Stazione Termini,True,225.42857142857142
+Blue whale,6.9,335,570,Hotel,1.6,Stazione Termini,False,81.42857142857143
+Les Chambres d'Or,7.1,566,1212,Hotel,2.3,Vaticano Prati,True,173.14285714285714
+Quo Vadis,8.1,75,783,Hotel,2.7,Vaticano Prati,True,111.85714285714286
+Hotel Trastevere,8.2,416,1207,Hotel,1.4,Trastevere,True,172.42857142857142
+Hotel St Moritz,7.7,971,1141,Hotel,0.9,Rione Monti,False,163.0
+Anthony Guesthouse,9.0,327,958,Hotel,2.0,Stazione Termini,False,136.85714285714286
+Cambridge Hotel,7.1,311,962,Hotel,2.1,Stazione Termini,True,137.42857142857142
+Reale House Rooms,8.6,110,832,Hotel,3.3,Vaticano Prati,True,118.85714285714286
+Borgo San Lorenzo Roma,9.8,58,1085,Apartment,2.9,San Lorenzo,False,155.0
+Clarion Collection Hotel Principessa Isabella,8.2,481,1755,Hotel,1.8,Via Veneto,True,250.71428571428572
+Hotel Labelle,8.5,539,1274,Hotel,0.6,Rione Monti,True,182.0
+Tmark Hotel Vaticano,8.6,273,2238,Hotel,2.8,Vaticano Prati,True,319.7142857142857
+Cervara Park Hotel,7.2,331,928,Hotel,9.2,Tiburtino,False,132.57142857142858
+Residenza Matilde,8.2,125,1078,Hotel,3.1,Nomentano,True,154.0
+Olimpica Relais,8.7,203,1232,Hotel,3.4,Aurelio,True,176.0
+The Hive Hotel,8.9,5501,3171,Hotel,1.2,Stazione Termini,True,453.0
+Rome Vatican Suite,8.4,262,1171,Hotel,2.3,Vaticano Prati,False,167.28571428571428
+Ateneo Garden Palace,8.1,192,1402,Hotel,2.4,San Lorenzo,True,200.28571428571428
+Hotel Tuscolana,8.5,306,1121,Hotel,3.7,San Giovanni,True,160.14285714285714
+HS 311,8.1,139,1374,Hotel,0.6,Rione Monti,True,196.28571428571428
+Piazza Navona Charming Apartment,0.0,0,1412,Apartment,0.9,Piazza Navona,False,201.71428571428572
+Hotel Amadeus,7.6,144,1342,Hotel,1.5,Stazione Termini,False,191.71428571428572
+Relais Esquilino,7.8,17,1354,Hotel,1.4,Stazione Termini,False,193.42857142857142
+Navona Art Apartment,9.0,49,2238,Apartment,1.4,Piazza Navona,False,319.7142857142857
+Hotel Stromboli,6.6,1286,889,Hotel,1.8,Stazione Termini,True,127.0
+Luxardotel,8.1,458,803,Hotel,10.6,Tiburtino,True,114.71428571428571
+Sotel Nomentana,6.5,559,868,Hotel,7.5,Tiburtino,True,124.0
+Hotel a conduzione familiare,0.0,0,483,Apartment,1.1,Not specified,True,69.0
+I migliori appartamenti di Roma,0.0,0,623,Apartment,1.9,Not specified,True,89.0
+RomeAsYouLike - Ripetta Apartment 155,0.0,0,588,Apartment,3.2,Not specified,True,84.0
+Hotel confortevole,0.0,0,588,Apartment,2.2,Not specified,True,84.0
+Hotel i russi non si arrendono,0.0,0,623,Apartment,1.5,Not specified,True,89.0
+DREAM HOUSE,0.0,0,728,Apartment,3.2,Not specified,True,104.0
+Bellissimo e spazioso appartamento vicino al centro,0.0,0,728,Apartment,3.2,Not specified,True,104.0
+Diamante Home,0.0,0,658,Apartment,6.2,Not specified,True,94.0
+47 Steps,9.3,411,1222,Hotel,1.9,Stazione Termini,True,174.57142857142858
+Hotel Amalia Vaticano,8.6,208,1290,Hotel,2.5,Vaticano Prati,False,184.28571428571428
+The RomeHello,9.5,3942,1017,Hotel,1.3,Stazione Termini,True,145.28571428571428
+Flat 285 La Suite,8.8,364,1443,Hotel,2.2,Vaticano Prati,True,206.14285714285714
+Hilton Garden Inn Rome Claridge,8.3,374,1978,Hotel,3.1,Villa Borghese/Parioli,True,282.57142857142856
+Aparthotel Adagio Rome Vatican,8.0,574,1043,Apartment,4.7,Trionfale,False,149.0
+Hotel Piemonte,7.9,1890,965,Hotel,1.9,Stazione Termini,True,137.85714285714286
+Hotel Medici,8.0,1272,989,Hotel,1.8,Via Veneto,True,141.28571428571428
+Hotel Quirinale,8.3,2858,2384,Hotel,1.2,Stazione Termini,True,340.57142857142856
+Excel Roma Montemario,7.4,1172,1625,Hotel,5.8,Trionfale,True,232.14285714285714
+Hotel Borromeo,8.2,1421,1875,Hotel,1.1,Rione Monti,False,267.85714285714283
+Hotel Flavia,8.0,1250,1512,Hotel,1.6,Via Veneto,True,216.0
+St Peter Guest House,9.1,396,1841,Apartment,2.5,Vaticano Prati,True,263.0
+Hotel Santa Costanza,7.8,1147,1412,Hotel,4.0,Nomentano,True,201.71428571428572
+Warmthotel,8.5,3115,1186,Hotel,9.3,Fonte Ostiense,True,169.42857142857142
+Best Western Hotel President,8.6,1062,1511,Hotel,2.1,Stazione Termini,True,215.85714285714286
+Alex Romano,7.8,655,668,Hotel,2.1,Stazione Termini,True,95.42857142857143
+Hotel Emmaus,7.8,536,809,Hotel,2.2,Vaticano Prati,True,115.57142857142857
+Hotel Pulitzer,8.8,817,1817,Hotel,5.4,Ostiense,False,259.57142857142856
+Stars Luxury Apartments 1,0.0,0,2501,Apartment,2.1,Vaticano Prati,False,357.2857142857143
+Hotel Ripa Roma,8.2,1652,1610,Hotel,1.8,Gianicolense,False,230.0
+NH Roma Villa Carpegna,8.1,635,1566,Hotel,3.6,Aurelio,True,223.71428571428572
+Hotel Astoria Garden,7.9,559,1330,Hotel,2.0,Stazione Termini,True,190.0
+Hotel Zone,8.1,1316,1246,Hotel,5.1,Trionfale,True,178.0
+Hostel Beautiful,6.2,303,607,Hotel,1.9,Stazione Termini,False,86.71428571428571
+Holiday Rome,6.0,742,398,Hotel,1.7,Stazione Termini,False,56.857142857142854
+Best Western Blu Hotel Roma,7.9,456,1221,Hotel,4.4,Tiburtino,False,174.42857142857142
+Piave41,8.9,11,1274,Hotel,2.0,Via Veneto,True,182.0
+Camere del Camerlengo,8.8,126,1148,Hotel,2.8,Vaticano Prati,True,164.0
+Appartamento Merulana: a due passi dal Colosseo,0.0,0,1811,Apartment,1.8,Rione Monti,False,258.7142857142857
+Al Manthia Hotel - Gruppo Trevi Hotels,8.7,398,1636,Hotel,0.9,Trevi,True,233.71428571428572
+Domus Caracalla,9.0,284,1191,Hotel,1.9,Rione Monti,True,170.14285714285714
+The Republic,9.0,1485,2251,Hotel,1.7,Stazione Termini,True,321.57142857142856
+Rome Visits,9.2,365,2891,Hotel,1.0,Piazza Navona,True,413.0
+The Inn at the Spanish Steps,8.7,548,6637,Hotel,1.1,Spagna,True,948.1428571428571
+Triviho Hotel,9.2,339,1679,Other,1.2,Trevi,False,239.85714285714286
+Hotel Forum,8.5,895,3315,Hotel,0.5,Rione Monti,True,473.57142857142856
+Corso Grand Suite,8.1,275,1422,Hotel,1.1,Spagna,False,203.14285714285714
+Hotel Nardizzi Americana,8.0,425,1645,Hotel,1.2,Stazione Termini,True,235.0
+Corso 281 Luxury Suites,8.8,196,3877,Hotel,0.2,Pantheon,False,553.8571428571429
+Hotel Giubileo,8.7,827,884,Hotel,1.5,Stazione Termini,False,126.28571428571429
+GARDEN HOUSE,0.0,0,630,Apartment,9.5,Trionfale,False,90.0
+Trastevere Market Apartment Rome,0.0,0,862,Apartment,2.8,Portuense,False,123.14285714285714
+Dafne Portonaccio,8.0,96,1205,Hotel,4.5,Tiburtino,True,172.14285714285714
+LHP Suite Roma Termini,7.8,53,1224,Hotel,1.8,Stazione Termini,True,174.85714285714286
+Hotel Artemide,9.4,1279,2971,Hotel,1.1,Stazione Termini,False,424.42857142857144
+Diana Roof Garden,8.1,372,2235,Hotel,1.3,Stazione Termini,True,319.2857142857143
+Hotel San Francesco,8.4,369,1743,Hotel,1.5,Trastevere,True,249.0
+Hotel White,8.4,281,3379,Hotel,0.7,Trevi,True,482.7142857142857
+The Fitzroy Allegria,6.8,140,838,Hotel,2.3,Nomentano,True,119.71428571428571
+Hotel Gabriele,6.7,483,869,Hotel,1.5,Stazione Termini,True,124.14285714285714
+A Casa di Silvana,9.1,40,1322,Hotel,5.2,Portuense,True,188.85714285714286
+Hotel Mariano,8.4,533,1429,Hotel,1.7,Stazione Termini,True,204.14285714285714
+Livingvaticano,8.2,103,1127,Hotel,4.7,Aurelio,False,161.0
+Navona Stay,8.9,176,2718,Hotel,0.8,Piazza Navona,False,388.2857142857143
+Grand Hotel Fleming,8.2,4043,1332,Hotel,5.4,Tor Di Quinto,True,190.28571428571428
+Deseo Home,8.8,1370,1489,Hotel,2.0,Stazione Termini,False,212.71428571428572
+Best Western Hotel Astrid,8.1,1494,1523,Hotel,3.3,Villa Borghese/Parioli,True,217.57142857142858
+Hotel Villa Glori,8.4,911,1628,Hotel,3.4,Villa Borghese/Parioli,True,232.57142857142858
+Hotel Casale dei Massimi,7.1,557,740,Apartment,8.6,Not specified,False,105.71428571428571
+Hotel Tito,8.1,1685,1384,Hotel,1.9,Stazione Termini,True,197.71428571428572
+BV Hotel Oly,8.0,508,1686,Hotel,4.9,Ostiense,True,240.85714285714286
+Hotel Caravel,8.5,1249,1303,Hotel,3.6,Ostiense,True,186.14285714285714
+Hotel Demetra Capitolina,7.0,937,911,Hotel,1.5,Stazione Termini,True,130.14285714285714
+Hotel Select Garden,8.2,628,1275,Hotel,2.0,Stazione Termini,True,182.14285714285714
+Colosseo Roma,8.5,546,798,Hotel,1.7,Stazione Termini,False,114.0
+Occidental Aurelia,8.4,1111,1800,Hotel,4.6,Aurelio,False,257.14285714285717
+iH Hotels Roma Z3,8.0,877,1474,Apartment,7.2,Prenestino,False,210.57142857142858
+Hotel Santa Maura,8.3,624,1120,Hotel,9.3,Prenestino,False,160.0
+B&B 94Rooms Vatican-Scipioni,8.2,311,1499,Bed&Breakfast,2.5,Vaticano Prati,False,214.14285714285714
+Novotel Roma Est,7.7,410,1518,Hotel,11.3,Not specified,True,216.85714285714286
+Donna Laura Palace,8.6,903,2343,Hotel,2.5,Vaticano Prati,True,334.7142857142857
+Quality Hotel Nova Domus,7.7,490,1272,Hotel,3.2,Vaticano Prati,True,181.71428571428572
+Aida Charming Rooms,7.1,400,928,Hotel,4.4,Gianicolense,True,132.57142857142858
+NH Collection Roma Vittorio Veneto,8.0,1039,2589,Hotel,1.7,Via Veneto,True,369.85714285714283
+Hotel San Marco,7.8,360,1252,Hotel,2.1,Stazione Termini,False,178.85714285714286
+The Strand Hotel,7.0,664,1021,Hotel,6.7,Appio Latino,True,145.85714285714286
+Grand Hotel Gianicolo,8.0,771,3048,Hotel,2.0,Trastevere,True,435.42857142857144
+Hotel Cristoforo Colombo,8.3,6160,1292,Hotel,8.9,Torrino,True,184.57142857142858
+FH55 Grand Hotel Palatino,8.4,1949,2044,Hotel,0.8,Rione Monti,True,292.0
+Trevi 41 Hotel,8.4,408,2608,Apartment,0.7,Trevi,True,372.57142857142856
+Hotel Fenix,8.1,515,1603,Hotel,3.6,Nomentano,True,229.0
+Hotel Parrasio,8.0,279,5950,Hotel,1.6,Trastevere,True,850.0
+Hotel Napoleon,8.4,876,1706,Hotel,1.8,Stazione Termini,True,243.71428571428572
+Nazionale 51 Group,9.1,1099,9529,Hotel,0.9,Rione Monti,False,1361.2857142857142
+Casa La Salle - Casa Religiosa,8.2,1259,1421,Hotel,4.9,Aurelio,False,203.0
+Leonardo Boutique Hotel Rome Termini,8.6,668,1614,Hotel,2.0,Stazione Termini,True,230.57142857142858
+St Peter Rooms,8.0,5,1362,Hotel,2.4,Vaticano Prati,True,194.57142857142858
+Florian Rooms Guest House,8.3,94,1906,Hotel,1.9,Stazione Termini,False,272.2857142857143
+Hotel Gregoriana,8.8,94,3724,Apartment,1.1,Spagna,True,532.0
+Rhinoceros,9.3,294,4264,Hotel,0.7,Colosseo,False,609.1428571428571
+Favilla Hotel di Charme,9.2,144,1762,Hotel,13.0,Not specified,False,251.71428571428572
+Relais Teatro Argentina,9.0,149,2338,Other,0.5,Pantheon,False,334.0
+Roma Luxus Hotel,8.6,1445,4952,Hotel,0.4,Rione Monti,True,707.4285714285714
+Melody Suite Rome,8.9,92,1871,Hotel,2.0,Via Veneto,True,267.2857142857143
+Salandra Roma Suite,8.3,214,2213,Hotel,1.5,Via Veneto,False,316.14285714285717
+Hotel Eden - Dorchester Collection,9.5,154,16674,Hotel,1.3,Via Veneto,True,2382.0
+The First Roma Arte,8.9,199,6496,Apartment,1.5,Spagna,False,928.0
+Hotel La Rovere,8.6,284,2168,Hotel,1.7,Trastevere,True,309.7142857142857
+47 Boutique Hotel,8.6,138,4555,Hotel,0.7,Colosseo,True,650.7142857142857
+Relais Piazza Del Popolo,9.4,86,1603,Hotel,1.9,Villa Borghese/Parioli,False,229.0
+Elizabeth Unique Hotel | a Member of Design Hotels™,9.4,178,7382,Hotel,1.3,Spagna,True,1054.5714285714287
+Hotel Columbia,8.6,190,2816,Hotel,1.3,Stazione Termini,True,402.2857142857143
+Viminale View Hotel,8.9,383,2831,Apartment,1.1,Rione Monti,False,404.42857142857144
+Ludovisi Palace Hotel,8.3,523,3164,Hotel,1.3,Via Veneto,True,452.0
+Hotel Veneto Palace,7.8,353,2619,Hotel,1.7,Via Veneto,True,374.14285714285717
+Demi's home,9.3,54,1532,Hotel,2.7,Vaticano Prati,True,218.85714285714286
+TinkerBell,8.9,143,1744,Hotel,2.9,Vaticano Prati,True,249.14285714285714
+La Valle dei Casali B&B,8.9,55,1868,Bed&Breakfast,5.9,Not specified,True,266.85714285714283
+Ferrari Home,7.9,32,1461,Hotel,2.5,Vaticano Prati,False,208.71428571428572
+Nannarè Guest House,9.3,3,1342,Apartment,2.3,Vaticano Prati,True,191.71428571428572
+A Vinicius et Mita,7.5,12,1148,Hotel,3.3,San Giovanni,False,164.0
+Imperial Rooms,7.8,132,1358,Hotel,1.2,Rione Monti,True,194.0
+Dream Destination Rome,7.4,73,682,Hotel,2.0,Stazione Termini,False,97.42857142857143
+Best Western Hotel Globus,8.4,1920,1193,Hotel,3.1,Tiburtino,False,170.42857142857142
+Hostel Trastevere,8.5,1359,830,Hotel,2.4,Gianicolense,False,118.57142857142857
+Best Western Plus Hotel Universo,8.6,2068,2041,Hotel,1.3,Stazione Termini,True,291.57142857142856
+The Independent Hotel,9.0,412,2241,Hotel,1.7,Stazione Termini,True,320.14285714285717
+The Bricks Rome,8.6,92,918,Hotel,4.2,Trionfale,False,131.14285714285714
+Trevi Collection Hotel - Gruppo Trevi Hotels,8.3,714,1791,Hotel,0.9,Spagna,True,255.85714285714286
+Belli 36 Rooms,9.6,241,3255,Apartment,1.6,Vaticano Prati,True,465.0
+Unicum Roma Suites,9.2,87,1573,Hotel,4.2,Not specified,False,224.71428571428572
+Villa Pirandello,9.0,331,2008,Hotel,3.5,Nomentano,True,286.85714285714283
+JC Hotel,8.7,589,1600,Hotel,10.8,Fonte Ostiense,True,228.57142857142858
+Hotel Valentino Palace,8.5,1126,1341,Hotel,1.6,Stazione Termini,False,191.57142857142858
+Hotel Latinum,7.7,333,1820,Hotel,2.6,Stazione Termini,False,260.0
+Hotel Isa,8.8,384,3542,Hotel,1.7,Vaticano Prati,True,506.0
+Hotel Accademia,8.2,1165,2105,Apartment,0.7,Trevi,True,300.7142857142857
+Hotel Domus Aventina,8.1,376,1890,Hotel,1.4,Aventino,True,270.0
+Andenis Luxury House,9.1,463,1538,Hotel,3.0,Vaticano Prati,True,219.71428571428572
+Cinecittà Luxury,9.6,98,1067,Hotel,10.1,Not specified,True,152.42857142857142
+affitta camera New albatros,6.5,47,1254,Hotel,1.5,Stazione Termini,True,179.14285714285714
+Hotel Emona Aquaeductus,8.0,315,2289,Hotel,2.6,Stazione Termini,False,327.0
+Hotel Des Epoques,7.8,263,1837,Hotel,2.3,Nomentano,False,262.42857142857144
+B&B Leoni Di Giada,7.3,276,1210,Bed&Breakfast,1.5,Stazione Termini,False,172.85714285714286
+Palazzo Montemartini Rome. A Radisson Collection Hotel,8.5,603,4457,Apartment,1.7,Stazione Termini,True,636.7142857142857
+Anantara Palazzo Naiadi,8.9,554,7246,Hotel,1.3,Stazione Termini,True,1035.142857142857
+Hotel Lirico,8.3,362,1446,Hotel,1.2,Stazione Termini,True,206.57142857142858
+Hotel Centro Cavour Roma,9.0,1016,1732,Hotel,0.8,Rione Monti,True,247.42857142857142
+Hotel Julia,7.9,692,1207,Hotel,0.9,Trevi,True,172.42857142857142
+Hotel Novecento,8.0,798,1699,Hotel,2.3,Stazione Termini,False,242.71428571428572
+Grand Hotel Palace Rome,8.5,486,7515,Hotel,1.4,Via Veneto,False,1073.5714285714287
