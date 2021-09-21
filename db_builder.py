@@ -9,7 +9,7 @@ import sys
 from datetime import date
 
 #Algorithm parameters
-checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, adults, children, number_of_cicles, threads = (int(value) for value in sys.argv[1:-1])
+checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, adults, number_of_cicles, threads = (int(value) for value in sys.argv[1:-1])
 chosen_city = sys.argv[-1]
 nights = int(str(date(checkout_year, checkout_month, checkout_monthday)-date(checkin_year, checkin_month, checkin_monthday)).split()[0])
 
@@ -21,7 +21,7 @@ if(adults>2):
     
 def server_request(offset):
     #Send a get request to the website and beautiful-soup it
-    url = data_requests.url_builder(cities_id[str(chosen_city)], adults, children, checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, offset)
+    url = data_requests.url_builder(cities_id[str(chosen_city)], adults, checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, offset)
     html = requests.get(url, headers=data_requests.user_agent_random(), proxies=data_requests.proxies_random()).text
     data = BeautifulSoup(html, 'html5lib')
     
@@ -61,7 +61,7 @@ def main():
     url=''
     while(url==''):
         #How many structures do we have to find?
-        url = data_requests.url_builder(cities_id[str(chosen_city)], adults, children, checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, offset = 25)
+        url = data_requests.url_builder(cities_id[str(chosen_city)], adults, checkin_month, checkin_monthday, checkin_year, checkout_month, checkout_monthday, checkout_year, offset = 25)
     n_structures = data_requests.structures_number(url, data_requests.user_agent_random(), data_requests.proxies_random())
     print('N. of structures to find:',n_structures)
     
@@ -87,7 +87,7 @@ def main():
     main_df = main_df.replace(',','.', regex=True)
     
     #Convert some columns values to the right data type
-    main_df = main_df.astype({"n_reviews": int, "total_price": int, 'score': float})
+    main_df = main_df.astype({'n_reviews': int, 'total_price': int, 'score': float})
     
     #Adding a new column with per night price
     main_df['price_per_night'] = main_df.apply(lambda row: row['total_price']/nights, axis=1)
@@ -106,7 +106,7 @@ def main():
    
     #Export the data just found to a csv file.
     where_am_i = os.path.dirname(os.path.abspath(__file__))
-    my_file = os.path.join(where_am_i,'data',str(chosen_city)+'_'+str(checkin_month)+'.'+str(checkin_monthday)+'_'+str(checkout_month)+'.'+str(checkout_monthday)+'.A'+str(adults)+'.C'+str(children)+'.csv')
+    my_file = os.path.join(where_am_i,'data',str(chosen_city)+'_'+str(checkin_month)+'.'+str(checkin_monthday)+'_'+str(checkout_month)+'.'+str(checkout_monthday)+'.A'+str(adults)+'.csv')
     main_df.to_csv(my_file, index=False)
     
     t1 = time.time()
@@ -119,7 +119,7 @@ def main():
     print('It took',algo_time,'seconds to run the algorithm')
     
     with open('log.txt', 'a') as f:
-        f.write(str(checkin_month)+","+str(checkin_monthday)+","+str(checkin_year)+","+str(checkout_month)+","+str(checkout_monthday)+","+str(checkout_year)+","+str(adults)+","+str(children)+","+str(number_of_cicles)+","+str(threads)+","+str(chosen_city)+","+str(n_structures)+","+str(hotel_found)+","+str(algo_eff)+","+str(algo_time)+'\n')
+        f.write(str(checkin_month)+","+str(checkin_monthday)+","+str(checkin_year)+","+str(checkout_month)+","+str(checkout_monthday)+","+str(checkout_year)+","+str(adults)+","+str(number_of_cicles)+","+str(threads)+","+str(chosen_city)+","+str(n_structures)+","+str(hotel_found)+","+str(algo_eff)+","+str(algo_time)+'\n')
     
 if __name__ == "__main__":
     main()
