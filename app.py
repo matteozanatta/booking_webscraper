@@ -35,16 +35,7 @@ app = dash.Dash(
     )
 
 server = app.server
-
-CONTENT_STYLE={
-    'color':'#1D2D44',
-    'font-family':'system-ui',
-    'background-color':'#003580'
-}
-        
-card_bottom_space = {
-}  
-
+       
 histogram_card = dbc.Card(
                     dbc.CardBody(
                         [
@@ -203,7 +194,7 @@ general_filter = dbc.Card(
                             #### General filter
                             Here you can set a main filter that's going to affect all database visualized data.
                             
-                            Firsty select the variable, then the value you want to filter to correctly visualize the dataset. 
+                            Firstly select the variable, then the value you want to filter to correctly visualize the dataset. 
                             ''', className='lead'),
                             dcc.Dropdown(
                                 id='filter_dropdown_var',
@@ -489,7 +480,11 @@ visualize_data_layout =  html.Div(
                                 graphs
                                      
                             ],
-                            style=CONTENT_STYLE,
+                            style={
+                                'color':'#1D2D44',
+                                'font-family':'system-ui',
+                                'background-color':'#003580'
+                            },
                         )
 ###-----------------------------------------------------------------
 ### Webscraper webpage
@@ -656,40 +651,6 @@ webscraper = html.Div(
                                     dbc.Col(
                                         [
                                             html.Label(
-                                                "Type the number of children for the search",
-                                                className='lead',
-                                                style={'font-weight':'400'}
-                                            ),
-                                            
-                                        ],
-                                        width=12
-                                    ),
-                                    dbc.Col(
-                                        [
-                                           dbc.Input(
-                                                type="number",
-                                                min=0,
-                                                max=10,
-                                                step=1,
-                                                id='children-number',
-                                                value='0',
-                                                style={
-                                                    'background-color':'lightgrey'
-                                                }
-                                            ), 
-                                        ],
-                                        width=12
-                                    )
-                                ],
-                                style={
-                                    'padding':'0.5em'
-                                }
-                            ),
-                            dbc.Row(
-                                [
-                                    dbc.Col(
-                                        [
-                                            html.Label(
                                                 "Type the city you want to retrieve data of",
                                                 className='lead',
                                                 style={'font-weight':'400'}
@@ -814,6 +775,29 @@ webscraper = html.Div(
                                 style={
                                     'padding':'0.5em'
                                 }
+                            ),
+                            dbc.Row(
+                                [
+                                    dbc.Col(
+                                        [
+                                            html.P(
+                                                "You don't know what these numbers are? Leave them like that to do a standard search on booking.com.",
+                                                className='lead',
+                                                style={'font-weight':'400'}
+                                            ),
+                                            html.P(
+                                                "Don't reload the webpage while retrieving data: the whole process could take up to 120 seconds to finish.",
+                                                className='lead',
+                                                style={'color':'red'}
+                                            ),
+                                            
+                                        ],
+                                        width=12
+                                    ),
+                                ],
+                                style={
+                                    'padding':'0.5em'
+                                }
                             )
                         ],
                         style={
@@ -878,17 +862,7 @@ webscraper = html.Div(
 app.layout = html.Div(
                 [
                     dcc.Location(id='url'),
-                    html.Div('''
-                        <!-- Global site tag (gtag.js) - Google Analytics -->
-                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK7DB2L8Y1"></script>
-                        <script>
-                          window.dataLayer = window.dataLayer || [];
-                          function gtag(){dataLayer.push(arguments);}
-                          gtag('js', new Date());
-
-                          gtag('config', 'G-VK7DB2L8Y1');
-                        </script>
-                    ''',id='page-content')
+                    html.Div(id='page-content')
                 ],
                 style={
                     'font-family':'system-ui',
@@ -998,21 +972,20 @@ def update_info_heading(file):
         State('input_date', 'start_date'),
         State('input_date', 'end_date'),
         State('adult_number', 'value'),
-        State('children-number', 'value'),
         State('iterations_number', 'value'),
         State('threads_number', 'value'),
         State('city_input', 'value')
     ]
 )
-def run_script(click, modal_close, start_date, end_date, ad_n, ch_n, it_n, th_n, city):
+def run_script(click, modal_close, start_date, end_date, ad_n, it_n, th_n, city):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
     if 'button-scraping' in changed_id:
         iny, inm, ind = [data for data in start_date.split('-')]
         outy, outm, outd = [data for data in end_date.split('-')]
-        for value in [iny, inm, ind, outy, outm, outd, city, ad_n, ch_n, it_n, th_n]:
+        for value in [iny, inm, ind, outy, outm, outd, city, ad_n, it_n, th_n]:
             if(value==None):
                 return("",True,"A parameter value is invalid.")
-        output = subprocess.check_output(args=('python db_builder.py '+str(inm)+" "+str(ind)+" "+str(iny)+" "+str(outm)+" "+str(outd)+" "+str(outy)+" "+str(ad_n)+" "+str(ch_n)+" "+str(it_n)+" "+str(th_n)+" "+str(city)), shell=True).decode()
+        output = subprocess.check_output(args=('python db_builder.py '+str(inm)+" "+str(ind)+" "+str(iny)+" "+str(outm)+" "+str(outd)+" "+str(outy)+" "+str(ad_n)+" "+str(it_n)+" "+str(th_n)+" "+str(city)), shell=True).decode()
         stripped = output.split()
         info = html.Div(
             [
