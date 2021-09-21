@@ -11,7 +11,7 @@ Webscraping was possible thanks to **BeautifulSoup** library, which provided rel
 
 We used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
-The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gives us the opportunity to significantly raise the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
+The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gave us the opportunity to significantly enhance the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
 # Main problems and how we solved them
 Webscraping a website like Booking.com isn't an easy task, mainly because of the scraping protections booking.com has built over time that don't let programs scrape data and save it for research purposes (spoiler: that doesn't mean it's an impossible task). 
