@@ -37,7 +37,7 @@ This is what I spent plenty of hours on... but it was funny! Basically, the prob
 
 ### 3 - Raw data
 
-Data the algorithm gathered was really messed up and lot of effort was required to set up an efficient cleaning system for the variables. One of the most challenging things was to deal with different data types because each one required a different treatment and has different complications, especially when computing operations between various data types. 
+Data the algorithm gathered was really messed up and lot of effort was required to set up an efficient cleaning system for the variables. One of the most challenging things was to deal with different data types because each one required a different treatment and has different complications, especially when computing operations between various of them. 
 
 # Roadmap
 
