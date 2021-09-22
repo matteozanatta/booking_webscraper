@@ -47,8 +47,8 @@ def url_builder(city_id, adults, checkin_month, checkin_monthday, checkin_year, 
     for count in range(0,adults-1):
         room+='A,'
     room+='A'
-    return('https://www.booking.com/searchresults.it.html?tmpl=searchresults&checkin_month='+str(checkin_month)+'&checkin_monthday='+str(checkin_monthday)+'&checkin_year='+str(checkin_year)+'&checkout_month='+str(checkout_month)+'&checkout_monthday='+str(checkout_monthday)+'&checkout_year='+str(checkout_year)+'&class_interval=1&dest_id='+str(city_id)+'&dest_type=city&dtdisc=0&from_sf=1&group_adults='+str(adults)+'&group_children=0&inac=0&index_postcard=0&label_click=undef&no_rooms=1&postcard=0&raw_dest_type=city&room1='+str(room)+'&sb_price_type=total&shw_aparth=1&slp_r_match=0&src=index&src_elem=sb&ss_all=0&ssb=empty&sshis=0&top_ufis=1&rows=25&offset='+str(offset)+'&sr_ajax=1')
-
+    return('https://www.booking.com/searchresults.it.html?tmpl=searchresults&checkin_month='+str(checkin_month)+'&checkin_monthday='+str(checkin_monthday)+'&checkin_year='+str(checkin_year)+'&checkout_month='+str(checkout_month)+'&checkout_monthday='+str(checkout_monthday)+'&checkout_year='+str(checkout_year)+'&class_interval=1&dest_id='+str(city_id)+'&dest_type=city&dtdisc=0&from_sf=1&group_adults='+str(adults)+'&group_children=0&inac=0&index_postcard=0&label_click=undef&no_rooms=1&postcard=0&raw_dest_type=city&room1='+str(room)+'&sb_price_type=total&shw_aparth=1&slp_r_match=0&src=index&src_elem=sb&ss_all=0&ssb=empty&sshis=0&top_ufis=1&rows=25&offset='+str(offset)+'&sr_ajax=1&changed_currency=1&selected_currency=EUR&top_currency=1')
+   
 #Load the requested json structure
 def json_load(path):
     with open(path) as f:
