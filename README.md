@@ -25,7 +25,7 @@ The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/
 
 ## Variables in the datasets
 Here is a brief list of the datasets columns and their datatype:
-- **score** (float): it describes the review point the structure get from customers on booking.com;
+- **score** (float): it describes the review points the structure get from customers on booking.com;
 - **n_reviews** (int): as the name suggests, it rapresents the total number of reviews given to a structure by people;
 - **total_price** (float): this is the grand total a person has to pay to access a specific structure in the requested period;
 - **category** (object): right after the booking.com data collection process, structures are grouped in five different categories (hotel, apartments, B&B, Holiday Home and Other);
