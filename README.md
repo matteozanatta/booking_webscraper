@@ -14,14 +14,16 @@ In this case, git clone this repo on your computer and command 'python app.py' o
 #### 3. You want to try both the webscraper and the visualization tool.
 Same as the previous case. Unfortunately, since the program is using multithreading the host is blocking the webscraping process because it takes a while to fully load, so you can only use it in local. Check if you need to install missing packages.
 
-# Python Libraries used
+
+
+## Python Libraries used
 Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithms to find out all the html elements in the booking.com webpages that I needed.
 
 I used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
 The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gave me the opportunity to significantly enhance the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
-# Variables in the datasets
+## Variables in the datasets
 Here is a brief list of the datasets columns and their datatype:
 - **score** (float): it describes the review point the structure get from customers on booking.com;
 - **n_reviews** (int): as the name suggests, it rapresents the total number of reviews given to a structure by people;
@@ -32,7 +34,7 @@ Here is a brief list of the datasets columns and their datatype:
 - **free_cancellation** (bool): is a structure listed with free cancellation on booking.com?
 - **price_per_night** (float): this is simply the total price for the entire holiday divided by the number of nights you want to find informations for.
 
-# Main problems and how I solved them
+## Main problems and how I solved them
 Webscraping a website like Booking.com isn't an easy task, mainly because of the scraping protections booking.com has built over time that don't let programs scrape data and save it for research purposes (spoiler: that doesn't mean it's an impossible task). 
 
 ### 1 - Speed 
@@ -47,15 +49,15 @@ This is what I spent plenty of hours on... but it was funny! Basically, the prob
 
 Data the algorithm gathered was really messed up and lot of effort was required to set up an efficient cleaning system for the variables. One of the most challenging things was to deal with different data types because each one required a different treatment and has different complications, especially when computing operations between various of them. 
 
-# Roadmap
+## Roadmap
 
 22 Sept. 2021 | The website is now ready and everyone can visualize data via web interface.
 
 17 Sept. 2021 | Developed a dashboard (only available in local) with HTML, Plotly and Dash both for webscraping and visualizing data.
 
-10 Sept. 2021 | Added multithreading capabilities to speed up the algorithm.
+10 Sept. 2021 | Added multithreading capabilities to speed the algorithm up.
 
-# Known issues
+## Known issues
 Known issues: even though multithreading is implemented the algorithm is not so fast (especially with large cities with >1500 free structures) because it queries booking.com databases every time it needs to load other hotels or apartments. What should be done then? Find a way to tell which is the most efficient number of MAX_THREADS and search cycles to minimize the processing time.
 
 Sometimes the algorithm stops working because booking.com detects the html request is fake and return an empty html page. If you want to solve this problem you just have to click on the 'retrieve data' button again to perform a new search.
