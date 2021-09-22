@@ -6,7 +6,7 @@ The project is composed of two main parts: the _web scraper_ and the _data visua
 
 # How to use it
 #### 1. You want to try just the visualization tool.
-I uploaded the whole python program I created and some data you can easily visualize on a Heroku server. Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) (first load could take a while).
+I uploaded the whole python program I created and some data you can easily visualize on a Heroku server. Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) (the first load could take a while).
 
 #### 2. You want to try just the webscraper.
 In this case, git clone this repo on your computer and command 'python app.py' on the directory to successfully start the program. The webpage will be available on localhost:8050. Check if you need to install missing packages.
@@ -19,7 +19,7 @@ Web scraping was possible thanks to **BeautifulSoup** library, which provided re
 
 I used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'CSV' format datasets.
 
-The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) (first load could take a while) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that allowed me to significantly enhance the website design quality. Plotly Callbacks were useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
+The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) (the first load could take a while) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that allowed me to significantly enhance the website design quality. Plotly Callbacks were useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
 ## Variables in the datasets
 Here is a brief list of the datasets columns and their datatype:
