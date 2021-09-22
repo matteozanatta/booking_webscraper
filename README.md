@@ -19,7 +19,7 @@ Webscraping was possible thanks to **BeautifulSoup** library, which provided rel
 
 I used the well-known **Pandas** and **Numpy** libraries to deal with raw data and to create 'csv' format datasets.
 
-The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gave us the opportunity to significantly enhance the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
+The entire webpage [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization) has been made with **Plotly** (and Plotly Express), **Dash** and Dash Bootstrap, with the latter that gave me the opportunity to significantly enhance the website design quality. Plotly Callbacks were really useful when creating dynamic data visualizations and gave fast plotting speed combined with practicality (even though a study period has been necessary because of the system that wasn't (isn't) super intuitive).
 
 # Variables in the datasets
 Here is a brief list of the datasets columns and their datatype:
@@ -49,9 +49,9 @@ Data the algorithm gathered was really messed up and lot of effort was required 
 
 # Roadmap
 
-22 Sept. 2021 | The website is now ready and everyone can use the algorithm via web interface.
+22 Sept. 2021 | The website is now ready and everyone can visualize data via web interface.
 
-17 Sept. 2021 | Developed a dashboard with HTML, Plotly and Dash both for webscraping and visualizing data.
+17 Sept. 2021 | Developed a dashboard (only available in local) with HTML, Plotly and Dash both for webscraping and visualizing data.
 
 10 Sept. 2021 | Added multithreading capabilities to speed up the algorithm.
 
