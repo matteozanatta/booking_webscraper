@@ -18,6 +18,8 @@ cities_id = data_requests.json_load('./cities_id.txt')
 css_data = data_requests.json_load('./css_data_min2.txt')
 if(adults>2):
     css_data = data_requests.json_load('./css_data_over2.txt')
+
+df_definition = pd.DataFrame(columns=['hotel_name','score','n_reviews','total_price','category','city_center_dist', 'neighborhood', 'free_cancellation'])    
     
 def server_request(offset):
     #Send a get request to the website and beautiful-soup it
