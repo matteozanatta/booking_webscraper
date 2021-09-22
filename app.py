@@ -1054,8 +1054,8 @@ def n_structure_now_visualizing(db_name, var, values):
     ]
 )
 def render_page_content(pathname):
-    #if pathname == "/":
-    #    return webscraper
+    if pathname == "/":
+        return webscraper
     if pathname == "/data-visualization":
         return visualize_data_layout
     return dbc.Jumbotron(
