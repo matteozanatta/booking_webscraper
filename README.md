@@ -2,9 +2,17 @@
 This algorithm's purpose is to get data from hotels and apartments listed on booking.com and store them in a csv database to conduct both data exploration and analysis.
 You can set the check-in date, as well as the check-out date, the place, and how many adults you want to find data for.
 
-As of now (22 Sept. 2021) you can choose between 5 Italian cities from which to retrieve data (check the cities_id.txt file) but soon there'll be more cities.
+The project is composed by two main parts: the _webscraper_ and the _data visualization tool_. 
 
-Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization).
+# How to use it
+#### 1. You want to try just the visualization tool.
+I uploaded the whole python program I created on a Heroku server with some data you can easily visualize. Here you can play with it: [Booking Webscraper](https://bookingwebscraper.herokuapp.com/data-visualization).
+
+#### 2. You want to try just the webscraper.
+In this case, git clone this repo on your computer and command 'python app.py' on the directory to succesfully start the program. The webpage will be available on localhost:8050. Check if you need to add missing packages.
+
+#### 3. You want to try both the webscraper and the visualization tool.
+Same as the previous case. Unfortunately, since the program is using multithreading the host is blocking the webscraping process because it takes a while to fully load, so you can only use it in local. Check if you need to add missing packages.
 
 # Python Libraries used
 Webscraping was possible thanks to **BeautifulSoup** library, which provided reliable css searching algorithms to find out all the html elements in the booking.com webpages that I needed.
