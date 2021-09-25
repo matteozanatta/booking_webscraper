@@ -2,6 +2,8 @@
 This algorithm's purpose is to get data from hotels and apartments listed on booking.com and store them in a CSV database to conduct both data exploration and analysis.
 You can set the check-in date, as well as the check-out date, the place, and how many adults you want to find data for.
 
+As of today (25th September) you can web scrape data from 5 Italian cities.
+
 The project is composed of two main parts: the _web scraper_ and the _data visualization tool_. 
 
 # How to use it
