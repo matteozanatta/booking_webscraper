@@ -9,7 +9,7 @@ import os
 import dash_bootstrap_components as dbc
 import subprocess
 import time
-from datetime import date
+import datetime
 import numpy as np
 
 current_day = int(time.strftime('%d', time.gmtime()))
@@ -598,11 +598,11 @@ webscraper = html.Div(
                                         [
                                             dcc.DatePickerRange(
                                                 id='input_date',
-                                                min_date_allowed=date(current_year, current_month, current_day),
-                                                max_date_allowed=date(current_year+3, current_month, current_day),
-                                                initial_visible_month=date(current_year, current_month, current_day+1),
-                                                start_date=date(current_year, current_month, current_day+1),
-                                                end_date=date(current_year, current_month, current_day+7)
+                                                min_date_allowed=datetime.date(current_year, current_month, current_day),
+                                                max_date_allowed=datetime.date(current_year, current_month, current_day)+datetime.timedelta(days=365*3),
+                                                initial_visible_month=datetime.date(current_year, current_month, current_day)+datetime.timedelta(days=1),
+                                                start_date=datetime.date(current_year, current_month, current_day)+datetime.timedelta(days=1),
+                                                end_date=datetime.date(current_year, current_month, current_day)+datetime.timedelta(days=7)
                                             ),
                                         ],
                                         width=12,
@@ -1054,8 +1054,8 @@ def n_structure_now_visualizing(db_name, var, values):
     ]
 )
 def render_page_content(pathname):
-    if pathname == "/":
-        return webscraper
+    #if pathname == "/":
+        #return webscraper
     if pathname == "/data-visualization":
         return visualize_data_layout
     return dbc.Jumbotron(
