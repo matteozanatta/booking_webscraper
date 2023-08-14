@@ -1144,7 +1144,7 @@ def update_graph2_and_values_dropdowns(first_var, second_var, third_var, db_sel,
     else:
         graph = px.scatter(df, x=first_var, y=second_var, color=third_var)
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if ('variable_selection_corr1','variable_selection_corr2','color_variable' in changed_id):
+    if ('variable_selection_corr1' 'variable_selection_corr2' 'color_variable' in changed_id):
         options = disabled_property_dict([second_var, third_var], df.columns[1:])
         options2 = disabled_property_dict([first_var,third_var], df.columns[1:])
         options3 = disabled_property_dict([first_var,second_var], df.columns[1:])
