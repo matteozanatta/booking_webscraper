@@ -8,7 +8,7 @@ The project is composed of two main parts: the _web scraper_ and the _data visua
 
 # How to use it
 #### 1. You want to try just the visualization tool.
-I uploaded the whole python program I created and some data you can easily visualize on a Heroku server. Here you can play with it: [Booking Webscraper](https://booking-webscraper.onrender.com/data-visualization) (the first load could take a while).
+I deployed the whole python app I created and some data you can easily visualize on a Render server. Here you can play with it: [Booking Webscraper](https://booking-webscraper.onrender.com/data-visualization) (the first load could take a while).
 
 #### 2. You want to try just the webscraper.
 In this case, git clone this repo on your computer and command 'python app.py' on the directory to successfully start the program. The webpage will be available on localhost:8050. Check if you need to install missing packages.
