@@ -177,7 +177,7 @@ heatmap = dbc.Card(
 sidebar = html.Div(
         dbc.NavbarSimple(
             [
-                dbc.NavItem(dbc.NavLink("Webscraping | Data wrangling", href="/", active="exact")),
+                # dbc.NavItem(dbc.NavLink("Webscraping | Data wrangling", href="/", active="exact")),
                 dbc.NavItem(dbc.NavLink("Data Visualization", href="/data-visualization", active="exact"))
             ],
             brand="Booking.com Webscraper",
@@ -1055,7 +1055,7 @@ def n_structure_now_visualizing(db_name, var, values):
 )
 def render_page_content(pathname):
     if pathname == "/":
-        return webscraper
+        return visualize_data_layout
     elif pathname == "/data-visualization":
         return visualize_data_layout
     return dbc.Jumbotron(
