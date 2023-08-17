@@ -1,0 +1,24 @@
+.rc-slider-mark-text{
+    color:black;
+}
+
+#general_filter_card{
+    background-color:lightgrey
+}
+
+#general_filter_card > p {
+    font-weight:bold
+}
+
+#div_filter_dropdown_values{
+    padding-top:1em
+}
+
+#number_of_structures{
+    font-weight:400;
+    background-color:burlywood
+}
+#number_of_structures2{
+    font-weight:400;
+    background-color:burlywood
+}
